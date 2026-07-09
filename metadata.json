@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Nclpnew",
+  "description": "Imported from GitHub: nolandex/Nclpnew",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    match /tokens/{tokenId} {
+      // Anyone can read a single token (needed to validate invite links)
+      allow get: if isValidId(tokenId);
+
+      // List, create, delete, update are open — admin panel is password-protected client-side
+      allow list:   if true;
+      allow create: if isValidId(tokenId);
+      allow update: if isValidId(tokenId);
+      allow delete: if isValidId(tokenId);
+    }
+  }
+}
