@@ -46,6 +46,8 @@ export default function Admin() {
   const [authed, setAuthed] = useState(false);
   const [loginError, setLoginError] = useState('');
   const [loginLoading, setLoginLoading] = useState(false);
+  const [showPasscodeFallback, setShowPasscodeFallback] = useState(false);
+  const [passcode, setPasscode] = useState('');
 
   const [tokens, setTokens] = useState<AccessToken[]>([]);
   const [loading, setLoading] = useState(false);
@@ -68,6 +70,19 @@ export default function Admin() {
       fetchTokens();
     }
   }, []);
+
+  const handlePasscodeLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (passcode.trim() === ADMIN_PASSWORD) {
+      sessionStorage.setItem(SESSION_KEY, 'true');
+      setAuthed(true);
+      setLoginError('');
+      fetchTokens();
+    } else {
+      setLoginError('Kode akses salah. Silakan coba lagi.');
+      setPasscode('');
+    }
+  };
 
   const handleGoogleLogin = async () => {
     setLoginError('');
@@ -264,19 +279,64 @@ export default function Admin() {
           )}
 
           {/* Google Login Button */}
-          <button
-            type="button"
-            onClick={handleGoogleLogin}
-            disabled={loginLoading}
-            className="w-full h-12 bg-white hover:bg-neutral-200 text-black rounded-xl font-bold flex items-center justify-center gap-3 transition-all active:scale-[0.98] cursor-pointer shadow-md mt-4"
-          >
-            {loginLoading ? (
-              <Loader2 className="w-4 h-4 animate-spin text-neutral-900" />
-            ) : (
-              <Chrome className="w-4 h-4 text-neutral-900" />
-            )}
-            <span>Sign In dengan Google</span>
-          </button>
+          {!showPasscodeFallback ? (
+            <>
+              <button
+                type="button"
+                onClick={handleGoogleLogin}
+                disabled={loginLoading}
+                className="w-full h-12 bg-white hover:bg-neutral-200 text-black rounded-xl font-bold flex items-center justify-center gap-3 transition-all active:scale-[0.98] cursor-pointer shadow-md mt-4"
+              >
+                {loginLoading ? (
+                  <Loader2 className="w-4 h-4 animate-spin text-neutral-900" />
+                ) : (
+                  <Chrome className="w-4 h-4 text-neutral-900" />
+                )}
+                <span>Sign In dengan Google</span>
+              </button>
+
+              <div className="mt-6 text-center">
+                <button
+                  type="button"
+                  onClick={() => { setShowPasscodeFallback(true); setLoginError(''); }}
+                  className="text-xs text-neutral-500 hover:text-white font-medium underline underline-offset-4 cursor-pointer"
+                >
+                  Alternatif: Masuk dengan Kode Akses
+                </button>
+              </div>
+            </>
+          ) : (
+            <form onSubmit={handlePasscodeLogin} className="flex flex-col gap-4 mt-4">
+              <div>
+                <label className="block text-[11px] font-semibold text-neutral-400 uppercase tracking-wider mb-1.5 font-mono">Kode Akses Admin</label>
+                <input
+                  type="password"
+                  value={passcode}
+                  onChange={e => { setPasscode(e.target.value); setLoginError(''); }}
+                  placeholder="Masukkan kode akses admin"
+                  className="w-full h-12 bg-neutral-900 border border-neutral-800 rounded-xl px-4 text-sm text-white focus:outline-none focus:ring-1 focus:ring-purple-500 font-mono"
+                  autoFocus
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="h-12 w-full bg-white hover:bg-neutral-200 text-black font-semibold rounded-xl text-sm transition-all active:scale-[0.98] cursor-pointer"
+              >
+                Masuk
+              </button>
+
+              <div className="text-center mt-2">
+                <button
+                  type="button"
+                  onClick={() => { setShowPasscodeFallback(false); setLoginError(''); }}
+                  className="text-xs text-neutral-500 hover:text-white font-medium underline underline-offset-4 cursor-pointer"
+                >
+                  Kembali ke Sign In Google
+                </button>
+              </div>
+            </form>
+          )}
         </div>
       </div>
     );
