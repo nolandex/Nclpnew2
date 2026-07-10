@@ -23,6 +23,32 @@ const Index = () => {
   const { selectedLang } = useColor();
   const ui = selectedLang.content?.ui?.index || LANGUAGES[0].content?.ui?.index; // Fallback
 
+  const getBannerTitle = (langCode: string) => {
+    switch (langCode) {
+      case "id":
+        return "Kelas Global NexClass";
+      case "es":
+        return "Clases Globales NexClass";
+      case "fr":
+        return "Classes Globales NexClass";
+      case "de":
+        return "NexClass Globale Klassen";
+      case "ja":
+        return "NexClass グローバルクラス";
+      case "zh":
+        return "NexClass 全球课堂";
+      case "ru":
+        return "Глобальные Классы NexClass";
+      case "ar":
+        return "فصول NexClass العالمية";
+      case "ko":
+        return "NexClass 글로벌 클래스";
+      case "en":
+      default:
+        return "NexClass Global Classes";
+    }
+  };
+
   useEffect(() => {
     checkAuthAndStatus();
   }, []);
@@ -137,7 +163,7 @@ const Index = () => {
                 NEXCLASS
               </span>
               <h3 className="text-white font-extrabold text-xl leading-tight line-clamp-2 drop-shadow-md tracking-tight">
-                {isPremium ? ui?.welcomePremium : ui?.welcomeFree}
+                {getBannerTitle(selectedLang.code)}
               </h3>
             </div>
             

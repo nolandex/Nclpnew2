@@ -162,7 +162,7 @@ export default function Home() {
               <div className="relative w-full rounded-2xl overflow-hidden border border-foreground/[0.08]" style={{ paddingBottom: "56.25%" }}>
                 <iframe
                   src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`}
-                  title="ElevateAcademy Introduction"
+                  title="NexClass Introduction"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="absolute inset-0 w-full h-full"
@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
                 {/* Text */}
                 <div className="pb-8 pt-0 flex-1">
-                  <div className="rounded-xl border border-foreground/10 bg-foreground/[0.03] overflow-hidden mb-3">
+                  <div className="relative rounded-xl border border-foreground/10 bg-foreground/[0.03] overflow-hidden mb-3">
                     <img
                       src={FEATURE_PLACEHOLDER_IMAGES[i]}
                       alt=""
@@ -243,6 +243,8 @@ export default function Home() {
                       loading="lazy"
                       aria-hidden="true"
                     />
+                    {/* Deep professional gradient overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent pointer-events-none" />
                   </div>
                   <h3 className="text-[17px] font-semibold mb-1.5 leading-snug">{item.title}</h3>
                   <p className="text-[15px] text-foreground/50 leading-relaxed">{item.desc}</p>
@@ -336,12 +338,6 @@ export default function Home() {
               className="hover:text-white transition-colors cursor-pointer text-xs"
             >
               Tentang Kami
-            </button>
-            <button
-              onClick={() => setActiveModal('contact')}
-              className="hover:text-white transition-colors cursor-pointer text-xs"
-            >
-              Alamat & Kontak
             </button>
             <button
               onClick={() => setActiveModal('privacy')}
