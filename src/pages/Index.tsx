@@ -157,11 +157,11 @@ const Index = () => {
             <img
               src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200"
               alt="Banner"
-              className={`w-full h-full object-cover transition-all duration-1000 ${!isPremium ? 'grayscale-[50%]' : 'grayscale-0'}`}
+              className={`w-full h-full object-cover transition-all duration-1000 ${!isPremium ? 'grayscale-[80%] blur-[1px]' : 'grayscale-0'}`}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-4 z-10 flex flex-col items-start">
-              <span className="text-[10px] font-black tracking-widest bg-primary text-white px-2 py-0.5 mb-1.5 drop-shadow">
+              <span className={`text-[10px] font-black tracking-widest px-2 py-0.5 mb-1.5 drop-shadow ${!isPremium ? 'bg-neutral-600 text-neutral-200' : 'bg-primary text-white'}`}>
                 NEXCLASS
               </span>
               <h3 className="text-white font-extrabold text-xl leading-tight line-clamp-2 drop-shadow-md tracking-tight">
