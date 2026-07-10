@@ -18,4 +18,5 @@ export const LANGUAGE_OPTIONS: LanguageOption[] = [
   { locale: "ru-RU", name: "Русский", flag: "🇷🇺", short: "RU" },
   { locale: "ar-SA", name: "العربية", flag: "🇸🇦", short: "AR" },
   { locale: "ko-KR", name: "한국어", flag: "🇰🇷", short: "KO" },
+  { locale: "pt-PT", name: "Português", flag: "🇵🇹", short: "PT" },
 ];

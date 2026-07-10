@@ -69,6 +69,7 @@ export const LOCALE_TO_CODE: Record<Locale, string> = {
   "ru-RU": "ru",
   "ar-SA": "ar",
   "ko-KR": "ko",
+  "pt-PT": "pt",
 };
 
 export const COURSE_LANGUAGES: CourseLanguage[] = [
@@ -639,6 +640,63 @@ export const COURSE_LANGUAGES: CourseLanguage[] = [
           business: "비즈니스 및 창업",
           money: "돈 및 자산 관리",
           mindset: "마인드셋 및 습관",
+        },
+      },
+    },
+  },
+  {
+    code: "pt",
+    locale: "pt-PT",
+    currency: "€",
+    originalPrice: "99",
+    content: {
+      ui: {
+        index: {
+          backToHome: "Voltar ao Início",
+          welcomePremium: "Bem-vindo! Desfrute de acesso total a todas as aulas.",
+          welcomeFree: "Desbloqueie todas as aulas premium NexClass.",
+          lockedTag: "Conteúdo Bloqueado",
+          accessTitle: "Acesso Total",
+          accessSubtitle: "Desbloqueie todas as aulas agora",
+          promoPrice: "9,99 €",
+          emailPlaceholder: "Introduza o seu email",
+          passwordPlaceholder: "Crie uma palavra-passe",
+          payButton: "Começar a Aprender Agora",
+          emptyCategory: "Ainda não existem aulas nesta categoria",
+        },
+        courseDetail: {
+          notFound: "Aula não encontrada",
+          back: "Voltar",
+          modulesTab: "Módulos",
+          descTab: "Descrição",
+          descTitle: "Sobre a Aula",
+        },
+        common: {
+          naiklvl: "NEXCLASS",
+        },
+        bottomNav: {
+          home: "Início",
+          myCourses: "Os Meus Cursos",
+          account: "Conta",
+        },
+        myCourses: {
+          title: "Os Meus Cursos",
+          subtitle: "Lista das suas aulas guardadas",
+          empty: "Ainda não guardou nenhuma aula.",
+          explore: "Explorar aulas →",
+        },
+        profile: {
+          title: "Conta",
+          user: "Utilizador NexClass",
+          premium: "Premium",
+          free: "Gratuito",
+          logout: "Sair",
+        },
+        categories: {
+          finance: "Finanças & Investimento",
+          business: "Negócios & Empreendedorismo",
+          money: "Dinheiro & Riqueza",
+          mindset: "Mentalidade & Hábitos",
         },
       },
     },

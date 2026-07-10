@@ -43,6 +43,8 @@ const Index = () => {
         return "فصول NexClass العالمية";
       case "ko":
         return "NexClass 글로벌 클래스";
+      case "pt":
+        return "Aulas Globais NexClass";
       case "en":
       default:
         return "NexClass Global Classes";

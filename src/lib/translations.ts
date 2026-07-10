@@ -1,4 +1,4 @@
-export type Locale = "en-US" | "es-ES" | "fr-FR" | "id-ID" | "ja-JP" | "de-DE" | "zh-CN" | "ru-RU" | "ar-SA" | "ko-KR";
+export type Locale = "en-US" | "es-ES" | "fr-FR" | "id-ID" | "ja-JP" | "de-DE" | "zh-CN" | "ru-RU" | "ar-SA" | "ko-KR" | "pt-PT";
 
 export const translations = {
   "en-US": {
@@ -1787,6 +1787,187 @@ export const translations = {
     footer_copyright: "© 2026 NexClass. All rights reserved.",
     footer_terms: "이용 약관",
     footer_privacy: "개인정보 처리방침",
-  }
+  },
+  "pt-PT": {
+    color: "142 70% 45%",
+    nav_courses: "Cursos",
+    nav_features: "Funcionalidades",
+    nav_testimonials: "Depoimentos",
+    nav_pricing: "Preços",
+    nav_cta: "Começar",
+    nav_close: "Fechar",
+    
+    // Categories
+    cat_all: "Todas as áreas",
+    cat_tech: "Tecnologia & Programação",
+    cat_design: "Design & UX",
+    cat_data: "Dados & IA",
 
+    // Hero Section
+    hero_headline: "Eleve as suas competências tecnológicas e crie o seu futuro.",
+    hero_subheadline: "100% dos parceiros contactados juntaram-se à Nexclass.",
+    hero_primary_cta: "Explorar Cursos",
+    hero_secondary_cta: "Ver Planos",
+
+    // Features Section
+    features_label: "Porquê a NexClass?",
+    features_heading: "Uma experiência educativa desenhada para a excelência.",
+    feature_1_title: "Currículo de Elite",
+    feature_1_desc: "Cada módulo é desenhado por especialistas da indústria para ensinar competências prontas para produção, focando-se em práticas reais.",
+    feature_2_title: "Módulos de Vídeo Ultra-HD",
+    feature_2_desc: "Aprenda com vídeos fantásticos e curtos. Pause, retome e reveja conceitos complexos com ambientes interativos no navegador.",
+    feature_3_title: "Certificação do Setor",
+    feature_3_desc: "Receba certificados de conclusão verificados criptograficamente para partilhar no LinkedIn, mostrando a sua experiência aos recrutadores.",
+    feature_4_title: "Colaboração Global",
+    feature_4_desc: "Ligue-se a colegas ambiciosos em salas de estudo privadas, grupos de Discord e eventos de networking presenciais.",
+    feature_5_title: "Análise Avançada de Carreira",
+    feature_5_desc: "Acompanhe o seu progresso, velocidade de código e pontos fortes num painel de visualização atualizado em tempo real.",
+    feature_6_title: "Caminhos Orientados por Objetivos",
+    feature_6_desc: "Escolha caminhos personalizados alinhados com a sua carreira. De iniciante completo a programador sénior ou líder executivo.",
+
+    // Courses Section
+    courses_label: "Cursos Premium",
+    courses_heading: "Domine competências com elevada procura nos nossos melhores cursos.",
+    course_enroll: "Inscrever-se no Curso",
+    course_level_beginner: "Iniciante",
+    course_level_intermediate: "Intermédio",
+    course_level_advanced: "Avançado",
+    course_level_expert: "Especialista",
+    
+    // 6 Courses
+    course_1_title: "Engenharia Web Full-Stack com React & Node",
+    course_1_instructor: "Sarah Jenkins, Ex-Arquiteta da Netflix",
+    course_1_duration: "12 Semanas (84 horas de conteúdo)",
+    course_1_desc: "Desenvolva aplicações web escaláveis do zero usando bases de dados modernas, APIs com Express, gestão de estado personalizada e deploys na nuvem.",
+    
+    course_2_title: "UI/UX Avançado & Design de Produtos Digitais",
+    course_2_instructor: "Marcus Thorne, Designer Principal",
+    course_2_duration: "8 Semanas (48 horas de conteúdo)",
+    course_2_desc: "Domine prototipagem de alta fidelidade, sistemas de design detalhados, testes de usabilidade, princípios de design atómico e interações no Figma e Spline.",
+    
+    course_3_title: "Data Science & Pipeline de Machine Learning",
+    course_3_instructor: "Dr. Elena Rostova, Investigadora de IA",
+    course_3_duration: "16 Semanas (120 horas de conteúdo)",
+    course_3_desc: "Treine redes neuronais profundas, domine estatística, implemente engenharia de modelos preditivos e limpe grandes volumes de dados usando Python, PyTorch e SQL.",
+    
+    course_4_title: "Arquitetura Cloud Native & DevOps Avançado",
+    course_4_instructor: "James Vance, Líder de Soluções Cloud",
+    course_4_duration: "10 Semanas (60 horas de conteúdo)",
+    course_4_desc: "Automatize a escalabilidade de infraestruturas modernas. Domine Docker, orquestração com Kubernetes, pipelines de CI/CD e design de sistemas multi-cloud seguros.",
+    
+    course_5_title: "Cibersegurança, Testes de Penetração & Defesa",
+    course_5_instructor: "Kenji Takahashi, Consultor de Segurança",
+    course_5_duration: "14 Semanas (92 horas de conteúdo)",
+    course_5_desc: "Proteja redes e ativos digitais. Aprenda técnicas de hacking ofensivo, revisão de código segura, fundamentos de criptografia, auditoria de vulnerabilidades e resposta a incidentes.",
+    
+    course_6_title: "Estratégia de Produto, Analytics & Gestão de Crescimento",
+    course_6_instructor: "Sophia Al-Jamil, VP de Produto",
+    course_6_duration: "6 Semanas (36 horas de conteúdo)",
+    course_6_desc: "Faça a ponte entre a engenharia e os negócios. Lidere ciclos de vida de produtos, realize experiências de retenção, defina OKRs e crie estratégias de monetização.",
+
+    // Testimonials Section
+    testimonials_label: "Sucesso dos Alunos",
+    testimonials_heading: "Ouça os testemunhos dos alunos ambiciosos que alcançaram as suas funções de sonho.",
+    testimonial_1_quote: "A NexClass transformou completamente a minha carreira. O currículo de React é extremamente prático e ajudou-me a conseguir um cargo de engenheiro de software sénior numa startup em poucas semanas.",
+    testimonial_1_name: "John Miller",
+    testimonial_1_role: "Engenheiro de Software Sénior",
+    testimonial_2_quote: "O módulo de sistemas de design UI/UX é inigualável. Em vez de apenas aprender a usar softwares de design, aprendi a construir produtos coerentes e a pensar estrategicamente sobre os objetivos do negócio.",
+    testimonial_2_name: "Jane Chen",
+    testimonial_2_role: "Designer de Produto Líder",
+    testimonial_3_quote: "Altamente técnico e desafiante. Os projetos de Machine Learning levaram as minhas capacidades ao limite absoluto. Deu-me a confiança necessária para transitar das finanças para a tecnologia profunda.",
+    testimonial_3_name: "David Kowalski",
+    testimonial_3_role: "Engenheiro de AI/ML",
+    testimonial_4_quote: "O curso de Cloud DevOps foi incrivelmente completo. Passei de ter dificuldades com Linux básico para projetar clusters Kubernetes robustos. O meu salário duplicou literalmente.",
+    testimonial_4_name: "Robert Taylor",
+    testimonial_4_role: "Arquiteto Cloud",
+    testimonial_5_quote: "Uma estrutura inestimável para escalar ideias. Este é o único curso de produto que se foca fortemente em experiências baseadas em dados e alinhamento com equipas técnicas interfuncionais.",
+    testimonial_5_name: "Amara Okoye",
+    testimonial_5_role: "Diretora de Produto",
+
+    // Stats
+    hero_stat_students_val: "10.250+",
+    hero_stat_students_label: "Graduados Ativos",
+    hero_stat_courses_val: "140+",
+    hero_stat_courses_label: "Aulas de Elite",
+    hero_stat_languages_val: "10 Idiomas",
+    hero_stat_languages_label: "Localização",
+    hero_stat_instructors_val: "180+",
+    hero_stat_instructors_label: "Especialistas Globais",
+
+    // FAQ Section
+    faq_label: "Perguntas Frequentes",
+    faq_heading: "Perguntas Frequentes",
+    faq_q1: "Os cursos são ao meu próprio ritmo ou ao vivo?",
+    faq_a1: "Todos os cursos oferecem um modelo híbrido: obtém acesso vitalício a módulos de vídeo pré-gravados em HD, combinado com sessões semanais de perguntas e respostas com mentores, grupos de estudo ativos e suporte direto.",
+    faq_q2: "Posso receber um certificado de conclusão verificado?",
+    faq_a2: "Sim. Assim que passar em todos os pontos de controlo do projeto, revisões de código e avaliação final, receberá um certificado digital criptografado partilhável no LinkedIn.",
+    faq_q3: "Existe uma política de reembolso se eu não estiver satisfeito?",
+    faq_a3: "Absolutamente. Oferecemos uma garantia de reembolso de 14 dias a 100%. Se decidir que o material não é o ideal para si, basta avisar-nos no prazo de duas semanas para receber o reembolso total.",
+    faq_q4: "O meu empregador pode patrocinar a minha inscrição no curso?",
+    faq_a4: "Sim! Mais de 60% dos nossos alunos recebem reembolso total ou parcial das propinas por parte dos seus empregadores. Fornecemos faturas formatadas, acordos corporativos e registos de conclusão.",
+    faq_q5: "Existem pré-requisitos para os cursos avançados?",
+    faq_a5: "Os pré-requisitos variam por nível. Os cursos de iniciante não exigem experiência prévia. Os caminhos intermédios e avançados recomendam conhecimentos básicos de programação ou design, conforme detalhado na página de cada curso.",
+
+    // Pricing Section
+    pricing_label: "Preços Flexíveis",
+    pricing_heading: "Escolha o plano perfeito para o crescimento da sua carreira.",
+    pricing_billing_note: "Cancele ou mude de plano a qualquer momento. Todos os preços são faturados em USD anualmente.",
+    pricing_per_month: "/mês",
+    pricing_cta: "Selecionar Plano",
+    
+    pricing_starter: "Skills Starter",
+    pricing_starter_f1: "Acesso a 3 cursos à sua escolha",
+    pricing_starter_f2: "Módulos de vídeo em HD ao seu próprio ritmo",
+    pricing_starter_f3: "Acesso padrão à comunidade no Discord",
+    pricing_starter_f4: "Distintivos digitais de conclusão verificados",
+    
+    pricing_pro: "All-Access Pro",
+    pricing_pro_badge: "Mais Popular",
+    pricing_pro_f1: "Acesso ilimitado a todos os 140+ cursos",
+    pricing_pro_f2: "Sessões semanais de perguntas e respostas ao vivo com mentores",
+    pricing_pro_f3: "Revisões de projetos de portfólio personalizadas",
+    pricing_pro_f4: "Construção de currículo exclusiva para o setor",
+    pricing_pro_f5: "Salas de estudo privadas premium",
+    pricing_pro_f6: "Certificações verificadas criptograficamente",
+    
+    pricing_enterprise: "Team Enterprise",
+    pricing_enterprise_f1: "Tudo no plano Pro para equipas inteiras",
+    pricing_enterprise_f2: "Currículo de formação personalizado e localizado",
+    pricing_enterprise_f3: "Painel de controlo dedicado para gestão de equipas",
+    pricing_enterprise_f4: "Workshops de consultoria privados 1-para-1",
+    pricing_enterprise_f5: "Acesso à API para acompanhar análises de funcionários",
+
+    // CTA Section
+    cta_heading: "Pronto para acelerar a sua carreira?",
+    cta_subheadline: "Subscreva a nossa newsletter para guias semanais exclusivos, cupões de desconto e conselhos sobre carreiras em tecnologia diretamente na sua caixa de entrada.",
+    cta_placeholder: "Introduza o seu email profissional",
+    cta_button: "Subscrever Agora",
+
+    // Footer
+    footer_tagline: "Educação de classe mundial desenhada para criadores, programadores e líderes de produto modernos adquirirem competências especializadas prontas para produção.",
+    footer_section_platform: "Plataforma",
+    footer_platform_courses: "Explorar Cursos",
+    footer_platform_enterprise: "Para Empresas",
+    footer_platform_pricing: "Planos de Adesão",
+    footer_section_company: "Empresa",
+    footer_company_about: "Sobre Nós",
+    footer_company_careers: "Carreiras (Estamos a contratar!)",
+    footer_company_contact: "Contactar Suporte",
+    // Tutorial Section
+    tutorial_label: "Como Funciona",
+    tutorial_1_title: "Crie a Sua Conta Gratuita",
+    tutorial_1_desc: "Registe-se em segundos. Sem necessidade de cartão de crédito. Explore o catálogo completo de cursos e visualize qualquer módulo gratuitamente.",
+    tutorial_2_title: "Escolha o Seu Caminho de Aprendizagem",
+    tutorial_2_desc: "Escolha um trilho selecionado para o seu objetivo — web dev, design, ciência de dados ou DevOps.",
+    tutorial_3_title: "Aprenda ao Seu Ritmo",
+    tutorial_3_desc: "Assista aos módulos de vídeo ultra-HD a qualquer momento e pratique em sandboxes interativas no navegador.",
+    tutorial_4_title: "Construa Projetos Reais",
+    tutorial_4_desc: "Aplique conceitos através de projetos práticos revistos por mentores do setor. Construa um portfólio de destaque.",
+    tutorial_5_title: "Obtenha Certificação e Seja Contratado",
+    tutorial_5_desc: "Passe o seu projeto final, ganhe um certificado digital verificado e partilhe-o diretamente no LinkedIn com um clique.",
+
+    footer_copyright: "© 2026 NexClass. Todos os direitos reservados.",
+    footer_terms: "Termos de Serviço",
+    footer_privacy: "Política de Privacidade",
+  }
 };

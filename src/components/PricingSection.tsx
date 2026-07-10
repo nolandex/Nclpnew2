@@ -123,6 +123,17 @@ const PRICING_COPY: Record<string, {
     applyBtn: "적용",
     autoNote: "결제 완료 후 즉시 액세스 권한이 자동으로 활성화됩니다",
   },
+  "pt-PT": {
+    title: "Registe-se e Junte-se Agora",
+    lvl: "NEXCLASS",
+    access: "Acesso Premium Vitalício",
+    strikePrice: "99 €",
+    mainPrice: "9,99 €",
+    promoLabel: "Código Promocional",
+    promoPlaceholder: "Introduza o código...",
+    applyBtn: "Aplicar",
+    autoNote: "Acesso automático instantâneo após o pagamento bem-sucedido",
+  },
 };
 
 function PricingSection({ onNavigate }: { onNavigate: () => void }) {
