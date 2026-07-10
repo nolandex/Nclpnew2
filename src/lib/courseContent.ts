@@ -995,6 +995,105 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
       },
     },
   },
+  pt: {
+    "saham-dasar": {
+      title: "Bolsa de Valores & Ações Básicas",
+      description: "Comece a investir em ações corretamente. Aprenda a escolher ações com fundamentos sólidos, compreender rácios financeiros, ler gráficos de preços e construir uma carteira de investimentos robusta.",
+      moduleTitles: {
+        m1: "O que são Ações?",
+        m2: "Análise Fundamentalista",
+        m3: "Análise Técnica",
+        m4: "Estratégias de Carteira",
+      },
+    },
+    "kripto-dasar": {
+      title: "Cripto & Fundamentos de Web3",
+      description: "Compreenda detalhadamente o mundo do blockchain, criptomoedas, contratos inteligentes, operações de carteiras digitais e o potencial futuro das finanças descentralizadas (DeFi).",
+      moduleTitles: {
+        m1: "Introdução ao Blockchain",
+        m2: "Como Funcionam o Bitcoin & Ethereum",
+        m3: "Carteiras Cripto & Segurança",
+        m4: "O Futuro da Web3",
+      },
+    },
+    "laporan-keuangan": {
+      title: "Análise de Demonstrações Financeiras",
+      description: "Como ler balanços, demonstrações de resultados e fluxos de caixa para avaliar a saúde financeira de empresas ou investimentos antes de tomar decisões ativos.",
+      moduleTitles: {
+        m1: "Três Demonstrações Financeiras Principais",
+        m2: "Análise de Rácios Financeiros",
+        m3: "Deteção de Alertas Financeiros",
+      },
+    },
+    "startup-bisnis": {
+      title: "Estratégia de Startup & Negócios",
+      description: "Crie o seu negócio desde a ideia até à execução. Aprenda pesquisa de mercado, modelos de negócio, esquemas de financiamento inicial e estratégias modernas de escalabilidade.",
+      moduleTitles: {
+        m1: "Validação de Ideias de Negócio",
+        m2: "Canvas de Modelo de Negócio Lean",
+        m3: "Obtenção de Financiamento Inicial",
+        m4: "Estratégias de Escalabilidade",
+      },
+    },
+    "digital-marketing": {
+      title: "Marketing Digital Moderno",
+      description: "Domine o marketing digital utilizando redes sociais, otimização de motores de pesquisa (SEO), publicidade paga e copywriting de alta conversão para impulsionar as vendas do seu negócio.",
+      moduleTitles: {
+        m1: "Fundamentos do Marketing Digital",
+        m2: "Otimização de Motores de Pesquisa (SEO)",
+        m3: "Anúncios Pagos (FB, Google Ads)",
+        m4: "Copywriting & Estratégia de Conteúdo",
+      },
+    },
+    "ecommerce-dasar": {
+      title: "Domínio de E-Commerce & Dropshipping",
+      description: "Crie a sua própria loja online, encontre produtos vencedores, domine a gestão da cadeia de abastecimento e opere um negócio de comércio eletrónico rentável sem necessidade de stock.",
+      moduleTitles: {
+        m1: "Modelos de Negócio de E-Commerce",
+        m2: "Pesquisa de Produtos Mais Vendidos",
+        m3: "Construção de Loja Online Shopify",
+      },
+    },
+    "personal-finance": {
+      title: "Gestão de Finanças Pessoais",
+      description: "Domine a gestão do seu fluxo de caixa pessoal, métodos eficazes de poupança, alocação sistemática do orçamento mensal e passos cruciais para a preparação de um fundo de emergência.",
+      moduleTitles: {
+        m1: "Princípios de Gestão de Fluxo de Caixa",
+        m2: "Método de Orçamento 50/30/20",
+        m3: "Fundo de Emergência & Proteção",
+        m4: "Evitar Dívidas de Consumo",
+      },
+    },
+    "passive-income": {
+      title: "Estratégias de Rendimento Passivo & Dividendos",
+      description: "Como construir uma carteira de investimentos que gere fluxos de caixa passivos consistentes a partir de dividendos de ações, fundos de índice ou outros ativos digitais de forma segura.",
+      moduleTitles: {
+        m1: "Conceito de Rendimento Passivo",
+        m2: "Investimento em Ações de Dividendos",
+        m3: "Rendimento Passivo com Ativos Digitais",
+        m4: "Impostos & Gestão de Carteira",
+      },
+    },
+    "growth-mindset": {
+      title: "Mentalidade de Crescimento & Hábitos de Sucesso",
+      description: "Desenvolva uma mentalidade de aprendizagem contínua, elimine crenças limitadoras e crie micro-hábitos diários (hábitos atómicos) para alcançar o seu potencial máximo.",
+      moduleTitles: {
+        m1: "Princípio da Mentalidade de Crescimento vs Fixa",
+        m2: "Superar o Medo do Fracasso",
+        m3: "Construir Micro-Hábitos",
+        m4: "Autodisciplina & Consistência",
+      },
+    },
+    "time-management": {
+      title: "Gestão de Tempo & Produtividade",
+      description: "Domine a técnica Pomodoro, a matriz de prioridades de Eisenhower e aprenda a combater a procrastinação para trabalhar de forma mais inteligente e eficiente todos os dias.",
+      moduleTitles: {
+        m1: "Princípios da Gestão de Tempo",
+        m2: "Matriz de Prioridades de Eisenhower",
+        m3: "Superar a Procrastinação",
+      },
+    },
+  },
 };
 
 export function getLocalizedCourseContent(
