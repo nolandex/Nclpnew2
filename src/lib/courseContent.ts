@@ -6,53 +6,6 @@ export interface LocalizedCourseContent {
 
 export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseContent>> = {
   id: {
-    "ai-tools": {
-      title: "AI Tools untuk Produktivitas",
-      description: "Manfaatkan kekuatan AI seperti ChatGPT dan Midjourney untuk mempercepat alur kerja harian.",
-      moduleTitles: { m1: "Prompt Engineering Dasar", m2: "AI untuk Konten" },
-    },
-    "data-science": {
-      title: "Pengantar Data Science",
-      description: "Pelajari cara menganalisis data, memahami statistik dasar, dan menggunakan Python untuk memecahkan masalah berbasis data.",
-      moduleTitles: { m1: "Dasar Analisis Data", m2: "Python untuk Data Science" },
-    },
-    "web-dev": {
-      title: "Web Development Modern",
-      description: "Kuasai dasar pembuatan website dengan HTML, CSS, Javascript, dan mulai perjalanan karir sebagai web developer profesional.",
-      moduleTitles: { m1: "Dasar HTML & CSS", m2: "Pengenalan Javascript" },
-    },
-    "graphic-design": {
-      title: "Desain Grafis Modern",
-      description: "Kuasai seni visual, komposisi, tipografi, dan warna untuk menciptakan desain yang memukau.",
-      moduleTitles: { m1: "Teori Warna & Tipografi", m2: "Komposisi Visual" },
-    },  
-    "ui-ux-design": {
-      title: "Dasar UI/UX Design",
-      description: "Pelajari prinsip dasar desain antarmuka dan pengalaman pengguna yang menarik dan fungsional.",
-      moduleTitles: { m1: "Prinsip Dasar UI", m2: "Riset UX & Wireframing" },
-    },
-    "graphic-design": {
-      title: "Desain Grafis Modern",
-      description: "Kuasai seni visual, komposisi, tipografi, dan warna untuk menciptakan desain yang memukau.",
-      moduleTitles: { m1: "Teori Warna & Tipografi", m2: "Komposisi Visual" },
-    },
-    "mental-health": {
-      title: "Kesehatan Mental & Mengelola Stres",
-      description: "Pelajari cara mengelola stres, meditasi, dan menjaga keseimbangan kehidupan kerja untuk kebahagiaan.",
-      moduleTitles: {
-        m1: "Manajemen Stres",
-        m2: "Dasar Meditasi",
-      },
-    },
-    "ai-tools": {
-      title: "AI Tools untuk Produktivitas",
-      description: "Manfaatkan kekuatan AI seperti ChatGPT dan Midjourney untuk mempercepat alur kerja harian.",
-      moduleTitles: {
-        m1: "Prompt Engineering Dasar",
-        m2: "AI untuk Konten",
-      },
-    },
-
     "saham-dasar": {
       title: "Saham & Pasar Modal Dasar",
       description: "Mulai investasi saham dengan benar. Pelajari cara memilih saham berfundamental kuat, memahami rasio keuangan, membaca grafik harga, dan menyusun portofolio investasi yang kokoh.",
@@ -73,6 +26,80 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m4: "Masa Depan Web3",
       },
     },
+    "digital-marketing": {
+      title: "Digital Marketing Modern",
+      description: "Kuasai pemasaran digital menggunakan media sosial, optimasi mesin pencari (SEO), periklanan berbayar, dan strategi copywriting untuk mendongkrak penjualan bisnis Anda.",
+      moduleTitles: {
+        m1: "Dasar Pemasaran Digital",
+        m2: "Search Engine Optimization (SEO)",
+        m3: "Iklan Berbayar (FB, Google Ads)",
+        m4: "Copywriting & Content Strategy",
+      },
+    },
+    "ui-ux-design": {
+      title: "Dasar UI/UX Design",
+      description: "Pelajari prinsip dasar desain antarmuka dan pengalaman pengguna yang menarik dan fungsional.",
+      moduleTitles: {
+        m1: "Prinsip Dasar UI",
+        m2: "Riset UX & Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Desain Grafis Modern",
+      description: "Kuasai seni visual, komposisi, tipografi, dan warna untuk menciptakan desain yang memukau.",
+      moduleTitles: {
+        m1: "Teori Warna & Tipografi",
+        m2: "Komposisi Visual",
+      },
+    },
+    "mental-health": {
+      title: "Kesehatan Mental & Mengelola Stres",
+      description: "Pelajari cara mengelola stres, meditasi, dan menjaga keseimbangan kehidupan kerja untuk kebahagiaan.",
+      moduleTitles: {
+        m1: "Manajemen Stres",
+        m2: "Dasar Meditasi",
+      },
+    },
+    "health-fitness": {
+      title: "Kesehatan & Kebugaran Dasar",
+      description: "Pelajari prinsip dasar kebugaran, program latihan yang efektif, dan cara menjaga kesehatan tubuh jangka panjang.",
+      moduleTitles: {
+        m1: "Prinsip Dasar Kebugaran",
+        m2: "Menyusun Program Latihan",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrisi & Pola Makan Sehat",
+      description: "Pahami cara kerja makronutrisi dan mikronutrisi, serta bagaimana mengatur pola makan untuk energi maksimal dan berat badan ideal.",
+      moduleTitles: {
+        m1: "Dasar Nutrisi & Kalori",
+        m2: "Diet Sehat yang Berkelanjutan",
+      },
+    },
+    "web-dev": {
+      title: "Web Development Modern",
+      description: "Kuasai dasar pembuatan website dengan HTML, CSS, Javascript, dan mulai perjalanan karir sebagai web developer profesional.",
+      moduleTitles: {
+        m1: "Dasar HTML & CSS",
+        m2: "Pengenalan Javascript",
+      },
+    },
+    "data-science": {
+      title: "Pengantar Data Science",
+      description: "Pelajari cara menganalisis data, memahami statistik dasar, dan menggunakan Python untuk memecahkan masalah berbasis data.",
+      moduleTitles: {
+        m1: "Dasar Analisis Data",
+        m2: "Python untuk Data Science",
+      },
+    },
+    "ai-tools": {
+      title: "AI Tools untuk Produktivitas",
+      description: "Manfaatkan kekuatan AI seperti ChatGPT dan Midjourney untuk mempercepat alur kerja harian.",
+      moduleTitles: {
+        m1: "Prompt Engineering Dasar",
+        m2: "AI untuk Konten",
+      },
+    },
     "laporan-keuangan": {
       title: "Analisis Laporan Keuangan",
       description: "Cara membaca neraca, laporan laba rugi, dan laporan arus kas perusahaan untuk menilai kesehatan finansial bisnis atau instrumen investasi sebelum mengambil keputusan.",
@@ -90,16 +117,6 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m2: "Lean Business Model",
         m3: "Mendapatkan Pendanaan Pertama",
         m4: "Strategi Scaling Up",
-      },
-    },
-    "digital-marketing": {
-      title: "Digital Marketing Modern",
-      description: "Kuasai pemasaran digital menggunakan media sosial, optimasi mesin pencari (SEO), periklanan berbayar, dan strategi copywriting untuk mendongkrak penjualan bisnis Anda.",
-      moduleTitles: {
-        m1: "Dasar Pemasaran Digital",
-        m2: "Search Engine Optimization (SEO)",
-        m3: "Iklan Berbayar (FB, Google Ads)",
-        m4: "Copywriting & Content Strategy",
       },
     },
     "ecommerce-dasar": {
@@ -150,120 +167,8 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m3: "Mengalahkan Prokrastinasi",
       },
     },
-    "health-fitness": {
-      title: "Kesehatan & Kebugaran Dasar",
-      description: "Pelajari prinsip dasar kebugaran, program latihan yang efektif, dan cara menjaga kesehatan tubuh jangka panjang.",
-      moduleTitles: {
-        m1: "Prinsip Dasar Kebugaran",
-        m2: "Menyusun Program Latihan",
-      },
-    },
-    "nutrition-diet": {
-      title: "Nutrisi & Pola Makan Sehat",
-      description: "Pahami cara kerja makronutrisi dan mikronutrisi, serta bagaimana mengatur pola makan untuk energi maksimal dan berat badan ideal.",
-      moduleTitles: {
-        m1: "Dasar Nutrisi & Kalori",
-        m2: "Diet Sehat yang Berkelanjutan",
-      },
-    },
-    "web-dev": {
-      title: "Web Development Modern",
-      description: "Kuasai dasar pembuatan website dengan HTML, CSS, Javascript, dan mulai perjalanan karir sebagai web developer profesional.",
-      moduleTitles: {
-        m1: "Dasar HTML & CSS",
-        m2: "Pengenalan Javascript",
-      },
-    },
-    "data-science": {
-      title: "Pengantar Data Science",
-      description: "Pelajari cara menganalisis data, memahami statistik dasar, dan menggunakan Python untuk memecahkan masalah berbasis data.",
-      moduleTitles: {
-        m1: "Dasar Analisis Data",
-        m2: "Python untuk Data Science",
-      },
-    },
   },
   en: {
-    "ai-tools": {
-      title: "AI Tools for Productivity",
-      description: "Leverage the power of AI like ChatGPT and Midjourney to accelerate your daily workflow.",
-      moduleTitles: { m1: "Basic Prompt Engineering", m2: "AI for Content Creation" },
-    },
-    "data-science": {
-      title: "Introduction to Data Science",
-      description: "Learn how to analyze data, understand basic statistics, and use Python to solve data-driven problems.",
-      moduleTitles: { m1: "Data Analysis Basics", m2: "Python for Data Science" },
-    },
-    "web-dev": {
-      title: "Modern Web Development",
-      description: "Master the basics of website creation with HTML, CSS, Javascript, and start your career as a professional web developer.",
-      moduleTitles: { m1: "HTML & CSS Basics", m2: "Introduction to Javascript" },
-    },
-    "graphic-design": {
-      title: "Modern Graphic Design",
-      description: "Master visual art, composition, typography, and color theory to create stunning designs.",
-      moduleTitles: { m1: "Color Theory & Typography", m2: "Visual Composition" },
-    },  
-    "ui-ux-design": {
-      title: "UI/UX Design Basics",
-      description: "Learn the core principles of user interface and user experience design for modern applications.",
-      moduleTitles: { m1: "UI Fundamentals", m2: "UX Research & Wireframing" },
-    },
-    "graphic-design": {
-      title: "Modern Graphic Design",
-      description: "Master visual art, composition, typography, and color theory to create stunning designs.",
-      moduleTitles: { m1: "Color Theory & Typography", m2: "Visual Composition" },
-    },
-    "mental-health": {
-      title: "Mental Health & Stress Management",
-      description: "Learn how to manage stress, practice meditation, and maintain a healthy work-life balance for lasting happiness.",
-      moduleTitles: {
-        m1: "Stress Management",
-        m2: "Meditation Basics",
-      },
-    },
-    "ai-tools": {
-      title: "AI Tools for Productivity",
-      description: "Leverage the power of AI like ChatGPT and Midjourney to accelerate your daily workflow.",
-      moduleTitles: {
-        m1: "Basic Prompt Engineering",
-        m2: "AI for Content Creation",
-      },
-    },
-
-    "health-fitness": {
-      title: "Fitness & Health Basics",
-      description: "Learn the core principles of physical fitness, effective workout routines, and maintaining long-term physical health.",
-      moduleTitles: {
-        m1: "Fitness Fundamentals",
-        m2: "Building a Workout Routine",
-      },
-    },
-    "nutrition-diet": {
-      title: "Nutrition & Healthy Diet",
-      description: "Understand macronutrients, micronutrients, and how to structure your daily diet for maximum energy and weight management.",
-      moduleTitles: {
-        m1: "Nutrition Fundamentals",
-        m2: "Diet Planning Strategies",
-      },
-    },
-    "web-dev": {
-      title: "Web Development Basics",
-      description: "Learn the fundamentals of web development including HTML, CSS, and modern JavaScript to build interactive websites.",
-      moduleTitles: {
-        m1: "HTML & CSS Core Concepts",
-        m2: "JavaScript Fundamentals",
-      },
-    },
-    "data-science": {
-      title: "Data Science & AI Intro",
-      description: "Discover the world of data science, machine learning algorithms, and how AI is transforming modern businesses.",
-      moduleTitles: {
-        m1: "Introduction to Data Science",
-        m2: "Machine Learning Basics",
-      },
-    },
-
     "saham-dasar": {
       title: "Stock Market & Shares Basics",
       description: "Start investing in stocks correctly. Learn how to choose stocks with strong fundamentals, understand financial ratios, read price charts, and build a sturdy investment portfolio.",
@@ -284,6 +189,80 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m4: "The Future of Web3",
       },
     },
+    "digital-marketing": {
+      title: "Modern Digital Marketing",
+      description: "Master digital marketing using social media, search engine optimization (SEO), paid advertising, and high-converting copywriting to boost your business sales.",
+      moduleTitles: {
+        m1: "Digital Marketing Foundations",
+        m2: "Search Engine Optimization (SEO)",
+        m3: "Paid Ads (FB, Google Ads)",
+        m4: "Copywriting & Content Strategy",
+      },
+    },
+    "ui-ux-design": {
+      title: "UI/UX Design Basics",
+      description: "Learn the core principles of user interface and user experience design for modern applications.",
+      moduleTitles: {
+        m1: "UI Fundamentals",
+        m2: "UX Research & Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Modern Graphic Design",
+      description: "Master visual art, composition, typography, and color theory to create stunning designs.",
+      moduleTitles: {
+        m1: "Color Theory & Typography",
+        m2: "Visual Composition",
+      },
+    },
+    "mental-health": {
+      title: "Mental Health & Stress Management",
+      description: "Learn how to manage stress, practice meditation, and maintain a healthy work-life balance for lasting happiness.",
+      moduleTitles: {
+        m1: "Stress Management",
+        m2: "Meditation Basics",
+      },
+    },
+    "health-fitness": {
+      title: "Fitness & Health Basics",
+      description: "Learn the core principles of physical fitness, effective workout routines, and maintaining long-term physical health.",
+      moduleTitles: {
+        m1: "Fitness Fundamentals",
+        m2: "Building a Workout Routine",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrition & Healthy Diet",
+      description: "Understand macronutrients, micronutrients, and how to structure your daily diet for maximum energy and weight management.",
+      moduleTitles: {
+        m1: "Nutrition Fundamentals",
+        m2: "Diet Planning Strategies",
+      },
+    },
+    "web-dev": {
+      title: "Modern Web Development",
+      description: "Master the basics of website creation with HTML, CSS, Javascript, and start your career as a professional web developer.",
+      moduleTitles: {
+        m1: "HTML & CSS Basics",
+        m2: "Introduction to Javascript",
+      },
+    },
+    "data-science": {
+      title: "Introduction to Data Science",
+      description: "Learn how to analyze data, understand basic statistics, and use Python to solve data-driven problems.",
+      moduleTitles: {
+        m1: "Data Analysis Basics",
+        m2: "Python for Data Science",
+      },
+    },
+    "ai-tools": {
+      title: "AI Tools for Productivity",
+      description: "Leverage the power of AI like ChatGPT and Midjourney to accelerate your daily workflow.",
+      moduleTitles: {
+        m1: "Basic Prompt Engineering",
+        m2: "AI for Content Creation",
+      },
+    },
     "laporan-keuangan": {
       title: "Financial Statement Analysis",
       description: "How to read balance sheets, income statements, and cash flows to evaluate the financial health of businesses or investments before making an active decision.",
@@ -301,16 +280,6 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m2: "Lean Business Model Canvas",
         m3: "Securing Initial Funding",
         m4: "Scaling Up Strategies",
-      },
-    },
-    "digital-marketing": {
-      title: "Modern Digital Marketing",
-      description: "Master digital marketing using social media, search engine optimization (SEO), paid advertising, and high-converting copywriting to boost your business sales.",
-      moduleTitles: {
-        m1: "Digital Marketing Foundations",
-        m2: "Search Engine Optimization (SEO)",
-        m3: "Paid Ads (FB, Google Ads)",
-        m4: "Copywriting & Content Strategy",
       },
     },
     "ecommerce-dasar": {
@@ -363,124 +332,133 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   es: {
-    "ai-tools": {
-      title: "Herramientas de IA para la Productividad",
-      description: "Aproveche el poder de la IA como ChatGPT y Midjourney para acelerar su flujo de trabajo diario.",
-      moduleTitles: { m1: "Ingeniería de Prompts Básica", m2: "IA para la Creación de Contenido" },
-    },
-    "data-science": {
-      title: "Introducción a la Ciencia de Datos",
-      description: "Aprenda a analizar datos, comprender estadísticas básicas y usar Python para resolver problemas.",
-      moduleTitles: { m1: "Conceptos Básicos de Análisis de Datos", m2: "Python para Ciencia de Datos" },
-    },
-    "web-dev": {
-      title: "Desarrollo Web Moderno",
-      description: "Domine los conceptos básicos de la creación de sitios web con HTML, CSS, Javascript y comience su carrera profesional.",
-      moduleTitles: { m1: "Conceptos Básicos de HTML y CSS", m2: "Introducción a Javascript" },
-    },
-    "graphic-design": {
-      title: "Diseño Gráfico Moderno",
-      description: "Domine el arte visual, composición, tipografía y color para crear diseños increíbles.",
-      moduleTitles: { m1: "Teoría del Color y Tipografía", m2: "Composición Visual" },
-    },
-    "ui-ux-design": {
-      title: "Fundamentos de Diseño UI/UX",
-      description: "Aprenda los principios básicos del diseño de interfaces y experiencias de usuario.",
-      moduleTitles: { m1: "Fundamentos de UI", m2: "Investigación UX y Wireframing" },
-    },  
-    "health-fitness": {
-      title: "Salud y Fitness",
-      description: "Aprenda los principios básicos del fitness y rutinas de ejercicio.",
-      moduleTitles: { m1: "Fundamentos de Fitness", m2: "Rutina de Ejercicios" },
-    },
-    "nutrition-diet": {
-      title: "Nutrición y Dieta",
-      description: "Entienda los macronutrientes y cómo estructurar su dieta.",
-      moduleTitles: { m1: "Fundamentos de Nutrición", m2: "Planificación de Dietas" },
-    },
-    "web-dev": {
-      title: "Desarrollo Web",
-      description: "Aprenda HTML, CSS y JavaScript moderno.",
-      moduleTitles: { m1: "Conceptos de HTML y CSS", m2: "Fundamentos de JavaScript" },
-    },
-    "data-science": {
-      title: "Ciencia de Datos",
-      description: "Descubra el mundo de los datos y el aprendizaje automático.",
-      moduleTitles: { m1: "Introducción a los Datos", m2: "Aprendizaje Automático" },
-    },
-    "mental-health": {
-      title: "Salud Mental",
-      description: "Aprenda a manejar el estrés y mantener el equilibrio.",
-      moduleTitles: { m1: "Manejo del Estrés", m2: "Conceptos de Meditación" },
-    },
-    "ai-tools": {
-      title: "Herramientas de IA",
-      description: "Aproveche ChatGPT para acelerar su trabajo.",
-      moduleTitles: { m1: "Ingeniería de Prompts", m2: "IA para Contenido" },
-    },
     "saham-dasar": {
       title: "Bolsa de Valores y Acciones",
-      description: "Comience a invertir en acciones correctamente. Aprenda a elegir acciones con fundamentos sólidos, comprender ratios financieros, leer gráficos de precios y estructurar una cartera de inversión sólida.",
+      description: "Comience a invertir en acciones correctamente. Aprenda a elegir acciones con fundamentos s\u00f3lidos, comprender ratios financieros, leer gr\u00e1ficos de precios y estructurar una cartera de inversi\u00f3n s\u00f3lida.",
       moduleTitles: {
-        m1: "¿Qué son las acciones?",
-        m2: "Análisis Fundamental",
-        m3: "Análisis Técnico",
+        m1: "\u00bfQu\u00e9 son las acciones?",
+        m2: "An\u00e1lisis Fundamental",
+        m3: "An\u00e1lisis T\u00e9cnico",
         m4: "Estrategias de Portafolio",
       },
     },
     "kripto-dasar": {
       title: "Cripto y Web3 para Principiantes",
-      description: "Entienda en detalle el mundo de la tecnología blockchain, criptomonedas, contratos inteligentes, gestión de monederos virtuales y el potencial de las finanzas descentralizadas (DeFi).",
+      description: "Entienda en detalle el mundo de la tecnolog\u00eda blockchain, criptomonedas, contratos inteligentes, gesti\u00f3n de monederos virtuales y el potencial de las finanzas descentralizadas (DeFi).",
       moduleTitles: {
-        m1: "Introducción a Blockchain",
-        m2: "Cómo funcionan Bitcoin y Ethereum",
+        m1: "Introducci\u00f3n a Blockchain",
+        m2: "C\u00f3mo funcionan Bitcoin y Ethereum",
         m3: "Monederos y Seguridad",
         m4: "El futuro de Web3",
       },
     },
-    "laporan-keuangan": {
-      title: "Análisis de Estados Financieros",
-      description: "Cómo leer balances generales, estados de resultados y flujos de efectivo para evaluar la salud financiera de empresas o proyectos antes de invertir.",
-      moduleTitles: {
-        m1: "Los Tres Estados Financieros Clave",
-        m2: "Análisis de Ratios Financieros",
-        m3: "Detección de Manipulación Financiera",
-      },
-    },
-    "startup-bisnis": {
-      title: "Estrategia de Startup y Negocios",
-      description: "Construya su propio negocio desde la idea inicial hasta la ejecución del mercado. Aprenda investigación de mercado, modelos de negocio, esquemas de financiamiento y estrategias de escala.",
-      moduleTitles: {
-        m1: "Validación de Ideas de Negocio",
-        m2: "Lean Business Model",
-        m3: "Cómo Obtener Financiamiento",
-        m4: "Estrategias de Escalabilidad",
-      },
-    },
     "digital-marketing": {
       title: "Marketing Digital Moderno",
-      description: "Domine el marketing digital utilizando redes sociales, optimización SEO, publicidad paga en Facebook y Google, y copywriting persuasivo para impulsar las ventas.",
+      description: "Domine el marketing digital utilizando redes sociales, optimizaci\u00f3n SEO, publicidad paga en Facebook y Google, y copywriting persuasivo para impulsar las ventas.",
       moduleTitles: {
         m1: "Fundamentos de Marketing Digital",
-        m2: "Optimización SEO",
+        m2: "Optimizaci\u00f3n SEO",
         m3: "Publicidad Paga (FB, Google Ads)",
         m4: "Copywriting y Estrategia de Contenidos",
       },
     },
+    "ui-ux-design": {
+      title: "Fundamentos de Dise\u00f1o UI/UX",
+      description: "Aprenda los principios b\u00e1sicos del dise\u00f1o de interfaces y experiencias de usuario.",
+      moduleTitles: {
+        m1: "Fundamentos de UI",
+        m2: "Investigaci\u00f3n UX y Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Dise\u00f1o Gr\u00e1fico Moderno",
+      description: "Domine el arte visual, composici\u00f3n, tipograf\u00eda y color para crear dise\u00f1os incre\u00edbles.",
+      moduleTitles: {
+        m1: "Teor\u00eda del Color y Tipograf\u00eda",
+        m2: "Composici\u00f3n Visual",
+      },
+    },
+    "mental-health": {
+      title: "Salud Mental y Manejo del Estr\u00e9s",
+      description: "Aprenda a manejar el estr\u00e9s, practicar la meditaci\u00f3n y mantener un equilibrio saludable.",
+      moduleTitles: {
+        m1: "Manejo del Estr\u00e9s",
+        m2: "Conceptos B\u00e1sicos de Meditaci\u00f3n",
+      },
+    },
+    "health-fitness": {
+      title: "Conceptos B\u00e1sicos de Salud y Fitness",
+      description: "Aprenda los principios b\u00e1sicos de fitness y rutinas de ejercicio efectivas.",
+      moduleTitles: {
+        m1: "Fundamentos de Fitness",
+        m2: "Rutinas de Ejercicio",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrici\u00f3n y Dieta Saludable",
+      description: "Entienda los nutrientes y c\u00f3mo estructurar su dieta para obtener la m\u00e1xima energ\u00eda.",
+      moduleTitles: {
+        m1: "Fundamentos de Nutrici\u00f3n",
+        m2: "Estrategias de Dieta",
+      },
+    },
+    "web-dev": {
+      title: "Desarrollo Web Moderno",
+      description: "Domine los conceptos b\u00e1sicos de la creaci\u00f3n de sitios web con HTML, CSS, Javascript y comience su carrera profesional.",
+      moduleTitles: {
+        m1: "Conceptos B\u00e1sicos de HTML y CSS",
+        m2: "Introducci\u00f3n a Javascript",
+      },
+    },
+    "data-science": {
+      title: "Introducci\u00f3n a la Ciencia de Datos",
+      description: "Aprenda a analizar datos, comprender estad\u00edsticas b\u00e1sicas y usar Python para resolver problemas.",
+      moduleTitles: {
+        m1: "Conceptos B\u00e1sicos de An\u00e1lisis de Datos",
+        m2: "Python para Ciencia de Datos",
+      },
+    },
+    "ai-tools": {
+      title: "Herramientas de IA para la Productividad",
+      description: "Aproveche el poder de la IA como ChatGPT y Midjourney para acelerar su flujo de trabajo diario.",
+      moduleTitles: {
+        m1: "Ingenier\u00eda de Prompts B\u00e1sica",
+        m2: "IA para la Creaci\u00f3n de Contenido",
+      },
+    },
+    "laporan-keuangan": {
+      title: "An\u00e1lisis de Estados Financieros",
+      description: "C\u00f3mo leer balances generales, estados de resultados y flujos de efectivo para evaluar la salud financiera de empresas o proyectos antes de invertir.",
+      moduleTitles: {
+        m1: "Los Tres Estados Financieros Clave",
+        m2: "An\u00e1lisis de Ratios Financieros",
+        m3: "Detecci\u00f3n de Manipulaci\u00f3n Financiera",
+      },
+    },
+    "startup-bisnis": {
+      title: "Estrategia de Startup y Negocios",
+      description: "Construya su propio negocio desde la idea inicial hasta la ejecuci\u00f3n del mercado. Aprenda investigaci\u00f3n de mercado, modelos de negocio, esquemas de financiamiento y estrategias de escala.",
+      moduleTitles: {
+        m1: "Validaci\u00f3n de Ideas de Negocio",
+        m2: "Lean Business Model",
+        m3: "C\u00f3mo Obtener Financiamiento",
+        m4: "Estrategias de Escalabilidad",
+      },
+    },
     "ecommerce-dasar": {
       title: "E-Commerce y Dropshipping",
-      description: "Cree su propia tienda en línea, encuentre productos ganadores, domine la gestión de suministros y opere un negocio electrónico altamente rentable sin inventario físico.",
+      description: "Cree su propia tienda en l\u00ednea, encuentre productos ganadores, domine la gesti\u00f3n de suministros y opere un negocio electr\u00f3nico altamente rentable sin inventario f\u00edsico.",
       moduleTitles: {
         m1: "Modelos de Negocio E-Commerce",
-        m2: "Investigación de Productos Ganadores",
-        m3: "Creación de Tiendas Shopify",
+        m2: "Investigaci\u00f3n de Productos Ganadores",
+        m3: "Creaci\u00f3n de Tiendas Shopify",
       },
     },
     "personal-finance": {
       title: "Finanzas Personales y Presupuesto",
-      description: "Domine la gestión del flujo de caja personal, métodos de ahorro eficaces, asignación mensual metódica de presupuestos y la preparación de fondos de emergencia.",
+      description: "Domine la gesti\u00f3n del flujo de caja personal, m\u00e9todos de ahorro eficaces, asignaci\u00f3n mensual met\u00f3dica de presupuestos y la preparaci\u00f3n de fondos de emergencia.",
       moduleTitles: {
-        m1: "Principios de Gestión de Flujo de Caja",
+        m1: "Principios de Gesti\u00f3n de Flujo de Caja",
         m2: "Regla de Presupuesto 50/30/20",
         m3: "Fondos de Emergencia",
         m4: "Evitar Deudas de Consumo Malas",
@@ -491,244 +469,198 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
       description: "Aprenda a construir una cartera de inversiones diversificada que genere un flujo de caja pasivo constante de manera segura mediante acciones de dividendos y fondos indexados.",
       moduleTitles: {
         m1: "El concepto de Ingreso Pasivo",
-        m2: "Inversión en Acciones con Dividendos",
+        m2: "Inversi\u00f3n en Acciones con Dividendos",
         m3: "Flujo de caja de activos digitales",
-        m4: "Impuestos y Conservación",
+        m4: "Impuestos y Conservaci\u00f3n",
       },
     },
     "growth-mindset": {
-      title: "Mentalidad de Crecimiento y Éxito",
-      description: "Desarrolle una mentalidad de aprendizaje continuo, supere creencias mentales limitantes y cree hábitos diarios eficientes para alcanzar su máximo potencial.",
+      title: "Mentalidad de Crecimiento y \u00c9xito",
+      description: "Desarrolle una mentalidad de aprendizaje continuo, supere creencias mentales limitantes y cree h\u00e1bitos diarios eficientes para alcanzar su m\u00e1ximo potencial.",
       moduleTitles: {
         m1: "Mentalidad de Crecimiento vs Fija",
         m2: "Superar el Miedo al Fracaso",
-        m3: "Construcción de Hábitos Atómicos",
+        m3: "Construcci\u00f3n de H\u00e1bitos At\u00f3micos",
         m4: "Autodisciplina y Consistencia",
       },
     },
     "time-management": {
-      title: "Gestión del Tiempo y Productividad",
-      description: "Domine la técnica Pomodoro, la matriz de prioridades de Eisenhower y elimine la procrastinación para trabajar de manera más inteligente y eficaz.",
+      title: "Gesti\u00f3n del Tiempo y Productividad",
+      description: "Domine la t\u00e9cnica Pomodoro, la matriz de prioridades de Eisenhower y elimine la procrastinaci\u00f3n para trabajar de manera m\u00e1s inteligente y eficaz.",
       moduleTitles: {
-        m1: "Principios de Gestión del Tiempo",
+        m1: "Principios de Gesti\u00f3n del Tiempo",
         m2: "Matriz de Prioridades de Eisenhower",
-        m3: "Superar la Procrastinación",
+        m3: "Superar la Procrastinaci\u00f3n",
       },
     },
   },
   fr: {
-    "ai-tools": {
-      title: "Outils d'IA pour la Productivité",
-      description: "Utilisez la puissance de l'IA comme ChatGPT et Midjourney pour accélérer votre travail quotidien.",
-      moduleTitles: { m1: "Ingénierie de Prompts de Base", m2: "L'IA pour la Création de Contenu" },
-    },
-    "data-science": {
-      title: "Introduction à la Data Science",
-      description: "Apprenez à analyser des données, à comprendre les statistiques de base et à utiliser Python.",
-      moduleTitles: { m1: "Bases de l'Analyse de Données", m2: "Python pour la Data Science" },
-    },
-    "web-dev": {
-      title: "Développement Web Moderne",
-      description: "Maîtrisez les bases de la création de sites web avec HTML, CSS, Javascript et commencez votre carrière professionnelle.",
-      moduleTitles: { m1: "Bases du HTML & CSS", m2: "Introduction au Javascript" },
-    },
-    "graphic-design": {
-      title: "Design Graphique Moderne",
-      description: "Maîtrisez l'art visuel, la composition, la typographie et la couleur pour créer de superbes designs.",
-      moduleTitles: { m1: "Théorie des Couleurs & Typographie", m2: "Composition Visuelle" },
-    },
-    "ui-ux-design": {
-      title: "Bases du Design UI/UX",
-      description: "Apprenez les principes de base du design d'interface et d'expérience utilisateur.",
-      moduleTitles: { m1: "Fondamentaux de l'UI", m2: "Recherche UX & Wireframing" },
-    },  
-    "health-fitness": {
-      title: "Santé et Fitness",
-      description: "Apprenez les principes de base du fitness et des routines.",
-      moduleTitles: { m1: "Fondamentaux du Fitness", m2: "Routine d'Exercices" },
-    },
-    "nutrition-diet": {
-      title: "Nutrition et Régime",
-      description: "Comprenez les nutriments et structurez votre alimentation.",
-      moduleTitles: { m1: "Bases de la Nutrition", m2: "Planification Alimentaire" },
-    },
-    "web-dev": {
-      title: "Développement Web",
-      description: "Apprenez HTML, CSS et JavaScript moderne.",
-      moduleTitles: { m1: "Concepts HTML et CSS", m2: "Bases de JavaScript" },
-    },
-    "data-science": {
-      title: "Science des Données",
-      description: "Découvrez les données et l'apprentissage automatique.",
-      moduleTitles: { m1: "Introduction aux Données", m2: "Apprentissage Automatique" },
-    },
-    "mental-health": {
-      title: "Santé Mentale",
-      description: "Apprenez à gérer le stress et l'équilibre de vie.",
-      moduleTitles: { m1: "Gestion du Stress", m2: "Bases de Méditation" },
-    },
-    "ai-tools": {
-      title: "Outils d'IA",
-      description: "Utilisez ChatGPT pour accélérer votre travail.",
-      moduleTitles: { m1: "Ingénierie de Prompts", m2: "IA pour le Contenu" },
-    },
     "saham-dasar": {
       title: "Bourse et Actions de Base",
-      description: "Commencez à investir en bourse correctement. Apprenez à choisir des actions aux fondamentaux solides, analyser les ratios, lire les graphiques et structurer un portefeuille résistant.",
+      description: "Commencez \u00e0 investir en bourse correctement. Apprenez \u00e0 choisir des actions aux fondamentaux solides, analyser les ratios, lire les graphiques et structurer un portefeuille r\u00e9sistant.",
       moduleTitles: {
         m1: "Qu'est-ce que les Actions?",
         m2: "Analyse Fondamentale",
         m3: "Analyse Technique",
-        m4: "Stratégies de Portefeuille",
+        m4: "Strat\u00e9gies de Portefeuille",
       },
     },
     "kripto-dasar": {
       title: "Crypto & Web3 de Base",
-      description: "Comprenez en détail l'univers de la technologie blockchain, des crypto-monnaies, des smart contracts, la gestion des portefeuilles et le potentiel de la finance décentralisée (DeFi).",
+      description: "Comprenez en d\u00e9tail l'univers de la technologie blockchain, des crypto-monnaies, des smart contracts, la gestion des portefeuilles et le potentiel de la finance d\u00e9centralis\u00e9e (DeFi).",
       moduleTitles: {
-        m1: "Introduction à la Blockchain",
+        m1: "Introduction \u00e0 la Blockchain",
         m2: "Fonctionnement de Bitcoin & Ethereum",
-        m3: "Portefeuilles Crypto & Sécurité",
+        m3: "Portefeuilles Crypto & S\u00e9curit\u00e9",
         m4: "L'Avenir du Web3",
-      },
-    },
-    "laporan-keuangan": {
-      title: "Analyse des États Financiers",
-      description: "Comment lire le bilan, le compte de résultat et le tableau des flux de trésorerie pour évaluer la santé financière d'une entreprise avant d'investir.",
-      moduleTitles: {
-        m1: "Les Trois États Financiers Clés",
-        m2: "Analyse des Ratios Financiers",
-        m3: "Détecter les Anomalies Financières",
-      },
-    },
-    "startup-bisnis": {
-      title: "Stratégie de Startup & Entreprise",
-      description: "Lancez votre entreprise de l'idée initiale à l'exécution sur le marché. Apprenez l'étude de marché, les modèles d'affaires, le financement et le scaling.",
-      moduleTitles: {
-        m1: "Validation d'Idées de Business",
-        m2: "Lean Business Model Canvas",
-        m3: "Obtenir son Premier Financement",
-        m4: "Stratégies de Croissance",
       },
     },
     "digital-marketing": {
       title: "Marketing Digital Moderne",
-      description: "Maîtrisez le marketing digital : réseaux sociaux, SEO, publicité payante (Facebook & Google Ads) et rédaction de contenu pour booster vos ventes.",
+      description: "Ma\u00eetrisez le marketing digital : r\u00e9seaux sociaux, SEO, publicit\u00e9 payante (Facebook & Google Ads) et r\u00e9daction de contenu pour booster vos ventes.",
       moduleTitles: {
         m1: "Fondations du Marketing Digital",
         m2: "Optimisation pour les Moteurs de Recherche (SEO)",
-        m3: "Publicités Payantes (FB, Google Ads)",
-        m4: "Copywriting & Stratégie de Contenu",
+        m3: "Publicit\u00e9s Payantes (FB, Google Ads)",
+        m4: "Copywriting & Strat\u00e9gie de Contenu",
+      },
+    },
+    "ui-ux-design": {
+      title: "Bases du Design UI/UX",
+      description: "Apprenez les principes de base du design d'interface et d'exp\u00e9rience utilisateur.",
+      moduleTitles: {
+        m1: "Fondamentaux de l'UI",
+        m2: "Recherche UX & Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Design Graphique Moderne",
+      description: "Ma\u00eetrisez l'art visuel, la composition, la typographie et la couleur pour cr\u00e9er de superbes designs.",
+      moduleTitles: {
+        m1: "Th\u00e9orie des Couleurs & Typographie",
+        m2: "Composition Visuelle",
+      },
+    },
+    "mental-health": {
+      title: "Sant\u00e9 Mentale et Gestion du Stress",
+      description: "Apprenez \u00e0 g\u00e9rer le stress, \u00e0 pratiquer la m\u00e9ditation et \u00e0 maintenir un \u00e9quilibre.",
+      moduleTitles: {
+        m1: "Gestion du Stress",
+        m2: "Bases de la M\u00e9ditation",
+      },
+    },
+    "health-fitness": {
+      title: "Bases de la Sant\u00e9 et du Fitness",
+      description: "Apprenez les principes de base du fitness et des routines d'entra\u00eenement efficaces.",
+      moduleTitles: {
+        m1: "Fondamentaux du Fitness",
+        m2: "Routines d'Entra\u00eenement",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrition et Alimentation Saine",
+      description: "Comprenez les nutriments et comment structurer votre alimentation pour un maximum d'\u00e9nergie.",
+      moduleTitles: {
+        m1: "Fondamentaux de la Nutrition",
+        m2: "Strat\u00e9gies Alimentaires",
+      },
+    },
+    "web-dev": {
+      title: "D\u00e9veloppement Web Moderne",
+      description: "Ma\u00eetrisez les bases de la cr\u00e9ation de sites web avec HTML, CSS, Javascript et commencez votre carri\u00e8re professionnelle.",
+      moduleTitles: {
+        m1: "Bases du HTML & CSS",
+        m2: "Introduction au Javascript",
+      },
+    },
+    "data-science": {
+      title: "Introduction \u00e0 la Data Science",
+      description: "Apprenez \u00e0 analyser des donn\u00e9es, \u00e0 comprendre les statistiques de base et \u00e0 utiliser Python.",
+      moduleTitles: {
+        m1: "Bases de l'Analyse de Donn\u00e9es",
+        m2: "Python pour la Data Science",
+      },
+    },
+    "ai-tools": {
+      title: "Outils d'IA pour la Productivit\u00e9",
+      description: "Utilisez la puissance de l'IA comme ChatGPT et Midjourney pour acc\u00e9l\u00e9rer votre travail quotidien.",
+      moduleTitles: {
+        m1: "Ing\u00e9nierie de Prompts de Base",
+        m2: "L'IA pour la Cr\u00e9ation de Contenu",
+      },
+    },
+    "laporan-keuangan": {
+      title: "Analyse des \u00c9tats Financiers",
+      description: "Comment lire le bilan, le compte de r\u00e9sultat et le tableau des flux de tr\u00e9sorerie pour \u00e9valuer la sant\u00e9 financi\u00e8re d'une entreprise avant d'investir.",
+      moduleTitles: {
+        m1: "Les Trois \u00c9tats Financiers Cl\u00e9s",
+        m2: "Analyse des Ratios Financiers",
+        m3: "D\u00e9tecter les Anomalies Financi\u00e8res",
+      },
+    },
+    "startup-bisnis": {
+      title: "Strat\u00e9gie de Startup & Entreprise",
+      description: "Lancez votre entreprise de l'id\u00e9e initiale \u00e0 l'ex\u00e9cution sur le march\u00e9. Apprenez l'\u00e9tude de march\u00e9, les mod\u00e8les d'affaires, le financement et le scaling.",
+      moduleTitles: {
+        m1: "Validation d'Id\u00e9es de Business",
+        m2: "Lean Business Model Canvas",
+        m3: "Obtenir son Premier Financement",
+        m4: "Strat\u00e9gies de Croissance",
       },
     },
     "ecommerce-dasar": {
-      title: "Maîtrise de l'E-Commerce & Dropshipping",
-      description: "Créez votre propre boutique en ligne, trouvez des produits à fort potentiel, gérez vos fournisseurs et pilotez une activité de e-commerce rentable sans aucun stock physique.",
+      title: "Ma\u00eetrise de l'E-Commerce & Dropshipping",
+      description: "Cr\u00e9ez votre propre boutique en ligne, trouvez des produits \u00e0 fort potentiel, g\u00e9rez vos fournisseurs et pilotez une activit\u00e9 de e-commerce rentable sans aucun stock physique.",
       moduleTitles: {
-        m1: "Modèles d'Affaires E-Commerce",
+        m1: "Mod\u00e8les d'Affaires E-Commerce",
         m2: "Recherche de Produits Gagnants",
-        m3: "Créer sa Boutique en ligne",
+        m3: "Cr\u00e9er sa Boutique en ligne",
       },
     },
     "personal-finance": {
       title: "Finances Personnelles & Budget",
-      description: "Maîtrisez la gestion de votre trésorerie personnelle, les méthodes d'épargne les plus efficaces, l'allocation budgétaire systématique et la création d'un fonds de secours.",
+      description: "Ma\u00eetrisez la gestion de votre tr\u00e9sorerie personnelle, les m\u00e9thodes d'\u00e9pargne les plus efficaces, l'allocation budg\u00e9taire syst\u00e9matique et la cr\u00e9ation d'un fonds de secours.",
       moduleTitles: {
-        m1: "Principes de Gestion de Trésorerie",
-        m2: "La Règle de Budget 50/30/20",
+        m1: "Principes de Gestion de Tr\u00e9sorerie",
+        m2: "La R\u00e8gle de Budget 50/30/20",
         m3: "Fonds d'Urgence & Protection",
-        m4: "Éviter les Mauvaises Dettes",
+        m4: "\u00c9viter les Mauvaises Dettes",
       },
     },
     "passive-income": {
-      title: "Stratégies de Revenus Passifs",
-      description: "Comment bâtir pas à pas un portefeuille d'investissement générant des flux de revenus passifs réguliers grâce aux dividendes et aux fonds indiciels.",
+      title: "Strat\u00e9gies de Revenus Passifs",
+      description: "Comment b\u00e2tir pas \u00e0 pas un portefeuille d'investissement g\u00e9n\u00e9rant des flux de revenus passifs r\u00e9guliers gr\u00e2ce aux dividendes et aux fonds indiciels.",
       moduleTitles: {
         m1: "Le Concept de Revenu Passif",
-        m2: "Investir dans des Actions à Dividendes",
-        m3: "Revenus des Actifs Numériques",
-        m4: "Impôts & Gestion de Portefeuille",
+        m2: "Investir dans des Actions \u00e0 Dividendes",
+        m3: "Revenus des Actifs Num\u00e9riques",
+        m4: "Imp\u00f4ts & Gestion de Portefeuille",
       },
     },
     "growth-mindset": {
-      title: "Growth Mindset & Habitudes de Succès",
-      description: "Développez un état d'esprit de croissance, libérez-vous de vos barrières mentales limitantes et adoptez des micro-habitudes quotidiennes pour libérer votre plein potentiel.",
+      title: "Growth Mindset & Habitudes de Succ\u00e8s",
+      description: "D\u00e9veloppez un \u00e9tat d'esprit de croissance, lib\u00e9rez-vous de vos barri\u00e8res mentales limitantes et adoptez des micro-habitudes quotidiennes pour lib\u00e9rer votre plein potentiel.",
       moduleTitles: {
         m1: "Esprit de Croissance vs Fixe",
-        m2: "Surmonter la Peur de l'Échec",
+        m2: "Surmonter la Peur de l'\u00c9chec",
         m3: "Instaurer des Habitudes Atomiques",
-        m4: "Auto-discipline & Régularité",
+        m4: "Auto-discipline & R\u00e9gularit\u00e9",
       },
     },
     "time-management": {
-      title: "Gestion du Temps & Productivité",
-      description: "Maîtrisez la technique Pomodoro, la matrice de priorité d'Eisenhower et surmontez la procrastination pour travailler plus intelligemment au quotidien.",
+      title: "Gestion du Temps & Productivit\u00e9",
+      description: "Ma\u00eetrisez la technique Pomodoro, la matrice de priorit\u00e9 d'Eisenhower et surmontez la procrastination pour travailler plus intelligemment au quotidien.",
       moduleTitles: {
         m1: "Principes de la Gestion du Temps",
-        m2: "Matrice de Priorité d'Eisenhower",
+        m2: "Matrice de Priorit\u00e9 d'Eisenhower",
         m3: "Vaincre la Procrastination",
       },
     },
   },
   de: {
-    "ai-tools": {
-      title: "KI-Tools für Produktivität",
-      description: "Nutzen Sie die Leistung von KI wie ChatGPT und Midjourney, um Ihren täglichen Arbeitsablauf zu beschleunigen.",
-      moduleTitles: { m1: "Grundlagen des Prompt Engineering", m2: "KI für die Erstellung von Inhalten" },
-    },
-    "data-science": {
-      title: "Einführung in Data Science",
-      description: "Lernen Sie, wie man Daten analysiert, verstehen Sie grundlegende Statistiken und nutzen Sie Python.",
-      moduleTitles: { m1: "Datenanalyse-Grundlagen", m2: "Python für Data Science" },
-    },
-    "web-dev": {
-      title: "Moderne Webentwicklung",
-      description: "Meistern Sie die Grundlagen der Website-Erstellung mit HTML, CSS, Javascript und starten Sie Ihre berufliche Karriere.",
-      moduleTitles: { m1: "HTML & CSS Grundlagen", m2: "Einführung in Javascript" },
-    },
-    "graphic-design": {
-      title: "Modernes Grafikdesign",
-      description: "Meistern Sie visuelle Kunst, Komposition, Typografie und Farbe für beeindruckende Designs.",
-      moduleTitles: { m1: "Farbenlehre & Typografie", m2: "Visuelle Komposition" },
-    },
-    "ui-ux-design": {
-      title: "UI/UX Design Grundlagen",
-      description: "Lernen Sie die Grundprinzipien von User Interface und User Experience Design.",
-      moduleTitles: { m1: "UI-Grundlagen", m2: "UX-Forschung & Wireframing" },
-    },  
-    "health-fitness": {
-      title: "Gesundheit & Fitness",
-      description: "Lernen Sie die Grundprinzipien von Fitness und Training.",
-      moduleTitles: { m1: "Fitness-Grundlagen", m2: "Trainingsroutine" },
-    },
-    "nutrition-diet": {
-      title: "Ernährung & Diät",
-      description: "Verstehen Sie Nährstoffe und strukturieren Sie Ihre Diät.",
-      moduleTitles: { m1: "Ernährungsgrundlagen", m2: "Diätplanung" },
-    },
-    "web-dev": {
-      title: "Webentwicklung",
-      description: "Lernen Sie HTML, CSS und modernes JavaScript.",
-      moduleTitles: { m1: "HTML & CSS Konzepte", m2: "JavaScript Grundlagen" },
-    },
-    "data-science": {
-      title: "Datenwissenschaft",
-      description: "Entdecken Sie Daten und maschinelles Lernen.",
-      moduleTitles: { m1: "Einführung in Daten", m2: "Maschinelles Lernen" },
-    },
-    "mental-health": {
-      title: "Psychische Gesundheit",
-      description: "Lernen Sie Stressbewältigung und Balance.",
-      moduleTitles: { m1: "Stressmanagement", m2: "Meditationsgrundlagen" },
-    },
-    "ai-tools": {
-      title: "KI-Werkzeuge",
-      description: "Nutzen Sie ChatGPT für schnellere Arbeitsabläufe.",
-      moduleTitles: { m1: "Prompt Engineering", m2: "KI für Inhalte" },
-    },
     "saham-dasar": {
-      title: "Aktien & Börsen-Grundlagen",
-      description: "Beginnen Sie richtig mit dem Investieren. Lernen Sie, wie Sie solide Aktien auswählen, Finanzkennzahlen verstehen, Kurscharts lesen und ein robustes Anlageportfolio aufbauen.",
+      title: "Aktien & B\u00f6rsen-Grundlagen",
+      description: "Beginnen Sie richtig mit dem Investieren. Lernen Sie, wie Sie solide Aktien ausw\u00e4hlen, Finanzkennzahlen verstehen, Kurscharts lesen und ein robustes Anlageportfolio aufbauen.",
       moduleTitles: {
         m1: "Was sind Aktien?",
         m2: "Fundamentalanalyse",
@@ -738,12 +670,86 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
     "kripto-dasar": {
       title: "Krypto- & Web3-Grundlagen",
-      description: "Verstehen Sie detailliert die Blockchain-Technologie, Kryptowährungen, Smart Contracts, den Umgang mit Krypto-Wallets sowie das enorme Potenzial von DeFi.",
+      description: "Verstehen Sie detailliert die Blockchain-Technologie, Kryptow\u00e4hrungen, Smart Contracts, den Umgang mit Krypto-Wallets sowie das enorme Potenzial von DeFi.",
       moduleTitles: {
-        m1: "Einführung in Blockchain",
+        m1: "Einf\u00fchrung in Blockchain",
         m2: "Wie Bitcoin & Ethereum funktionieren",
         m3: "Crypto Wallets & Sicherheit",
         m4: "Die Zukunft von Web3",
+      },
+    },
+    "digital-marketing": {
+      title: "Modernes Digital Marketing",
+      description: "Meistern Sie digitales Marketing \u00fcber soziale Medien, Suchmaschinenoptimierung (SEO), Online-Werbung (Facebook & Google Ads) und conversionstarke Werbetexte.",
+      moduleTitles: {
+        m1: "Grundlagen des digitalen Marketings",
+        m2: "Suchmaschinenoptimierung (SEO)",
+        m3: "Bezahlte Anzeigen (FB, Google Ads)",
+        m4: "Copywriting & Content-Strategie",
+      },
+    },
+    "ui-ux-design": {
+      title: "UI/UX Design Grundlagen",
+      description: "Lernen Sie die Grundprinzipien von User Interface und User Experience Design.",
+      moduleTitles: {
+        m1: "UI-Grundlagen",
+        m2: "UX-Forschung & Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Modernes Grafikdesign",
+      description: "Meistern Sie visuelle Kunst, Komposition, Typografie und Farbe f\u00fcr beeindruckende Designs.",
+      moduleTitles: {
+        m1: "Farbenlehre & Typografie",
+        m2: "Visuelle Komposition",
+      },
+    },
+    "mental-health": {
+      title: "Psychische Gesundheit & Stressbew\u00e4ltigung",
+      description: "Lernen Sie, wie Sie Stress bew\u00e4ltigen, meditieren und ein gesundes Gleichgewicht wahren.",
+      moduleTitles: {
+        m1: "Stressbew\u00e4ltigung",
+        m2: "Grundlagen der Meditation",
+      },
+    },
+    "health-fitness": {
+      title: "Grundlagen f\u00fcr Gesundheit & Fitness",
+      description: "Lernen Sie die Grundprinzipien der Fitness und effektive Trainingsroutinen.",
+      moduleTitles: {
+        m1: "Fitness-Grundlagen",
+        m2: "Trainingsroutinen",
+      },
+    },
+    "nutrition-diet": {
+      title: "Ern\u00e4hrung & Gesunde Di\u00e4t",
+      description: "Verstehen Sie N\u00e4hrstoffe und wie Sie Ihre Ern\u00e4hrung f\u00fcr maximale Energie strukturieren.",
+      moduleTitles: {
+        m1: "Grundlagen der Ern\u00e4hrung",
+        m2: "Di\u00e4tstrategien",
+      },
+    },
+    "web-dev": {
+      title: "Moderne Webentwicklung",
+      description: "Meistern Sie die Grundlagen der Website-Erstellung mit HTML, CSS, Javascript und starten Sie Ihre berufliche Karriere.",
+      moduleTitles: {
+        m1: "HTML & CSS Grundlagen",
+        m2: "Einf\u00fchrung in Javascript",
+      },
+    },
+    "data-science": {
+      title: "Einf\u00fchrung in Data Science",
+      description: "Lernen Sie, wie man Daten analysiert, verstehen Sie grundlegende Statistiken und nutzen Sie Python.",
+      moduleTitles: {
+        m1: "Datenanalyse-Grundlagen",
+        m2: "Python f\u00fcr Data Science",
+      },
+    },
+    "ai-tools": {
+      title: "KI-Tools f\u00fcr Produktivit\u00e4t",
+      description: "Nutzen Sie die Leistung von KI wie ChatGPT und Midjourney, um Ihren t\u00e4glichen Arbeitsablauf zu beschleunigen.",
+      moduleTitles: {
+        m1: "Grundlagen des Prompt Engineering",
+        m2: "KI f\u00fcr die Erstellung von Inhalten",
       },
     },
     "laporan-keuangan": {
@@ -757,36 +763,26 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
     "startup-bisnis": {
       title: "Startup- & Business-Strategie",
-      description: "Bauen Sie Ihr Unternehmen von der ersten Idee bis zur Markteinführung auf. Lernen Sie Marktforschung, schlanke Geschäftsmodelle, Gründungsfinanzierung und Skalierungsmethoden.",
+      description: "Bauen Sie Ihr Unternehmen von der ersten Idee bis zur Markteinf\u00fchrung auf. Lernen Sie Marktforschung, schlanke Gesch\u00e4ftsmodelle, Gr\u00fcndungsfinanzierung und Skalierungsmethoden.",
       moduleTitles: {
-        m1: "Geschäftsideen validieren",
+        m1: "Gesch\u00e4ftsideen validieren",
         m2: "Lean Business Model Canvas",
         m3: "Sicherung der Erstfinanzierung",
         m4: "Skalierungsstrategien",
-      },
-    },
-    "digital-marketing": {
-      title: "Modernes Digital Marketing",
-      description: "Meistern Sie digitales Marketing über soziale Medien, Suchmaschinenoptimierung (SEO), Online-Werbung (Facebook & Google Ads) und conversionstarke Werbetexte.",
-      moduleTitles: {
-        m1: "Grundlagen des digitalen Marketings",
-        m2: "Suchmaschinenoptimierung (SEO)",
-        m3: "Bezahlte Anzeigen (FB, Google Ads)",
-        m4: "Copywriting & Content-Strategie",
       },
     },
     "ecommerce-dasar": {
       title: "E-Commerce & Dropshipping Meisterklasse",
       description: "Bauen Sie Ihren eigenen profitablen Online-Shop auf, recherchieren Sie Bestseller-Produkte und steuern Sie eine Logistikkette komplett ohne physisches Eigenlager.",
       moduleTitles: {
-        m1: "E-Commerce-Geschäftsmodelle",
+        m1: "E-Commerce-Gesch\u00e4ftsmodelle",
         m2: "Erfolgreiche Produktrecherche",
         m3: "Aufbau eines Shopify-Shops",
       },
     },
     "personal-finance": {
-      title: "Persönliche Finanzen & Budgetierung",
-      description: "Meistern Sie Ihr persönliches Budget, optimieren Sie Ihre Sparraten, lernen Sie systematische Budgetregeln und bauen Sie zügig einen soliden Notgroschen auf.",
+      title: "Pers\u00f6nliche Finanzen & Budgetierung",
+      description: "Meistern Sie Ihr pers\u00f6nliches Budget, optimieren Sie Ihre Sparraten, lernen Sie systematische Budgetregeln und bauen Sie z\u00fcgig einen soliden Notgroschen auf.",
       moduleTitles: {
         m1: "Prinzipien des Cashflow-Managements",
         m2: "Die 50/30/20 Budgetierungsregel",
@@ -796,7 +792,7 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
     "passive-income": {
       title: "Passive Einkommens- & Dividendenstrategie",
-      description: "Erfahren Sie, wie Sie ein rentables Anlageportfolio aufbauen, das durch Dividendenaktien und breit gestreute Indexfonds verlässliche Cashflows generiert.",
+      description: "Erfahren Sie, wie Sie ein rentables Anlageportfolio aufbauen, das durch Dividendenaktien und breit gestreute Indexfonds verl\u00e4ssliche Cashflows generiert.",
       moduleTitles: {
         m1: "Das Konzept des passiven Einkommens",
         m2: "Investieren in Dividendenaktien",
@@ -806,945 +802,999 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
     "growth-mindset": {
       title: "Growth Mindset & Erfolgsgewohnheiten",
-      description: "Entwickeln Sie eine dynamische Wachstumsmentalität, überwinden Sie innere Zweifel und Blockaden und etablieren Sie tägliche Routinen für langfristigen Erfolg.",
+      description: "Entwickeln Sie eine dynamische Wachstumsmentalit\u00e4t, \u00fcberwinden Sie innere Zweifel und Blockaden und etablieren Sie t\u00e4gliche Routinen f\u00fcr langfristigen Erfolg.",
       moduleTitles: {
-        m1: "Wachstums- vs. starre Mentalität",
-        m2: "Angst vor dem Scheitern überwinden",
+        m1: "Wachstums- vs. starre Mentalit\u00e4t",
+        m2: "Angst vor dem Scheitern \u00fcberwinden",
         m3: "Aufbau atomarer Gewohnheiten",
         m4: "Selbstdisziplin & Konsistenz",
       },
     },
     "time-management": {
-      title: "Zeitmanagement & Produktivität",
-      description: "Meistern Sie die Pomodoro-Technik, das Eisenhower-Prinzip und bekämpfen Sie Aufschieberitis, um täglich produktiver, fokussierter und entspannter zu arbeiten.",
+      title: "Zeitmanagement & Produktivit\u00e4t",
+      description: "Meistern Sie die Pomodoro-Technik, das Eisenhower-Prinzip und bek\u00e4mpfen Sie Aufschieberitis, um t\u00e4glich produktiver, fokussierter und entspannter zu arbeiten.",
       moduleTitles: {
         m1: "Kernprinzipien des Zeitmanagements",
-        m2: "Die Eisenhower-Prioritätenmatrix",
-        m3: "Aufschieberitis erfolgreich bekämpfen",
+        m2: "Die Eisenhower-Priorit\u00e4tenmatrix",
+        m3: "Aufschieberitis erfolgreich bek\u00e4mpfen",
       },
     },
   },
   ja: {
-    "ai-tools": {
-      title: "生産性のためのAIツール",
-      description: "ChatGPTやMidjourneyなどのAIの力を活用して、毎日のワークフローを加速させます。",
-      moduleTitles: { m1: "基本的なプロンプトエンジニアリング", m2: "コンテンツ作成のためのAI" },
-    },
-    "data-science": {
-      title: "データサイエンス入門",
-      description: "データを分析する方法、基本的な統計を理解し、Pythonを使用して問題を解決する方法を学びます。",
-      moduleTitles: { m1: "データ分析の基礎", m2: "データサイエンスのためのPython" },
-    },
-    "web-dev": {
-      title: "モダンなWeb開発",
-      description: "HTML、CSS、Javascriptを使用したWebサイト作成の基本を習得し、プロのWeb開発者としてのキャリアをスタートさせましょう。",
-      moduleTitles: { m1: "HTMLとCSSの基礎", m2: "Javascriptの紹介" },
-    },
-    "graphic-design": {
-      title: "モダンなグラフィックデザイン",
-      description: "視覚芸術、構図、タイポグラフィ、色彩理論を習得し、魅力的なデザインを作成します。",
-      moduleTitles: { m1: "色彩理論とタイポグラフィ", m2: "視覚的構図" },
-    },
-    "ui-ux-design": {
-      title: "UI/UXデザインの基礎",
-      description: "ユーザーインターフェースとユーザーエクスペリエンスデザインの基本原則を学びます。",
-      moduleTitles: { m1: "UIの基礎", m2: "UXリサーチとワイヤーフレーム" },
-    },  
-    "health-fitness": {
-      title: "健康とフィットネス",
-      description: "フィットネスの基本原則と効果的なルーティンを学びます。",
-      moduleTitles: { m1: "フィットネスの基礎", m2: "ワークアウトルーティン" },
-    },
-    "nutrition-diet": {
-      title: "栄養とダイエット",
-      description: "栄養素を理解し、食事を構成する方法を学びます。",
-      moduleTitles: { m1: "栄養の基礎", m2: "ダイエット計画" },
-    },
-    "web-dev": {
-      title: "ウェブ開発",
-      description: "HTML、CSS、JavaScriptの基本を学びます。",
-      moduleTitles: { m1: "HTMLとCSSの概念", m2: "JavaScriptの基礎" },
-    },
-    "data-science": {
-      title: "データサイエンス",
-      description: "データと機械学習の世界を発見します。",
-      moduleTitles: { m1: "データ入門", m2: "機械学習の基礎" },
-    },
-    "mental-health": {
-      title: "メンタルヘルス",
-      description: "ストレスを管理し、バランスを保つ方法を学びます。",
-      moduleTitles: { m1: "ストレス管理", m2: "瞑想の基礎" },
-    },
-    "ai-tools": {
-      title: "AIツール",
-      description: "ChatGPTなどを活用してワークフローを加速します。",
-      moduleTitles: { m1: "プロンプトエンジニアリング", m2: "コンテンツ向けAI" },
-    },
     "saham-dasar": {
-      title: "株式投資・市場入門",
-      description: "正しい株式投資を始めるための入門講義。財務指標の評価、ファンダメンタルズ分析、チャートの基本、ポートフォリオ運用戦略を網羅的に解説します。",
+      title: "\u682a\u5f0f\u6295\u8cc7\u30fb\u5e02\u5834\u5165\u9580",
+      description: "\u6b63\u3057\u3044\u682a\u5f0f\u6295\u8cc7\u3092\u59cb\u3081\u308b\u305f\u3081\u306e\u5165\u9580\u8b1b\u7fa9\u3002\u8ca1\u52d9\u6307\u6a19\u306e\u8a55\u4fa1\u3001\u30d5\u30a1\u30f3\u30c0\u30e1\u30f3\u30bf\u30eb\u30ba\u5206\u6790\u3001\u30c1\u30e3\u30fc\u30c8\u306e\u57fa\u672c\u3001\u30dd\u30fc\u30c8\u30d5\u30a9\u30ea\u30aa\u904b\u7528\u6226\u7565\u3092\u7db2\u7f85\u7684\u306b\u89e3\u8aac\u3057\u307e\u3059\u3002",
       moduleTitles: {
-        m1: "株式とは何か？",
-        m2: "ファンダメンタル分析",
-        m3: "テクニカル分析",
-        m4: "ポートフォリオ戦略",
+        m1: "\u682a\u5f0f\u3068\u306f\u4f55\u304b\uff1f",
+        m2: "\u30d5\u30a1\u30f3\u30c0\u30e1\u30f3\u30bf\u30eb\u5206\u6790",
+        m3: "\u30c6\u30af\u30cb\u30ab\u30eb\u5206\u6790",
+        m4: "\u30dd\u30fc\u30c8\u30d5\u30a9\u30ea\u30aa\u6226\u7565",
       },
     },
     "kripto-dasar": {
-      title: "暗号資産＆Web3入門",
-      description: "ブロックチェーンの基本原理、暗号通貨、スマートコントラクトの仕組み、デジタルウォレットの操作、分散型金融（DeFi）の可能性について学習します。",
+      title: "\u6697\u53f7\u8cc7\u7523\uff06Web3\u5165\u9580",
+      description: "\u30d6\u30ed\u30c3\u30af\u30c1\u30a7\u30fc\u30f3\u306e\u57fa\u672c\u539f\u7406\u3001\u6697\u53f7\u901a\u8ca8\u3001\u30b9\u30de\u30fc\u30c8\u30b3\u30f3\u30c8\u30e9\u30af\u30c8\u306e\u4ed5\u7d44\u307f\u3001\u30c7\u30b8\u30bf\u30eb\u30a6\u30a9\u30ec\u30c3\u30c8\u306e\u64cd\u4f5c\u3001\u5206\u6563\u578b\u91d1\u878d\uff08DeFi\uff09\u306e\u53ef\u80fd\u6027\u306b\u3064\u3044\u3066\u5b66\u7fd2\u3057\u307e\u3059\u3002",
       moduleTitles: {
-        m1: "ブロックチェーン入門",
-        m2: "ビットコインとイーサリアムの仕組み",
-        m3: "仮想通貨ウォレットとセキュリティ",
-        m4: "Web3の未来",
-      },
-    },
-    "laporan-keuangan": {
-      title: "財務諸表・決算書の読み方",
-      description: "貸借対照表（B/S）、損益計算書（P/L）、キャッシュフロー計算書を分析し、企業や投資先の真の財政状態と安全性を評価します。",
-      moduleTitles: {
-        m1: "3大財務諸表の基礎",
-        m2: "主要な財務比率分析",
-        m3: "不適切な会計・警告サインの検知",
-      },
-    },
-    "startup-bisnis": {
-      title: "スタートアップ・ビジネス戦略",
-      description: "起業のアイデア出しから事業立ち上げ、資金調達スキーム、収益性高いビジネスモデルの構築、スケーリング手法まで体系的に学習します。",
-      moduleTitles: {
-        m1: "ビジネスアイデアの検証",
-        m2: "リーンビジネスモデルキャンバス",
-        m3: "最初の資金調達の成功法則",
-        m4: "グロース・スケーリング戦略",
+        m1: "\u30d6\u30ed\u30c3\u30af\u30c1\u30a7\u30fc\u30f3\u5165\u9580",
+        m2: "\u30d3\u30c3\u30c8\u30b3\u30a4\u30f3\u3068\u30a4\u30fc\u30b5\u30ea\u30a2\u30e0\u306e\u4ed5\u7d44\u307f",
+        m3: "\u4eee\u60f3\u901a\u8ca8\u30a6\u30a9\u30ec\u30c3\u30c8\u3068\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3",
+        m4: "Web3\u306e\u672a\u6765",
       },
     },
     "digital-marketing": {
-      title: "モダンデジタルマーケティング",
-      description: "SNSマーケティング、SEO最適化、有料ネット広告（Facebook & Google）、売上を最大化するコピーライティング技術を包括的に学びます。",
+      title: "\u30e2\u30c0\u30f3\u30c7\u30b8\u30bf\u30eb\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0",
+      description: "SNS\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0\u3001SEO\u6700\u9069\u5316\u3001\u6709\u6599\u30cd\u30c3\u30c8\u5e83\u544a\uff08Facebook & Google\uff09\u3001\u58f2\u4e0a\u3092\u6700\u5927\u5316\u3059\u308b\u30b3\u30d4\u30fc\u30e9\u30a4\u30c6\u30a3\u30f3\u30b0\u6280\u8853\u3092\u5305\u62ec\u7684\u306b\u5b66\u3073\u307e\u3059\u3002",
       moduleTitles: {
-        m1: "デジタルマーケティング基礎",
-        m2: "SEO（検索エンジン最適化）",
-        m3: "ネット有料広告（FB・Google Ads）",
-        m4: "コピーライティングとコンテンツ設計",
+        m1: "\u30c7\u30b8\u30bf\u30eb\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0\u57fa\u790e",
+        m2: "SEO\uff08\u691c\u7d22\u30a8\u30f3\u30b8\u30f3\u6700\u9069\u5316\uff09",
+        m3: "\u30cd\u30c3\u30c8\u6709\u6599\u5e83\u544a\uff08FB\u30fbGoogle Ads\uff09",
+        m4: "\u30b3\u30d4\u30fc\u30e9\u30a4\u30c6\u30a3\u30f3\u30b0\u3068\u30b3\u30f3\u30c6\u30f3\u30c4\u8a2d\u8a08",
+      },
+    },
+    "ui-ux-design": {
+      title: "UI/UX\u30c7\u30b6\u30a4\u30f3\u306e\u57fa\u790e",
+      description: "\u30e6\u30fc\u30b6\u30fc\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30fc\u30b9\u3068\u30e6\u30fc\u30b6\u30fc\u30a8\u30af\u30b9\u30da\u30ea\u30a8\u30f3\u30b9\u30c7\u30b6\u30a4\u30f3\u306e\u57fa\u672c\u539f\u5247\u3092\u5b66\u3073\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "UI\u306e\u57fa\u790e",
+        m2: "UX\u30ea\u30b5\u30fc\u30c1\u3068\u30ef\u30a4\u30e4\u30fc\u30d5\u30ec\u30fc\u30e0",
+      },
+    },
+    "graphic-design": {
+      title: "\u30e2\u30c0\u30f3\u306a\u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30c7\u30b6\u30a4\u30f3",
+      description: "\u8996\u899a\u82b8\u8853\u3001\u69cb\u56f3\u3001\u30bf\u30a4\u30dd\u30b0\u30e9\u30d5\u30a3\u3001\u8272\u5f69\u7406\u8ad6\u3092\u7fd2\u5f97\u3057\u3001\u9b45\u529b\u7684\u306a\u30c7\u30b6\u30a4\u30f3\u3092\u4f5c\u6210\u3057\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u8272\u5f69\u7406\u8ad6\u3068\u30bf\u30a4\u30dd\u30b0\u30e9\u30d5\u30a3",
+        m2: "\u8996\u899a\u7684\u69cb\u56f3",
+      },
+    },
+    "mental-health": {
+      title: "\u30e1\u30f3\u30bf\u30eb\u30d8\u30eb\u30b9\u3068\u30b9\u30c8\u30ec\u30b9\u7ba1\u7406",
+      description: "\u30b9\u30c8\u30ec\u30b9\u3092\u7ba1\u7406\u3057\u3001\u7791\u60f3\u3092\u5b9f\u8df5\u3057\u3001\u5065\u5eb7\u7684\u306a\u30ef\u30fc\u30af\u30e9\u30a4\u30d5\u30d0\u30e9\u30f3\u30b9\u3092\u7dad\u6301\u3059\u308b\u65b9\u6cd5\u3092\u5b66\u3073\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u30b9\u30c8\u30ec\u30b9\u7ba1\u7406",
+        m2: "\u7791\u60f3\u306e\u57fa\u790e",
+      },
+    },
+    "health-fitness": {
+      title: "\u5065\u5eb7\u3068\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u306e\u57fa\u790e",
+      description: "\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u306e\u57fa\u672c\u539f\u5247\u3068\u52b9\u679c\u7684\u306a\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u30eb\u30fc\u30c1\u30f3\u3092\u5b66\u3073\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u306e\u57fa\u790e",
+        m2: "\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u30eb\u30fc\u30c1\u30f3",
+      },
+    },
+    "nutrition-diet": {
+      title: "\u6804\u990a\u3068\u5065\u5eb7\u7684\u306a\u98df\u4e8b",
+      description: "\u6804\u990a\u7d20\u3092\u7406\u89e3\u3057\u3001\u6700\u5927\u9650\u306e\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u5f97\u308b\u305f\u3081\u306b\u98df\u4e8b\u3092\u7d44\u307f\u7acb\u3066\u308b\u65b9\u6cd5\u3092\u5b66\u3073\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u6804\u990a\u306e\u57fa\u790e",
+        m2: "\u98df\u4e8b\u6226\u7565",
+      },
+    },
+    "web-dev": {
+      title: "\u30e2\u30c0\u30f3\u306aWeb\u958b\u767a",
+      description: "HTML\u3001CSS\u3001Javascript\u3092\u4f7f\u7528\u3057\u305fWeb\u30b5\u30a4\u30c8\u4f5c\u6210\u306e\u57fa\u672c\u3092\u7fd2\u5f97\u3057\u3001\u30d7\u30ed\u306eWeb\u958b\u767a\u8005\u3068\u3057\u3066\u306e\u30ad\u30e3\u30ea\u30a2\u3092\u30b9\u30bf\u30fc\u30c8\u3055\u305b\u307e\u3057\u3087\u3046\u3002",
+      moduleTitles: {
+        m1: "HTML\u3068CSS\u306e\u57fa\u790e",
+        m2: "Javascript\u306e\u7d39\u4ecb",
+      },
+    },
+    "data-science": {
+      title: "\u30c7\u30fc\u30bf\u30b5\u30a4\u30a8\u30f3\u30b9\u5165\u9580",
+      description: "\u30c7\u30fc\u30bf\u3092\u5206\u6790\u3059\u308b\u65b9\u6cd5\u3001\u57fa\u672c\u7684\u306a\u7d71\u8a08\u3092\u7406\u89e3\u3057\u3001Python\u3092\u4f7f\u7528\u3057\u3066\u554f\u984c\u3092\u89e3\u6c7a\u3059\u308b\u65b9\u6cd5\u3092\u5b66\u3073\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u30c7\u30fc\u30bf\u5206\u6790\u306e\u57fa\u790e",
+        m2: "\u30c7\u30fc\u30bf\u30b5\u30a4\u30a8\u30f3\u30b9\u306e\u305f\u3081\u306ePython",
+      },
+    },
+    "ai-tools": {
+      title: "\u751f\u7523\u6027\u306e\u305f\u3081\u306eAI\u30c4\u30fc\u30eb",
+      description: "ChatGPT\u3084Midjourney\u306a\u3069\u306eAI\u306e\u529b\u3092\u6d3b\u7528\u3057\u3066\u3001\u6bce\u65e5\u306e\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3092\u52a0\u901f\u3055\u305b\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u57fa\u672c\u7684\u306a\u30d7\u30ed\u30f3\u30d7\u30c8\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0",
+        m2: "\u30b3\u30f3\u30c6\u30f3\u30c4\u4f5c\u6210\u306e\u305f\u3081\u306eAI",
+      },
+    },
+    "laporan-keuangan": {
+      title: "\u8ca1\u52d9\u8af8\u8868\u30fb\u6c7a\u7b97\u66f8\u306e\u8aad\u307f\u65b9",
+      description: "\u8cb8\u501f\u5bfe\u7167\u8868\uff08B/S\uff09\u3001\u640d\u76ca\u8a08\u7b97\u66f8\uff08P/L\uff09\u3001\u30ad\u30e3\u30c3\u30b7\u30e5\u30d5\u30ed\u30fc\u8a08\u7b97\u66f8\u3092\u5206\u6790\u3057\u3001\u4f01\u696d\u3084\u6295\u8cc7\u5148\u306e\u771f\u306e\u8ca1\u653f\u72b6\u614b\u3068\u5b89\u5168\u6027\u3092\u8a55\u4fa1\u3057\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "3\u5927\u8ca1\u52d9\u8af8\u8868\u306e\u57fa\u790e",
+        m2: "\u4e3b\u8981\u306a\u8ca1\u52d9\u6bd4\u7387\u5206\u6790",
+        m3: "\u4e0d\u9069\u5207\u306a\u4f1a\u8a08\u30fb\u8b66\u544a\u30b5\u30a4\u30f3\u306e\u691c\u77e5",
+      },
+    },
+    "startup-bisnis": {
+      title: "\u30b9\u30bf\u30fc\u30c8\u30a2\u30c3\u30d7\u30fb\u30d3\u30b8\u30cd\u30b9\u6226\u7565",
+      description: "\u8d77\u696d\u306e\u30a2\u30a4\u30c7\u30a2\u51fa\u3057\u304b\u3089\u4e8b\u696d\u7acb\u3061\u4e0a\u3052\u3001\u8cc7\u91d1\u8abf\u9054\u30b9\u30ad\u30fc\u30e0\u3001\u53ce\u76ca\u6027\u9ad8\u3044\u30d3\u30b8\u30cd\u30b9\u30e2\u30c7\u30eb\u306e\u69cb\u7bc9\u3001\u30b9\u30b1\u30fc\u30ea\u30f3\u30b0\u624b\u6cd5\u307e\u3067\u4f53\u7cfb\u7684\u306b\u5b66\u7fd2\u3057\u307e\u3059\u3002",
+      moduleTitles: {
+        m1: "\u30d3\u30b8\u30cd\u30b9\u30a2\u30a4\u30c7\u30a2\u306e\u691c\u8a3c",
+        m2: "\u30ea\u30fc\u30f3\u30d3\u30b8\u30cd\u30b9\u30e2\u30c7\u30eb\u30ad\u30e3\u30f3\u30d0\u30b9",
+        m3: "\u6700\u521d\u306e\u8cc7\u91d1\u8abf\u9054\u306e\u6210\u529f\u6cd5\u5247",
+        m4: "\u30b0\u30ed\u30fc\u30b9\u30fb\u30b9\u30b1\u30fc\u30ea\u30f3\u30b0\u6226\u7565",
       },
     },
     "ecommerce-dasar": {
-      title: "ECサイト＆ドロップシッピング",
-      description: "自社オンラインショップの立ち上げ、売れ筋商品のリサーチ、サプライチェーン管理、在庫を持たずに高収益をあげるECモデルの構築方法。",
+      title: "EC\u30b5\u30a4\u30c8\uff06\u30c9\u30ed\u30c3\u30d7\u30b7\u30c3\u30d4\u30f3\u30b0",
+      description: "\u81ea\u793e\u30aa\u30f3\u30e9\u30a4\u30f3\u30b7\u30e7\u30c3\u30d7\u306e\u7acb\u3061\u4e0a\u3052\u3001\u58f2\u308c\u7b4b\u5546\u54c1\u306e\u30ea\u30b5\u30fc\u30c1\u3001\u30b5\u30d7\u30e9\u30a4\u30c1\u30a7\u30fc\u30f3\u7ba1\u7406\u3001\u5728\u5eab\u3092\u6301\u305f\u305a\u306b\u9ad8\u53ce\u76ca\u3092\u3042\u3052\u308bEC\u30e2\u30c7\u30eb\u306e\u69cb\u7bc9\u65b9\u6cd5\u3002",
       moduleTitles: {
-        m1: "ECビジネスモデル入門",
-        m2: "売れ筋商品のリサーチ法",
-        m3: "Shopifyストアの構築と運用",
+        m1: "EC\u30d3\u30b8\u30cd\u30b9\u30e2\u30c7\u30eb\u5165\u9580",
+        m2: "\u58f2\u308c\u7b4b\u5546\u54c1\u306e\u30ea\u30b5\u30fc\u30c1\u6cd5",
+        m3: "Shopify\u30b9\u30c8\u30a2\u306e\u69cb\u7bc9\u3068\u904b\u7528",
       },
     },
     "personal-finance": {
-      title: "パーソナルファイナンス・家計管理",
-      description: "個人の資金流動性の管理、効率的な貯蓄計画、50/30/20ルールの実用、緊急資金（生活防衛資金）を確実に構築する財務プラン。",
+      title: "\u30d1\u30fc\u30bd\u30ca\u30eb\u30d5\u30a1\u30a4\u30ca\u30f3\u30b9\u30fb\u5bb6\u8a08\u7ba1\u7406",
+      description: "\u500b\u4eba\u306e\u8cc7\u91d1\u6d41\u52d5\u6027\u306e\u7ba1\u7406\u3001\u52b9\u7387\u7684\u306a\u8caf\u84c4\u8a08\u753b\u300150/30/20\u30eb\u30fc\u30eb\u306e\u5b9f\u7528\u3001\u7dca\u6025\u8cc7\u91d1\uff08\u751f\u6d3b\u9632\u885b\u8cc7\u91d1\uff09\u3092\u78ba\u5b9f\u306b\u69cb\u7bc9\u3059\u308b\u8ca1\u52d9\u30d7\u30e9\u30f3\u3002",
       moduleTitles: {
-        m1: "キャッシュフロー管理の原則",
-        m2: "50/30/20予算ルールの実践",
-        m3: "緊急資金と資産防衛",
-        m4: "消費者ローン・悪質な負債の回避",
+        m1: "\u30ad\u30e3\u30c3\u30b7\u30e5\u30d5\u30ed\u30fc\u7ba1\u7406\u306e\u539f\u5247",
+        m2: "50/30/20\u4e88\u7b97\u30eb\u30fc\u30eb\u306e\u5b9f\u8df5",
+        m3: "\u7dca\u6025\u8cc7\u91d1\u3068\u8cc7\u7523\u9632\u885b",
+        m4: "\u6d88\u8cbb\u8005\u30ed\u30fc\u30f3\u30fb\u60aa\u8cea\u306a\u8ca0\u50b5\u306e\u56de\u907f",
       },
     },
     "passive-income": {
-      title: "不労所得・配当金投資戦略",
-      description: "高配当株投資、安全性の高いインデックス投資、デジタル資産ポートフォリオを構築し、安定的かつ継続的なキャッシュフローを生み出す方法。",
+      title: "\u4e0d\u52b4\u6240\u5f97\u30fb\u914d\u5f53\u91d1\u6295\u8cc7\u6226\u7565",
+      description: "\u9ad8\u914d\u5f53\u682a\u6295\u8cc7\u3001\u5b89\u5168\u6027\u306e\u9ad8\u3044\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u6295\u8cc7\u3001\u30c7\u30b8\u30bf\u30eb\u8cc7\u7523\u30dd\u30fc\u30c8\u30d5\u30a9\u30ea\u30aa\u3092\u69cb\u7bc9\u3057\u3001\u5b89\u5b9a\u7684\u304b\u3064\u7d99\u7d9a\u7684\u306a\u30ad\u30e3\u30c3\u30b7\u30e5\u30d5\u30ed\u30fc\u3092\u751f\u307f\u51fa\u3059\u65b9\u6cd5\u3002",
       moduleTitles: {
-        m1: "不労所得・パッシブインカムの真実",
-        m2: "高配当株・配当金投資の実践",
-        m3: "デジタルアセットを活用した資産構築",
-        m4: "税金対策とポートフォリオ維持",
+        m1: "\u4e0d\u52b4\u6240\u5f97\u30fb\u30d1\u30c3\u30b7\u30d6\u30a4\u30f3\u30ab\u30e0\u306e\u771f\u5b9f",
+        m2: "\u9ad8\u914d\u5f53\u682a\u30fb\u914d\u5f53\u91d1\u6295\u8cc7\u306e\u5b9f\u8df5",
+        m3: "\u30c7\u30b8\u30bf\u30eb\u30a2\u30bb\u30c3\u30c8\u3092\u6d3b\u7528\u3057\u305f\u8cc7\u7523\u69cb\u7bc9",
+        m4: "\u7a0e\u91d1\u5bfe\u7b56\u3068\u30dd\u30fc\u30c8\u30d5\u30a9\u30ea\u30aa\u7dad\u6301",
       },
     },
     "growth-mindset": {
-      title: "グロースマインドセットと習慣",
-      description: "成長思考を身につけ、限界を定める心理的ブロック（メンタルブロック）を解除し、目標を確実に達成するための習慣設計（Atomic Habits）を導入します。",
+      title: "\u30b0\u30ed\u30fc\u30b9\u30de\u30a4\u30f3\u30c9\u30bb\u30c3\u30c8\u3068\u7fd2\u6163",
+      description: "\u6210\u9577\u601d\u8003\u3092\u8eab\u306b\u3064\u3051\u3001\u9650\u754c\u3092\u5b9a\u3081\u308b\u5fc3\u7406\u7684\u30d6\u30ed\u30c3\u30af\uff08\u30e1\u30f3\u30bf\u30eb\u30d6\u30ed\u30c3\u30af\uff09\u3092\u89e3\u9664\u3057\u3001\u76ee\u6a19\u3092\u78ba\u5b9f\u306b\u9054\u6210\u3059\u308b\u305f\u3081\u306e\u7fd2\u6163\u8a2d\u8a08\uff08Atomic Habits\uff09\u3092\u5c0e\u5165\u3057\u307e\u3059\u3002",
       moduleTitles: {
-        m1: "成長マインドと停滞マインドの比較",
-        m2: "失敗の恐怖を克服するメンタル術",
-        m3: "アトミック・ハビットの設計",
-        m4: "強固な自己規律と持続力の養成",
+        m1: "\u6210\u9577\u30de\u30a4\u30f3\u30c9\u3068\u505c\u6ede\u30de\u30a4\u30f3\u30c9\u306e\u6bd4\u8f03",
+        m2: "\u5931\u6557\u306e\u6050\u6016\u3092\u514b\u670d\u3059\u308b\u30e1\u30f3\u30bf\u30eb\u8853",
+        m3: "\u30a2\u30c8\u30df\u30c3\u30af\u30fb\u30cf\u30d3\u30c3\u30c8\u306e\u8a2d\u8a08",
+        m4: "\u5f37\u56fa\u306a\u81ea\u5df1\u898f\u5f8b\u3068\u6301\u7d9a\u529b\u306e\u990a\u6210",
       },
     },
     "time-management": {
-      title: "時間管理・生産性向上",
-      description: "ポモドーロ手法、アイゼンハワー優先順位付けマトリクス、そして効率的な先延ばし癖克服アプローチを学び、毎日の仕事の効率を劇的に向上させます。",
+      title: "\u6642\u9593\u7ba1\u7406\u30fb\u751f\u7523\u6027\u5411\u4e0a",
+      description: "\u30dd\u30e2\u30c9\u30fc\u30ed\u624b\u6cd5\u3001\u30a2\u30a4\u30bc\u30f3\u30cf\u30ef\u30fc\u512a\u5148\u9806\u4f4d\u4ed8\u3051\u30de\u30c8\u30ea\u30af\u30b9\u3001\u305d\u3057\u3066\u52b9\u7387\u7684\u306a\u5148\u5ef6\u3070\u3057\u7656\u514b\u670d\u30a2\u30d7\u30ed\u30fc\u30c1\u3092\u5b66\u3073\u3001\u6bce\u65e5\u306e\u4ed5\u4e8b\u306e\u52b9\u7387\u3092\u5287\u7684\u306b\u5411\u4e0a\u3055\u305b\u307e\u3059\u3002",
       moduleTitles: {
-        m1: "時間管理の本質と基礎",
-        m2: "アイゼンハワー優先順位マトリクス",
-        m3: "先延ばしグセを科学的に克服する",
+        m1: "\u6642\u9593\u7ba1\u7406\u306e\u672c\u8cea\u3068\u57fa\u790e",
+        m2: "\u30a2\u30a4\u30bc\u30f3\u30cf\u30ef\u30fc\u512a\u5148\u9806\u4f4d\u30de\u30c8\u30ea\u30af\u30b9",
+        m3: "\u5148\u5ef6\u3070\u3057\u30b0\u30bb\u3092\u79d1\u5b66\u7684\u306b\u514b\u670d\u3059\u308b",
       },
     },
   },
   zh: {
-    "ai-tools": {
-      title: "提高生产力的 AI 工具",
-      description: "利用 ChatGPT 和 Midjourney 等 AI 的力量来加速您的日常工作流程。",
-      moduleTitles: { m1: "基础提示工程", m2: "用于内容创作的 AI" },
-    },
-    "data-science": {
-      title: "数据科学导论",
-      description: "学习如何分析数据、理解基础统计学并使用 Python 解决数据驱动的问题。",
-      moduleTitles: { m1: "数据分析基础", m2: "用于数据科学的 Python" },
-    },
-    "web-dev": {
-      title: "现代 Web 开发",
-      description: "掌握使用 HTML、CSS、Javascript 创建网站的基础知识，开启您的职业生涯。",
-      moduleTitles: { m1: "HTML 和 CSS 基础", m2: "Javascript 简介" },
-    },
-    "graphic-design": {
-      title: "现代平面设计",
-      description: "掌握视觉艺术、排版和色彩理论，创造令人惊叹的设计。",
-      moduleTitles: { m1: "色彩理论与排版", m2: "视觉构图" },
-    },
-    "ui-ux-design": {
-      title: "UI/UX 设计基础",
-      description: "学习用户界面和用户体验设计的核心原则。",
-      moduleTitles: { m1: "UI 基础", m2: "UX 研究与线框图" },
-    },  
-    "health-fitness": {
-      title: "健康与健身",
-      description: "学习健身的基本原则和有效的锻炼程序。",
-      moduleTitles: { m1: "健身基础", m2: "锻炼计划" },
-    },
-    "nutrition-diet": {
-      title: "营养与饮食",
-      description: "了解营养素并构建您的日常饮食。",
-      moduleTitles: { m1: "营养基础", m2: "饮食计划" },
-    },
-    "web-dev": {
-      title: "网页开发",
-      description: "学习HTML、CSS和现代JavaScript。",
-      moduleTitles: { m1: "HTML与CSS概念", m2: "JavaScript基础" },
-    },
-    "data-science": {
-      title: "数据科学",
-      description: "探索数据和机器学习的世界。",
-      moduleTitles: { m1: "数据科学简介", m2: "机器学习基础" },
-    },
-    "mental-health": {
-      title: "心理健康",
-      description: "学习管理压力并保持生活平衡。",
-      moduleTitles: { m1: "压力管理", m2: "冥想基础" },
-    },
-    "ai-tools": {
-      title: "AI工具",
-      description: "利用ChatGPT等AI加速您的工作流程。",
-      moduleTitles: { m1: "提示词工程", m2: "内容创作AI" },
-    },
     "saham-dasar": {
-      title: "股票与证券市场基础",
-      description: "零基础开始学习股票投资。讲授如何分析企业基本面、理解核心财务指标、解读价格K线图以及构建抗风险的投资组合。",
+      title: "\u80a1\u7968\u4e0e\u8bc1\u5238\u5e02\u573a\u57fa\u7840",
+      description: "\u96f6\u57fa\u7840\u5f00\u59cb\u5b66\u4e60\u80a1\u7968\u6295\u8d44\u3002\u8bb2\u6388\u5982\u4f55\u5206\u6790\u4f01\u4e1a\u57fa\u672c\u9762\u3001\u7406\u89e3\u6838\u5fc3\u8d22\u52a1\u6307\u6807\u3001\u89e3\u8bfb\u4ef7\u683cK\u7ebf\u56fe\u4ee5\u53ca\u6784\u5efa\u6297\u98ce\u9669\u7684\u6295\u8d44\u7ec4\u5408\u3002",
       moduleTitles: {
-        m1: "什么是股票？",
-        m2: "基本面分析",
-        m3: "技术分析",
-        m4: "投资组合策略",
+        m1: "\u4ec0\u4e48\u662f\u80a1\u7968\uff1f",
+        m2: "\u57fa\u672c\u9762\u5206\u6790",
+        m3: "\u6280\u672f\u5206\u6790",
+        m4: "\u6295\u8d44\u7ec4\u5408\u7b56\u7565",
       },
     },
     "kripto-dasar": {
-      title: "加密货币与Web3入门",
-      description: "全面了解区块链底层逻辑、加密资产、智能合约、加密钱包的安全配置，以及去中心化金融（DeFi）的未来风口。",
+      title: "\u52a0\u5bc6\u8d27\u5e01\u4e0eWeb3\u5165\u95e8",
+      description: "\u5168\u9762\u4e86\u89e3\u533a\u5757\u94fe\u5e95\u5c42\u903b\u8f91\u3001\u52a0\u5bc6\u8d44\u4ea7\u3001\u667a\u80fd\u5408\u7ea6\u3001\u52a0\u5bc6\u94b1\u5305\u7684\u5b89\u5168\u914d\u7f6e\uff0c\u4ee5\u53ca\u53bb\u4e2d\u5fc3\u5316\u91d1\u878d\uff08DeFi\uff09\u7684\u672a\u6765\u98ce\u53e3\u3002",
       moduleTitles: {
-        m1: "区块链技术介绍",
-        m2: "比特币与以太坊的工作原理",
-        m3: "加密钱包与安全",
-        m4: "Web3的未来展望",
-      },
-    },
-    "laporan-keuangan": {
-      title: "财务报表分析",
-      description: "解读资产负债表、利润表和现金流量表，帮助您在开展商业合作或进行证券投资前精确评估企业的经营健康度。",
-      moduleTitles: {
-        m1: "三大核心财务报表",
-        m2: "财务比率分析法",
-        m3: "识别财务造假与红线",
-      },
-    },
-    "startup-bisnis": {
-      title: "初创企业与商业战略",
-      description: "将绝妙的创意转化为成功的商业实体。课程涵盖市场痛点调研、MVP产品验证、股权及初创融资路径和规模化扩张逻辑。",
-      moduleTitles: {
-        m1: "验证商业创意",
-        m2: "精益商业画布模型",
-        m3: "成功获得首笔融资",
-        m4: "业务规模化增长策略",
+        m1: "\u533a\u5757\u94fe\u6280\u672f\u4ecb\u7ecd",
+        m2: "\u6bd4\u7279\u5e01\u4e0e\u4ee5\u592a\u574a\u7684\u5de5\u4f5c\u539f\u7406",
+        m3: "\u52a0\u5bc6\u94b1\u5305\u4e0e\u5b89\u5168",
+        m4: "Web3\u7684\u672a\u6765\u5c55\u671b",
       },
     },
     "digital-marketing": {
-      title: "现代数字营销实践",
-      description: "深度掌握搜索引擎优化（SEO）、社交媒体流量逻辑、精准付费广告投放（FB/Google Ads）和高效的销售文案撰写套路。",
+      title: "\u73b0\u4ee3\u6570\u5b57\u8425\u9500\u5b9e\u8df5",
+      description: "\u6df1\u5ea6\u638c\u63e1\u641c\u7d22\u5f15\u64ce\u4f18\u5316\uff08SEO\uff09\u3001\u793e\u4ea4\u5a92\u4f53\u6d41\u91cf\u903b\u8f91\u3001\u7cbe\u51c6\u4ed8\u8d39\u5e7f\u544a\u6295\u653e\uff08FB/Google Ads\uff09\u548c\u9ad8\u6548\u7684\u9500\u552e\u6587\u6848\u64b0\u5199\u5957\u8def\u3002",
       moduleTitles: {
-        m1: "数字营销基础框架",
-        m2: "搜索引擎优化 (SEO)",
-        m3: "付费广告投放 (Facebook & Google Ads)",
-        m4: "文案策划与内容策略",
+        m1: "\u6570\u5b57\u8425\u9500\u57fa\u7840\u6846\u67b6",
+        m2: "\u641c\u7d22\u5f15\u64ce\u4f18\u5316 (SEO)",
+        m3: "\u4ed8\u8d39\u5e7f\u544a\u6295\u653e (Facebook & Google Ads)",
+        m4: "\u6587\u6848\u7b56\u5212\u4e0e\u5185\u5bb9\u7b56\u7565",
+      },
+    },
+    "ui-ux-design": {
+      title: "UI/UX \u8bbe\u8ba1\u57fa\u7840",
+      description: "\u5b66\u4e60\u7528\u6237\u754c\u9762\u548c\u7528\u6237\u4f53\u9a8c\u8bbe\u8ba1\u7684\u6838\u5fc3\u539f\u5219\u3002",
+      moduleTitles: {
+        m1: "UI \u57fa\u7840",
+        m2: "UX \u7814\u7a76\u4e0e\u7ebf\u6846\u56fe",
+      },
+    },
+    "graphic-design": {
+      title: "\u73b0\u4ee3\u5e73\u9762\u8bbe\u8ba1",
+      description: "\u638c\u63e1\u89c6\u89c9\u827a\u672f\u3001\u6392\u7248\u548c\u8272\u5f69\u7406\u8bba\uff0c\u521b\u9020\u4ee4\u4eba\u60ca\u53f9\u7684\u8bbe\u8ba1\u3002",
+      moduleTitles: {
+        m1: "\u8272\u5f69\u7406\u8bba\u4e0e\u6392\u7248",
+        m2: "\u89c6\u89c9\u6784\u56fe",
+      },
+    },
+    "mental-health": {
+      title: "\u5fc3\u7406\u5065\u5eb7\u4e0e\u538b\u529b\u7ba1\u7406",
+      description: "\u5b66\u4e60\u5982\u4f55\u7ba1\u7406\u538b\u529b\uff0c\u7ec3\u4e60\u51a5\u60f3\uff0c\u5e76\u4fdd\u6301\u5065\u5eb7\u7684\u5de5\u4f5c\u4e0e\u751f\u6d3b\u5e73\u8861\u3002",
+      moduleTitles: {
+        m1: "\u538b\u529b\u7ba1\u7406",
+        m2: "\u51a5\u60f3\u57fa\u7840",
+      },
+    },
+    "health-fitness": {
+      title: "\u5065\u5eb7\u4e0e\u5065\u8eab\u57fa\u7840",
+      description: "\u5b66\u4e60\u5065\u8eab\u7684\u6838\u5fc3\u539f\u5219\u548c\u6709\u6548\u7684\u953b\u70bc\u8ba1\u5212\u3002",
+      moduleTitles: {
+        m1: "\u5065\u8eab\u57fa\u7840",
+        m2: "\u953b\u70bc\u8ba1\u5212",
+      },
+    },
+    "nutrition-diet": {
+      title: "\u8425\u517b\u4e0e\u5065\u5eb7\u996e\u98df",
+      description: "\u4e86\u89e3\u8425\u517b\u7d20\uff0c\u4ee5\u53ca\u5982\u4f55\u5b89\u6392\u996e\u98df\u4ee5\u83b7\u5f97\u6700\u5927\u7684\u80fd\u91cf\u3002",
+      moduleTitles: {
+        m1: "\u8425\u517b\u57fa\u7840",
+        m2: "\u996e\u98df\u7b56\u7565",
+      },
+    },
+    "web-dev": {
+      title: "\u73b0\u4ee3 Web \u5f00\u53d1",
+      description: "\u638c\u63e1\u4f7f\u7528 HTML\u3001CSS\u3001Javascript \u521b\u5efa\u7f51\u7ad9\u7684\u57fa\u7840\u77e5\u8bc6\uff0c\u5f00\u542f\u60a8\u7684\u804c\u4e1a\u751f\u6daf\u3002",
+      moduleTitles: {
+        m1: "HTML \u548c CSS \u57fa\u7840",
+        m2: "Javascript \u7b80\u4ecb",
+      },
+    },
+    "data-science": {
+      title: "\u6570\u636e\u79d1\u5b66\u5bfc\u8bba",
+      description: "\u5b66\u4e60\u5982\u4f55\u5206\u6790\u6570\u636e\u3001\u7406\u89e3\u57fa\u7840\u7edf\u8ba1\u5b66\u5e76\u4f7f\u7528 Python \u89e3\u51b3\u6570\u636e\u9a71\u52a8\u7684\u95ee\u9898\u3002",
+      moduleTitles: {
+        m1: "\u6570\u636e\u5206\u6790\u57fa\u7840",
+        m2: "\u7528\u4e8e\u6570\u636e\u79d1\u5b66\u7684 Python",
+      },
+    },
+    "ai-tools": {
+      title: "\u63d0\u9ad8\u751f\u4ea7\u529b\u7684 AI \u5de5\u5177",
+      description: "\u5229\u7528 ChatGPT \u548c Midjourney \u7b49 AI \u7684\u529b\u91cf\u6765\u52a0\u901f\u60a8\u7684\u65e5\u5e38\u5de5\u4f5c\u6d41\u7a0b\u3002",
+      moduleTitles: {
+        m1: "\u57fa\u7840\u63d0\u793a\u5de5\u7a0b",
+        m2: "\u7528\u4e8e\u5185\u5bb9\u521b\u4f5c\u7684 AI",
+      },
+    },
+    "laporan-keuangan": {
+      title: "\u8d22\u52a1\u62a5\u8868\u5206\u6790",
+      description: "\u89e3\u8bfb\u8d44\u4ea7\u8d1f\u503a\u8868\u3001\u5229\u6da6\u8868\u548c\u73b0\u91d1\u6d41\u91cf\u8868\uff0c\u5e2e\u52a9\u60a8\u5728\u5f00\u5c55\u5546\u4e1a\u5408\u4f5c\u6216\u8fdb\u884c\u8bc1\u5238\u6295\u8d44\u524d\u7cbe\u786e\u8bc4\u4f30\u4f01\u4e1a\u7684\u7ecf\u8425\u5065\u5eb7\u5ea6\u3002",
+      moduleTitles: {
+        m1: "\u4e09\u5927\u6838\u5fc3\u8d22\u52a1\u62a5\u8868",
+        m2: "\u8d22\u52a1\u6bd4\u7387\u5206\u6790\u6cd5",
+        m3: "\u8bc6\u522b\u8d22\u52a1\u9020\u5047\u4e0e\u7ea2\u7ebf",
+      },
+    },
+    "startup-bisnis": {
+      title: "\u521d\u521b\u4f01\u4e1a\u4e0e\u5546\u4e1a\u6218\u7565",
+      description: "\u5c06\u7edd\u5999\u7684\u521b\u610f\u8f6c\u5316\u4e3a\u6210\u529f\u7684\u5546\u4e1a\u5b9e\u4f53\u3002\u8bfe\u7a0b\u6db5\u76d6\u5e02\u573a\u75db\u70b9\u8c03\u7814\u3001MVP\u4ea7\u54c1\u9a8c\u8bc1\u3001\u80a1\u6743\u53ca\u521d\u521b\u878d\u8d44\u8def\u5f84\u548c\u89c4\u6a21\u5316\u6269\u5f20\u903b\u8f91\u3002",
+      moduleTitles: {
+        m1: "\u9a8c\u8bc1\u5546\u4e1a\u521b\u610f",
+        m2: "\u7cbe\u76ca\u5546\u4e1a\u753b\u5e03\u6a21\u578b",
+        m3: "\u6210\u529f\u83b7\u5f97\u9996\u7b14\u878d\u8d44",
+        m4: "\u4e1a\u52a1\u89c4\u6a21\u5316\u589e\u957f\u7b56\u7565",
       },
     },
     "ecommerce-dasar": {
-      title: "电子商务与无货源电商",
-      description: "手把手带你搭建自己的在线网店，掌握爆款选品和供应链管理技巧，开启低风险、高毛利的无货源跨境电商业务。",
+      title: "\u7535\u5b50\u5546\u52a1\u4e0e\u65e0\u8d27\u6e90\u7535\u5546",
+      description: "\u624b\u628a\u624b\u5e26\u4f60\u642d\u5efa\u81ea\u5df1\u7684\u5728\u7ebf\u7f51\u5e97\uff0c\u638c\u63e1\u7206\u6b3e\u9009\u54c1\u548c\u4f9b\u5e94\u94fe\u7ba1\u7406\u6280\u5de7\uff0c\u5f00\u542f\u4f4e\u98ce\u9669\u3001\u9ad8\u6bdb\u5229\u7684\u65e0\u8d27\u6e90\u8de8\u5883\u7535\u5546\u4e1a\u52a1\u3002",
       moduleTitles: {
-        m1: "电商主流商业模式",
-        m2: "爆款产品选品与调研",
-        m3: "Shopify独立站搭建与优化",
+        m1: "\u7535\u5546\u4e3b\u6d41\u5546\u4e1a\u6a21\u5f0f",
+        m2: "\u7206\u6b3e\u4ea7\u54c1\u9009\u54c1\u4e0e\u8c03\u7814",
+        m3: "Shopify\u72ec\u7acb\u7ad9\u642d\u5efa\u4e0e\u4f18\u5316",
       },
     },
     "personal-finance": {
-      title: "个人理财与理财预算",
-      description: "掌控个人或家庭的现金流量。学习高效强制储蓄方法、50/30/20分配法则，并逐步建立抵御外部风险的应急储备金。",
+      title: "\u4e2a\u4eba\u7406\u8d22\u4e0e\u7406\u8d22\u9884\u7b97",
+      description: "\u638c\u63a7\u4e2a\u4eba\u6216\u5bb6\u5ead\u7684\u73b0\u91d1\u6d41\u91cf\u3002\u5b66\u4e60\u9ad8\u6548\u5f3a\u5236\u50a8\u84c4\u65b9\u6cd5\u300150/30/20\u5206\u914d\u6cd5\u5219\uff0c\u5e76\u9010\u6b65\u5efa\u7acb\u62b5\u5fa1\u5916\u90e8\u98ce\u9669\u7684\u5e94\u6025\u50a8\u5907\u91d1\u3002",
       moduleTitles: {
-        m1: "现金流管理的核心原则",
-        m2: "50/30/20 预算分配黄金法则",
-        m3: "应急基金与保险保障",
-        m4: "如何规避有害的消费性负债",
+        m1: "\u73b0\u91d1\u6d41\u7ba1\u7406\u7684\u6838\u5fc3\u539f\u5219",
+        m2: "50/30/20 \u9884\u7b97\u5206\u914d\u9ec4\u91d1\u6cd5\u5219",
+        m3: "\u5e94\u6025\u57fa\u91d1\u4e0e\u4fdd\u9669\u4fdd\u969c",
+        m4: "\u5982\u4f55\u89c4\u907f\u6709\u5bb3\u7684\u6d88\u8d39\u6027\u8d1f\u503a",
       },
     },
     "passive-income": {
-      title: "被动收入与股息分配策略",
-      description: "掌握构建低波动高股息投资组合的核心技术，利用指数基金、优质派息股以及数字资产产生源源不断的被动现金流收入。",
+      title: "\u88ab\u52a8\u6536\u5165\u4e0e\u80a1\u606f\u5206\u914d\u7b56\u7565",
+      description: "\u638c\u63e1\u6784\u5efa\u4f4e\u6ce2\u52a8\u9ad8\u80a1\u606f\u6295\u8d44\u7ec4\u5408\u7684\u6838\u5fc3\u6280\u672f\uff0c\u5229\u7528\u6307\u6570\u57fa\u91d1\u3001\u4f18\u8d28\u6d3e\u606f\u80a1\u4ee5\u53ca\u6570\u5b57\u8d44\u4ea7\u4ea7\u751f\u6e90\u6e90\u4e0d\u65ad\u7684\u88ab\u52a8\u73b0\u91d1\u6d41\u6536\u5165\u3002",
       moduleTitles: {
-        m1: "揭秘被动收入的底层逻辑",
-        m2: "高股息股票投资实战",
-        m3: "利用数字资产赚取被动收入",
-        m4: "税务筹划与投资组合维护",
+        m1: "\u63ed\u79d8\u88ab\u52a8\u6536\u5165\u7684\u5e95\u5c42\u903b\u8f91",
+        m2: "\u9ad8\u80a1\u606f\u80a1\u7968\u6295\u8d44\u5b9e\u6218",
+        m3: "\u5229\u7528\u6570\u5b57\u8d44\u4ea7\u8d5a\u53d6\u88ab\u52a8\u6536\u5165",
+        m4: "\u7a0e\u52a1\u7b79\u5212\u4e0e\u6295\u8d44\u7ec4\u5408\u7ef4\u62a4",
       },
     },
     "growth-mindset": {
-      title: "成长型思维与成功习惯",
-      description: "突破固定思维壁垒，重塑“终身成长”内核，用微习惯（原子习惯）的力量管理日常生活，全面迈向财富与心智双重跃迁。",
+      title: "\u6210\u957f\u578b\u601d\u7ef4\u4e0e\u6210\u529f\u4e60\u60ef",
+      description: "\u7a81\u7834\u56fa\u5b9a\u601d\u7ef4\u58c1\u5792\uff0c\u91cd\u5851\u201c\u7ec8\u8eab\u6210\u957f\u201d\u5185\u6838\uff0c\u7528\u5fae\u4e60\u60ef\uff08\u539f\u5b50\u4e60\u60ef\uff09\u7684\u529b\u91cf\u7ba1\u7406\u65e5\u5e38\u751f\u6d3b\uff0c\u5168\u9762\u8fc8\u5411\u8d22\u5bcc\u4e0e\u5fc3\u667a\u53cc\u91cd\u8dc3\u8fc1\u3002",
       moduleTitles: {
-        m1: "成长型思维 vs 固定型思维",
-        m2: "如何直面并克服对失败的恐惧",
-        m3: "原子微习惯的落地构建步骤",
-        m4: "自律与持续执行力的底层逻辑",
+        m1: "\u6210\u957f\u578b\u601d\u7ef4 vs \u56fa\u5b9a\u578b\u601d\u7ef4",
+        m2: "\u5982\u4f55\u76f4\u9762\u5e76\u514b\u670d\u5bf9\u5931\u8d25\u7684\u6050\u60e7",
+        m3: "\u539f\u5b50\u5fae\u4e60\u60ef\u7684\u843d\u5730\u6784\u5efa\u6b65\u9aa4",
+        m4: "\u81ea\u5f8b\u4e0e\u6301\u7eed\u6267\u884c\u529b\u7684\u5e95\u5c42\u903b\u8f91",
       },
     },
     "time-management": {
-      title: "时间管理与高效生产力",
-      description: "掌握番茄时间工作法、艾森豪威尔四象限优先法则，并运用心理暗示与工具科学戒掉拖延症，大幅提升工作效能。",
+      title: "\u65f6\u95f4\u7ba1\u7406\u4e0e\u9ad8\u6548\u751f\u4ea7\u529b",
+      description: "\u638c\u63e1\u756a\u8304\u65f6\u95f4\u5de5\u4f5c\u6cd5\u3001\u827e\u68ee\u8c6a\u5a01\u5c14\u56db\u8c61\u9650\u4f18\u5148\u6cd5\u5219\uff0c\u5e76\u8fd0\u7528\u5fc3\u7406\u6697\u793a\u4e0e\u5de5\u5177\u79d1\u5b66\u6212\u6389\u62d6\u5ef6\u75c7\uff0c\u5927\u5e45\u63d0\u5347\u5de5\u4f5c\u6548\u80fd\u3002",
       moduleTitles: {
-        m1: "高效时间管理的底层逻辑",
-        m2: "艾森豪威尔核心优先矩阵",
-        m3: "科学戒掉拖延症的实操课",
+        m1: "\u9ad8\u6548\u65f6\u95f4\u7ba1\u7406\u7684\u5e95\u5c42\u903b\u8f91",
+        m2: "\u827e\u68ee\u8c6a\u5a01\u5c14\u6838\u5fc3\u4f18\u5148\u77e9\u9635",
+        m3: "\u79d1\u5b66\u6212\u6389\u62d6\u5ef6\u75c7\u7684\u5b9e\u64cd\u8bfe",
       },
     },
   },
   ru: {
-    "ai-tools": {
-      title: "Инструменты ИИ для продуктивности",
-      description: "Используйте возможности ИИ, таких как ChatGPT и Midjourney, для ускорения рабочего процесса.",
-      moduleTitles: { m1: "Основы промпт-инжиниринга", m2: "ИИ для создания контента" },
-    },
-    "data-science": {
-      title: "Введение в Data Science",
-      description: "Изучите методы анализа данных, основы статистики и использование Python для решения задач.",
-      moduleTitles: { m1: "Основы анализа данных", m2: "Python для Data Science" },
-    },
-    "web-dev": {
-      title: "Современная Веб-разработка",
-      description: "Освойте основы создания веб-сайтов с использованием HTML, CSS, Javascript и начните карьеру разработчика.",
-      moduleTitles: { m1: "Основы HTML и CSS", m2: "Введение в Javascript" },
-    },
-    "graphic-design": {
-      title: "Современный Графический Дизайн",
-      description: "Освойте визуальное искусство, композицию, типографику и теорию цвета.",
-      moduleTitles: { m1: "Теория цвета и типографика", m2: "Визуальная композиция" },
-    },
-    "ui-ux-design": {
-      title: "Основы UI/UX Дизайна",
-      description: "Изучите основные принципы проектирования пользовательских интерфейсов и опыта.",
-      moduleTitles: { m1: "Основы UI", m2: "UX-исследования и вайрфрейминг" },
-    },  
-    "health-fitness": {
-      title: "Здоровье и Фитнес",
-      description: "Изучите основы фитнеса и тренировок.",
-      moduleTitles: { m1: "Основы фитнеса", m2: "Программа тренировок" },
-    },
-    "nutrition-diet": {
-      title: "Питание и Диета",
-      description: "Поймите макронутриенты и составьте свою диету.",
-      moduleTitles: { m1: "Основы питания", m2: "Планирование диеты" },
-    },
-    "web-dev": {
-      title: "Веб-разработка",
-      description: "Изучите HTML, CSS и JavaScript.",
-      moduleTitles: { m1: "Концепции HTML и CSS", m2: "Основы JavaScript" },
-    },
-    "data-science": {
-      title: "Наука о данных",
-      description: "Откройте для себя мир данных и машинного обучения.",
-      moduleTitles: { m1: "Введение в данные", m2: "Машинное обучение" },
-    },
-    "mental-health": {
-      title: "Психическое здоровье",
-      description: "Научитесь справляться со стрессом и сохранять баланс.",
-      moduleTitles: { m1: "Управление стрессом", m2: "Основы медитации" },
-    },
-    "ai-tools": {
-      title: "Инструменты ИИ",
-      description: "Используйте ChatGPT для ускорения работы.",
-      moduleTitles: { m1: "Промпт-инжиниринг", m2: "ИИ для контента" },
-    },
     "saham-dasar": {
-      title: "Основы фондового рынка",
-      description: "Начните правильно и безопасно инвестировать в акции. Узнайте, как выбирать надежные компании на основе фундаментального анализа, читать графики и строить портфель.",
+      title: "\u041e\u0441\u043d\u043e\u0432\u044b \u0444\u043e\u043d\u0434\u043e\u0432\u043e\u0433\u043e \u0440\u044b\u043d\u043a\u0430",
+      description: "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u043a\u0446\u0438\u0438. \u0423\u0437\u043d\u0430\u0439\u0442\u0435, \u043a\u0430\u043a \u0432\u044b\u0431\u0438\u0440\u0430\u0442\u044c \u043d\u0430\u0434\u0435\u0436\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0444\u0443\u043d\u0434\u0430\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430, \u0447\u0438\u0442\u0430\u0442\u044c \u0433\u0440\u0430\u0444\u0438\u043a\u0438 \u0438 \u0441\u0442\u0440\u043e\u0438\u0442\u044c \u043f\u043e\u0440\u0442\u0444\u0435\u043b\u044c.",
       moduleTitles: {
-        m1: "Что такое акции?",
-        m2: "Фундаментальный анализ",
-        m3: "Технический анализ",
-        m4: "Портфельные стратегии",
+        m1: "\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0430\u043a\u0446\u0438\u0438?",
+        m2: "\u0424\u0443\u043d\u0434\u0430\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437",
+        m3: "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437",
+        m4: "\u041f\u043e\u0440\u0442\u0444\u0435\u043b\u044c\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438",
       },
     },
     "kripto-dasar": {
-      title: "Основы Криптовалюты и Web3",
-      description: "Подробно разберитесь в концепциях блокчейна, криптовалют, смарт-контрактов, децентрализованных финансов (DeFi) и безопасности личных кошельков.",
+      title: "\u041e\u0441\u043d\u043e\u0432\u044b \u041a\u0440\u0438\u043f\u0442\u043e\u0432\u0430\u043b\u044e\u0442\u044b \u0438 Web3",
+      description: "\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u043e \u0440\u0430\u0437\u0431\u0435\u0440\u0438\u0442\u0435\u0441\u044c \u0432 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f\u0445 \u0431\u043b\u043e\u043a\u0447\u0435\u0439\u043d\u0430, \u043a\u0440\u0438\u043f\u0442\u043e\u0432\u0430\u043b\u044e\u0442, \u0441\u043c\u0430\u0440\u0442-\u043a\u043e\u043d\u0442\u0440\u0430\u043a\u0442\u043e\u0432, \u0434\u0435\u0446\u0435\u043d\u0442\u0440\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432 (DeFi) \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043b\u0438\u0447\u043d\u044b\u0445 \u043a\u043e\u0448\u0435\u043b\u044c\u043a\u043e\u0432.",
       moduleTitles: {
-        m1: "Введение в блокчейн",
-        m2: "Как устроены Bitcoin и Ethereum",
-        m3: "Криптокошельки и безопасность",
-        m4: "Будущее Web3",
-      },
-    },
-    "laporan-keuangan": {
-      title: "Анализ финансовых отчетов",
-      description: "Как профессионально читать балансы, отчеты о финансовых результатах и движении денежных средств для оценки стабильности бизнеса перед инвестициями.",
-      moduleTitles: {
-        m1: "Три главных финансовых отчета",
-        m2: "Анализ финансовых коэффициентов",
-        m3: "Выявление финансовых уловок",
-      },
-    },
-    "startup-bisnis": {
-      title: "Стратегия Стартапа и Бизнеса",
-      description: "Пройдите путь от идеи до создания работающего бизнеса. Поймите процессы проверки рынка, экономику стартапа, раунды финансирования и методы быстрого роста.",
-      moduleTitles: {
-        m1: "Валидация бизнес-идеи",
-        m2: "Бизнес-модель Lean Canvas",
-        m3: "Привлечение первых инвестиций",
-        m4: "Стратегии масштабирования",
+        m1: "\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u0431\u043b\u043e\u043a\u0447\u0435\u0439\u043d",
+        m2: "\u041a\u0430\u043a \u0443\u0441\u0442\u0440\u043e\u0435\u043d\u044b Bitcoin \u0438 Ethereum",
+        m3: "\u041a\u0440\u0438\u043f\u0442\u043e\u043a\u043e\u0448\u0435\u043b\u044c\u043a\u0438 \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+        m4: "\u0411\u0443\u0434\u0443\u0449\u0435\u0435 Web3",
       },
     },
     "digital-marketing": {
-      title: "Современный Интернет-Маркетинг",
-      description: "Освойте запуск контекстной и таргетированной рекламы (Google/FB), поисковую оптимизацию (SEO), позиционирование бренда и создание вирусного контента.",
+      title: "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433",
+      description: "\u041e\u0441\u0432\u043e\u0439\u0442\u0435 \u0437\u0430\u043f\u0443\u0441\u043a \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u043e\u0439 \u0438 \u0442\u0430\u0440\u0433\u0435\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u043b\u0430\u043c\u044b (Google/FB), \u043f\u043e\u0438\u0441\u043a\u043e\u0432\u0443\u044e \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044e (SEO), \u043f\u043e\u0437\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0440\u0435\u043d\u0434\u0430 \u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0433\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u0430.",
       moduleTitles: {
-        m1: "Основы интернет-маркетинга",
-        m2: "Поисковая оптимизация (SEO)",
-        m3: "Платный трафик (FB, Google Ads)",
-        m4: "Копирайтинг и контент-маркетинг",
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433\u0430",
+        m2: "\u041f\u043e\u0438\u0441\u043a\u043e\u0432\u0430\u044f \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f (SEO)",
+        m3: "\u041f\u043b\u0430\u0442\u043d\u044b\u0439 \u0442\u0440\u0430\u0444\u0438\u043a (FB, Google Ads)",
+        m4: "\u041a\u043e\u043f\u0438\u0440\u0430\u0439\u0442\u0438\u043d\u0433 \u0438 \u043a\u043e\u043d\u0442\u0435\u043d\u0442-\u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433",
+      },
+    },
+    "ui-ux-design": {
+      title: "\u041e\u0441\u043d\u043e\u0432\u044b UI/UX \u0414\u0438\u0437\u0430\u0439\u043d\u0430",
+      description: "\u0418\u0437\u0443\u0447\u0438\u0442\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432 \u0438 \u043e\u043f\u044b\u0442\u0430.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b UI",
+        m2: "UX-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0432\u0430\u0439\u0440\u0444\u0440\u0435\u0439\u043c\u0438\u043d\u0433",
+      },
+    },
+    "graphic-design": {
+      title: "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0413\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0414\u0438\u0437\u0430\u0439\u043d",
+      description: "\u041e\u0441\u0432\u043e\u0439\u0442\u0435 \u0432\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e, \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044e, \u0442\u0438\u043f\u043e\u0433\u0440\u0430\u0444\u0438\u043a\u0443 \u0438 \u0442\u0435\u043e\u0440\u0438\u044e \u0446\u0432\u0435\u0442\u0430.",
+      moduleTitles: {
+        m1: "\u0422\u0435\u043e\u0440\u0438\u044f \u0446\u0432\u0435\u0442\u0430 \u0438 \u0442\u0438\u043f\u043e\u0433\u0440\u0430\u0444\u0438\u043a\u0430",
+        m2: "\u0412\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f",
+      },
+    },
+    "mental-health": {
+      title: "\u041f\u0441\u0438\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u0438 \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u043c",
+      description: "\u0423\u0437\u043d\u0430\u0439\u0442\u0435, \u043a\u0430\u043a \u0441\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c\u0441\u044f \u0441\u043e \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u043c, \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u043c\u0435\u0434\u0438\u0442\u0430\u0446\u0438\u044e \u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u0431\u0430\u043b\u0430\u043d\u0441.",
+      moduleTitles: {
+        m1: "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u043c",
+        m2: "\u041e\u0441\u043d\u043e\u0432\u044b \u043c\u0435\u0434\u0438\u0442\u0430\u0446\u0438\u0438",
+      },
+    },
+    "health-fitness": {
+      title: "\u041e\u0441\u043d\u043e\u0432\u044b \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u0444\u0438\u0442\u043d\u0435\u0441\u0430",
+      description: "\u0418\u0437\u0443\u0447\u0438\u0442\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u0444\u0438\u0442\u043d\u0435\u0441\u0430 \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b \u0444\u0438\u0442\u043d\u0435\u0441\u0430",
+        m2: "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a",
+      },
+    },
+    "nutrition-diet": {
+      title: "\u041f\u0438\u0442\u0430\u043d\u0438\u0435 \u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u0430\u044f \u0434\u0438\u0435\u0442\u0430",
+      description: "\u041f\u043e\u0439\u043c\u0438\u0442\u0435 \u043f\u0438\u0442\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0432\u0435\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u0442\u043e, \u043a\u0430\u043a \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u0432\u043e\u0439 \u0440\u0430\u0446\u0438\u043e\u043d \u0434\u043b\u044f \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u044d\u043d\u0435\u0440\u0433\u0438\u0438.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+        m2: "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+      },
+    },
+    "web-dev": {
+      title: "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u0412\u0435\u0431-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430",
+      description: "\u041e\u0441\u0432\u043e\u0439\u0442\u0435 \u043e\u0441\u043d\u043e\u0432\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0432\u0435\u0431-\u0441\u0430\u0439\u0442\u043e\u0432 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c HTML, CSS, Javascript \u0438 \u043d\u0430\u0447\u043d\u0438\u0442\u0435 \u043a\u0430\u0440\u044c\u0435\u0440\u0443 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b HTML \u0438 CSS",
+        m2: "\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 Javascript",
+      },
+    },
+    "data-science": {
+      title: "\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 Data Science",
+      description: "\u0418\u0437\u0443\u0447\u0438\u0442\u0435 \u043c\u0435\u0442\u043e\u0434\u044b \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445, \u043e\u0441\u043d\u043e\u0432\u044b \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 Python \u0434\u043b\u044f \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0437\u0430\u0434\u0430\u0447.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445",
+        m2: "Python \u0434\u043b\u044f Data Science",
+      },
+    },
+    "ai-tools": {
+      title: "\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0418\u0418 \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+      description: "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0418\u0418, \u0442\u0430\u043a\u0438\u0445 \u043a\u0430\u043a ChatGPT \u0438 Midjourney, \u0434\u043b\u044f \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0447\u0435\u0433\u043e \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430.",
+      moduleTitles: {
+        m1: "\u041e\u0441\u043d\u043e\u0432\u044b \u043f\u0440\u043e\u043c\u043f\u0442-\u0438\u043d\u0436\u0438\u043d\u0438\u0440\u0438\u043d\u0433\u0430",
+        m2: "\u0418\u0418 \u0434\u043b\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u0430",
+      },
+    },
+    "laporan-keuangan": {
+      title: "\u0410\u043d\u0430\u043b\u0438\u0437 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u043e\u0442\u0447\u0435\u0442\u043e\u0432",
+      description: "\u041a\u0430\u043a \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e \u0447\u0438\u0442\u0430\u0442\u044c \u0431\u0430\u043b\u0430\u043d\u0441\u044b, \u043e\u0442\u0447\u0435\u0442\u044b \u043e \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430\u0445 \u0438 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0438 \u0434\u0435\u043d\u0435\u0436\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u0434\u043b\u044f \u043e\u0446\u0435\u043d\u043a\u0438 \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0431\u0438\u0437\u043d\u0435\u0441\u0430 \u043f\u0435\u0440\u0435\u0434 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u044f\u043c\u0438.",
+      moduleTitles: {
+        m1: "\u0422\u0440\u0438 \u0433\u043b\u0430\u0432\u043d\u044b\u0445 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u043e\u0442\u0447\u0435\u0442\u0430",
+        m2: "\u0410\u043d\u0430\u043b\u0438\u0437 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u043e\u0432",
+        m3: "\u0412\u044b\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u0443\u043b\u043e\u0432\u043e\u043a",
+      },
+    },
+    "startup-bisnis": {
+      title: "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f \u0421\u0442\u0430\u0440\u0442\u0430\u043f\u0430 \u0438 \u0411\u0438\u0437\u043d\u0435\u0441\u0430",
+      description: "\u041f\u0440\u043e\u0439\u0434\u0438\u0442\u0435 \u043f\u0443\u0442\u044c \u043e\u0442 \u0438\u0434\u0435\u0438 \u0434\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0449\u0435\u0433\u043e \u0431\u0438\u0437\u043d\u0435\u0441\u0430. \u041f\u043e\u0439\u043c\u0438\u0442\u0435 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0440\u044b\u043d\u043a\u0430, \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0443 \u0441\u0442\u0430\u0440\u0442\u0430\u043f\u0430, \u0440\u0430\u0443\u043d\u0434\u044b \u0444\u0438\u043d\u0430\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u043c\u0435\u0442\u043e\u0434\u044b \u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430.",
+      moduleTitles: {
+        m1: "\u0412\u0430\u043b\u0438\u0434\u0430\u0446\u0438\u044f \u0431\u0438\u0437\u043d\u0435\u0441-\u0438\u0434\u0435\u0438",
+        m2: "\u0411\u0438\u0437\u043d\u0435\u0441-\u043c\u043e\u0434\u0435\u043b\u044c Lean Canvas",
+        m3: "\u041f\u0440\u0438\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0432\u044b\u0445 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u0439",
+        m4: "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438 \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
       },
     },
     "ecommerce-dasar": {
-      title: "E-Commerce и Дропшиппинг",
-      description: "Создайте прибыльный онлайн-магазин с нуля, научитесь находить вирусные товары и контролировать логистические цепочки без закупки собственного склада.",
+      title: "E-Commerce \u0438 \u0414\u0440\u043e\u043f\u0448\u0438\u043f\u043f\u0438\u043d\u0433",
+      description: "\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u043f\u0440\u0438\u0431\u044b\u043b\u044c\u043d\u044b\u0439 \u043e\u043d\u043b\u0430\u0439\u043d-\u043c\u0430\u0433\u0430\u0437\u0438\u043d \u0441 \u043d\u0443\u043b\u044f, \u043d\u0430\u0443\u0447\u0438\u0442\u0435\u0441\u044c \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c \u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0435 \u0442\u043e\u0432\u0430\u0440\u044b \u0438 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043b\u043e\u0433\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0446\u0435\u043f\u043e\u0447\u043a\u0438 \u0431\u0435\u0437 \u0437\u0430\u043a\u0443\u043f\u043a\u0438 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u043a\u043b\u0430\u0434\u0430.",
       moduleTitles: {
-        m1: "Бизнес-модели в электронной коммерции",
-        m2: "Поиск и анализ прибыльных товаров",
-        m3: "Создание онлайн-магазина на Shopify",
+        m1: "\u0411\u0438\u0437\u043d\u0435\u0441-\u043c\u043e\u0434\u0435\u043b\u0438 \u0432 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u0440\u0446\u0438\u0438",
+        m2: "\u041f\u043e\u0438\u0441\u043a \u0438 \u0430\u043d\u0430\u043b\u0438\u0437 \u043f\u0440\u0438\u0431\u044b\u043b\u044c\u043d\u044b\u0445 \u0442\u043e\u0432\u0430\u0440\u043e\u0432",
+        m3: "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043e\u043d\u043b\u0430\u0439\u043d-\u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u043d\u0430 Shopify",
       },
     },
     "personal-finance": {
-      title: "Личные Финансы и Бюджетирование",
-      description: "Научитесь разумно планировать свои доходы, использовать правило распределения 50/30/20, избегать плохих долгов и быстро формировать резервный фонд.",
+      title: "\u041b\u0438\u0447\u043d\u044b\u0435 \u0424\u0438\u043d\u0430\u043d\u0441\u044b \u0438 \u0411\u044e\u0434\u0436\u0435\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      description: "\u041d\u0430\u0443\u0447\u0438\u0442\u0435\u0441\u044c \u0440\u0430\u0437\u0443\u043c\u043d\u043e \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u0432\u043e\u0438 \u0434\u043e\u0445\u043e\u0434\u044b, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f 50/30/20, \u0438\u0437\u0431\u0435\u0433\u0430\u0442\u044c \u043f\u043b\u043e\u0445\u0438\u0445 \u0434\u043e\u043b\u0433\u043e\u0432 \u0438 \u0431\u044b\u0441\u0442\u0440\u043e \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u044b\u0439 \u0444\u043e\u043d\u0434.",
       moduleTitles: {
-        m1: "Принципы контроля денежных потоков",
-        m2: "Правило составления бюджета 50/30/20",
-        m3: "Резервный фонд и финансовая защита",
-        m4: "Избавление от потребительских долгов",
+        m1: "\u041f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0434\u0435\u043d\u0435\u0436\u043d\u044b\u0445 \u043f\u043e\u0442\u043e\u043a\u043e\u0432",
+        m2: "\u041f\u0440\u0430\u0432\u0438\u043b\u043e \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0431\u044e\u0434\u0436\u0435\u0442\u0430 50/30/20",
+        m3: "\u0420\u0435\u0437\u0435\u0440\u0432\u043d\u044b\u0439 \u0444\u043e\u043d\u0434 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u0430\u044f \u0437\u0430\u0449\u0438\u0442\u0430",
+        m4: "\u0418\u0437\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0434\u043e\u043b\u0433\u043e\u0432",
       },
     },
     "passive-income": {
-      title: "Пассивный Доход и Дивиденды",
-      description: "Стратегия создания пассивного денежного потока из дивидендных акций, надежных индексных фондов и стейкинга цифровых активов.",
+      title: "\u041f\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0439 \u0414\u043e\u0445\u043e\u0434 \u0438 \u0414\u0438\u0432\u0438\u0434\u0435\u043d\u0434\u044b",
+      description: "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u043f\u0430\u0441\u0441\u0438\u0432\u043d\u043e\u0433\u043e \u0434\u0435\u043d\u0435\u0436\u043d\u043e\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430 \u0438\u0437 \u0434\u0438\u0432\u0438\u0434\u0435\u043d\u0434\u043d\u044b\u0445 \u0430\u043a\u0446\u0438\u0439, \u043d\u0430\u0434\u0435\u0436\u043d\u044b\u0445 \u0438\u043d\u0434\u0435\u043a\u0441\u043d\u044b\u0445 \u0444\u043e\u043d\u0434\u043e\u0432 \u0438 \u0441\u0442\u0435\u0439\u043a\u0438\u043d\u0433\u0430 \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0430\u043a\u0442\u0438\u0432\u043e\u0432.",
       moduleTitles: {
-        m1: "Концепция пассивного дохода",
-        m2: "Инвестирование в дивидендные акции",
-        m3: "Пассивный доход от цифровых активов",
-        m4: "Налоги и управление портфелем",
+        m1: "\u041a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f \u043f\u0430\u0441\u0441\u0438\u0432\u043d\u043e\u0433\u043e \u0434\u043e\u0445\u043e\u0434\u0430",
+        m2: "\u0418\u043d\u0432\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0432 \u0434\u0438\u0432\u0438\u0434\u0435\u043d\u0434\u043d\u044b\u0435 \u0430\u043a\u0446\u0438\u0438",
+        m3: "\u041f\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0439 \u0434\u043e\u0445\u043e\u0434 \u043e\u0442 \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0430\u043a\u0442\u0438\u0432\u043e\u0432",
+        m4: "\u041d\u0430\u043b\u043e\u0433\u0438 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0440\u0442\u0444\u0435\u043b\u0435\u043c",
       },
     },
     "growth-mindset": {
-      title: "Growth Mindset и Полезные Привычки",
-      description: "Сформируйте психологию роста, разрушьте внутренние ограничения и барьеры, внедрите полезные микропривычки (Atomic Habits) для достижения больших целей.",
+      title: "Growth Mindset \u0438 \u041f\u043e\u043b\u0435\u0437\u043d\u044b\u0435 \u041f\u0440\u0438\u0432\u044b\u0447\u043a\u0438",
+      description: "\u0421\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0439\u0442\u0435 \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u044e \u0440\u043e\u0441\u0442\u0430, \u0440\u0430\u0437\u0440\u0443\u0448\u044c\u0442\u0435 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0438 \u0431\u0430\u0440\u044c\u0435\u0440\u044b, \u0432\u043d\u0435\u0434\u0440\u0438\u0442\u0435 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0435 \u043c\u0438\u043a\u0440\u043e\u043f\u0440\u0438\u0432\u044b\u0447\u043a\u0438 (Atomic Habits) \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f \u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u0446\u0435\u043b\u0435\u0439.",
       moduleTitles: {
-        m1: "Гибкое сознание против зажатого",
-        m2: "Преодоление страха неудач",
-        m3: "Создание микропривычек",
-        m4: "Самодисциплина и системность",
+        m1: "\u0413\u0438\u0431\u043a\u043e\u0435 \u0441\u043e\u0437\u043d\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0437\u0430\u0436\u0430\u0442\u043e\u0433\u043e",
+        m2: "\u041f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u043d\u0438\u0435 \u0441\u0442\u0440\u0430\u0445\u0430 \u043d\u0435\u0443\u0434\u0430\u0447",
+        m3: "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043c\u0438\u043a\u0440\u043e\u043f\u0440\u0438\u0432\u044b\u0447\u0435\u043a",
+        m4: "\u0421\u0430\u043c\u043e\u0434\u0438\u0441\u0446\u0438\u043f\u043b\u0438\u043d\u0430 \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u043e\u0441\u0442\u044c",
       },
     },
     "time-management": {
-      title: "Тайм-менеджмент и Продуктивность",
-      description: "Освойте матрицу приоритетов Эйзенхауэра, Pomodoro-таймер и психологические приемы борьбы с прокрастинацией для эффективной работы без выгорания.",
+      title: "\u0422\u0430\u0439\u043c-\u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442 \u0438 \u041f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c",
+      description: "\u041e\u0441\u0432\u043e\u0439\u0442\u0435 \u043c\u0430\u0442\u0440\u0438\u0446\u0443 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043e\u0432 \u042d\u0439\u0437\u0435\u043d\u0445\u0430\u0443\u044d\u0440\u0430, Pomodoro-\u0442\u0430\u0439\u043c\u0435\u0440 \u0438 \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u0435\u043c\u044b \u0431\u043e\u0440\u044c\u0431\u044b \u0441 \u043f\u0440\u043e\u043a\u0440\u0430\u0441\u0442\u0438\u043d\u0430\u0446\u0438\u0435\u0439 \u0434\u043b\u044f \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b \u0431\u0435\u0437 \u0432\u044b\u0433\u043e\u0440\u0430\u043d\u0438\u044f.",
       moduleTitles: {
-        m1: "Принципы эффективного тайм-менеджмента",
-        m2: "Матрица приоритетов Эйзенхауэра",
-        m3: "Победа над прокрастинацией",
+        m1: "\u041f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0442\u0430\u0439\u043c-\u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442\u0430",
+        m2: "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043e\u0432 \u042d\u0439\u0437\u0435\u043d\u0445\u0430\u0443\u044d\u0440\u0430",
+        m3: "\u041f\u043e\u0431\u0435\u0434\u0430 \u043d\u0430\u0434 \u043f\u0440\u043e\u043a\u0440\u0430\u0441\u0442\u0438\u043d\u0430\u0446\u0438\u0435\u0439",
       },
     },
   },
   ar: {
-    "ai-tools": {
-      title: "أدوات الذكاء الاصطناعي للإنتاجية",
-      description: "استفد من قوة الذكاء الاصطناعي مثل ChatGPT و Midjourney لتسريع سير عملك اليومي.",
-      moduleTitles: { m1: "هندسة الأوامر الأساسية", m2: "الذكاء الاصطناعي لإنشاء المحتوى" },
-    },
-    "data-science": {
-      title: "مقدمة في علم البيانات",
-      description: "تعلم كيفية تحليل البيانات وفهم الإحصائيات الأساسية واستخدام Python لحل المشكلات.",
-      moduleTitles: { m1: "أساسيات تحليل البيانات", m2: "Python لعلم البيانات" },
-    },
-    "web-dev": {
-      title: "تطوير الويب الحديث",
-      description: "أتقن أساسيات إنشاء مواقع الويب باستخدام HTML و CSS و Javascript وابدأ حياتك المهنية كمطور ويب.",
-      moduleTitles: { m1: "أساسيات HTML و CSS", m2: "مقدمة في Javascript" },
-    },
-    "graphic-design": {
-      title: "التصميم الجرافيكي الحديث",
-      description: "أتقن الفن المرئي والتكوين والطباعة ونظرية الألوان لإنشاء تصميمات مذهلة.",
-      moduleTitles: { m1: "نظرية الألوان والطباعة", m2: "التكوين المرئي" },
-    },
-    "ui-ux-design": {
-      title: "أساسيات تصميم واجهة وتجربة المستخدم",
-      description: "تعلم المبادئ الأساسية لتصميم واجهة المستخدم وتجربة المستخدم للتطبيقات الحديثة.",
-      moduleTitles: { m1: "أساسيات واجهة المستخدم", m2: "بحث تجربة المستخدم والإطارات الشبكية" },
-    },  
-    "health-fitness": {
-      title: "الصحة واللياقة البدنية",
-      description: "تعلم أساسيات اللياقة البدنية وروتين التمارين.",
-      moduleTitles: { m1: "أساسيات اللياقة", m2: "روتين التمارين" },
-    },
-    "nutrition-diet": {
-      title: "التغذية والنظام الغذائي",
-      description: "افهم العناصر الغذائية وكيفية بناء نظامك الغذائي.",
-      moduleTitles: { m1: "أساسيات التغذية", m2: "تخطيط النظام الغذائي" },
-    },
-    "web-dev": {
-      title: "تطوير الويب",
-      description: "تعلم أساسيات HTML و CSS و JavaScript.",
-      moduleTitles: { m1: "مفاهيم HTML و CSS", m2: "أساسيات JavaScript" },
-    },
-    "data-science": {
-      title: "علم البيانات",
-      description: "اكتشف عالم البيانات والتعلم الآلي.",
-      moduleTitles: { m1: "مقدمة في البيانات", m2: "أساسيات التعلم الآلي" },
-    },
-    "mental-health": {
-      title: "الصحة النفسية",
-      description: "تعلم كيفية إدارة الضغط النفسي والحفاظ على التوازن.",
-      moduleTitles: { m1: "إدارة الضغط", m2: "أساسيات التأمل" },
-    },
-    "ai-tools": {
-      title: "أدوات الذكاء الاصطناعي",
-      description: "استفد من الذكاء الاصطناعي لتسريع عملك.",
-      moduleTitles: { m1: "هندسة الأوامر", m2: "الذكاء الاصطناعي للمحتوى" },
-    },
     "saham-dasar": {
-      title: "أساسيات سوق الأسهم",
-      description: "ابدأ الاستثمار في الأسهم بطريقة صحيحة وآمنة. تعلم كيفية اختيار الأسهم بناءً على التحليل الأساسي وتحليل الرسوم البيانية وصياغة محفظة استثمارية متوازنة.",
+      title: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645",
+      description: "\u0627\u0628\u062f\u0623 \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0641\u064a \u0627\u0644\u0623\u0633\u0647\u0645 \u0628\u0637\u0631\u064a\u0642\u0629 \u0635\u062d\u064a\u062d\u0629 \u0648\u0622\u0645\u0646\u0629. \u062a\u0639\u0644\u0645 \u0643\u064a\u0641\u064a\u0629 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0623\u0633\u0647\u0645 \u0628\u0646\u0627\u0621\u064b \u0639\u0644\u0649 \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u064a\u0629 \u0648\u0635\u064a\u0627\u063a\u0629 \u0645\u062d\u0641\u0638\u0629 \u0627\u0633\u062a\u062b\u0645\u0627\u0631\u064a\u0629 \u0645\u062a\u0648\u0627\u0632\u0646\u0629.",
       moduleTitles: {
-        m1: "ما هي الأسهم؟",
-        m2: "التحليل الأساسي",
-        m3: "التحليل الفني",
-        m4: "استراتيجيات المحفظة",
+        m1: "\u0645\u0627 \u0647\u064a \u0627\u0644\u0623\u0633\u0647\u0645\u061f",
+        m2: "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a",
+        m3: "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0641\u0646\u064a",
+        m4: "\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0627\u0644\u0645\u062d\u0641\u0638\u0629",
       },
     },
     "kripto-dasar": {
-      title: "أساسيات العملات الرقمية وWeb3",
-      description: "افهم بالتفصيل تكنولوجيا البلوكشين والعملات المشفرة والعقود الذكية وإدارة محافظ التشفير والفرص الكامنة في التمويل اللامركزي (DeFi).",
+      title: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0648Web3",
+      description: "\u0627\u0641\u0647\u0645 \u0628\u0627\u0644\u062a\u0641\u0635\u064a\u0644 \u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0627\u0644\u0628\u0644\u0648\u0643\u0634\u064a\u0646 \u0648\u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0645\u0634\u0641\u0631\u0629 \u0648\u0627\u0644\u0639\u0642\u0648\u062f \u0627\u0644\u0630\u0643\u064a\u0629 \u0648\u0625\u062f\u0627\u0631\u0629 \u0645\u062d\u0627\u0641\u0638 \u0627\u0644\u062a\u0634\u0641\u064a\u0631 \u0648\u0627\u0644\u0641\u0631\u0635 \u0627\u0644\u0643\u0627\u0645\u0646\u0629 \u0641\u064a \u0627\u0644\u062a\u0645\u0648\u064a\u0644 \u0627\u0644\u0644\u0627\u0645\u0631\u0643\u0632\u064a (DeFi).",
       moduleTitles: {
-        m1: "مقدمة في البلوكشين",
-        m2: "كيف يعمل البيتكوين والإيثيريوم",
-        m3: "محافظ العملات الرقمية والأمان",
-        m4: "مستقبل Web3",
-      },
-    },
-    "laporan-keuangan": {
-      title: "تحليل القوائم المالية",
-      description: "كيفية قراءة وتحليل الميزانية العمومية وقائمة الدخل وقائمة التدفقات النقدية لتقييم الوضع المالي الحقيقي للشركات قبل اتخاذ أي قرار استثماري.",
-      moduleTitles: {
-        m1: "القوائم المالية الثلاث الرئيسية",
-        m2: "تحليل النسب المالية",
-        m3: "كشف التلاعب المالي",
-      },
-    },
-    "startup-bisnis": {
-      title: "استراتيجية الشركات الناشئة والأعمال",
-      description: "ابنِ مشروعك الريادي من مجرد فكرة إلى التطبيق الفعلي في السوق. تغطي الدورة دراسة جدوى الأفكار، نموذج العمل المرن، خطط التمويل واستراتيجيات النمو.",
-      moduleTitles: {
-        m1: "التحقق من فكرة العمل",
-        m2: "مخطط نموذج العمل المرن",
-        m3: "تأمين التمويل الأولي",
-        m4: "استراتيجيات التوسع والنمو",
+        m1: "\u0645\u0642\u062f\u0645\u0629 \u0641\u064a \u0627\u0644\u0628\u0644\u0648\u0643\u0634\u064a\u0646",
+        m2: "\u0643\u064a\u0641 \u064a\u0639\u0645\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0625\u064a\u062b\u064a\u0631\u064a\u0648\u0645",
+        m3: "\u0645\u062d\u0627\u0641\u0638 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0648\u0627\u0644\u0623\u0645\u0627\u0646",
+        m4: "\u0645\u0633\u062a\u0642\u0628\u0644 Web3",
       },
     },
     "digital-marketing": {
-      title: "التسويق الرقمي الحديث",
-      description: "احترف قنوات التسويق الرقمي الحديثة: تحسين محركات البحث (SEO)، إدارة الحملات الإعلانية المدفوعة (فيسبوك وجوجل)، وكتابة النصوص الإعلانية الجاذبة للمبيعات.",
+      title: "\u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0627\u0644\u0631\u0642\u0645\u064a \u0627\u0644\u062d\u062f\u064a\u062b",
+      description: "\u0627\u062d\u062a\u0631\u0641 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0627\u0644\u0631\u0642\u0645\u064a \u0627\u0644\u062d\u062f\u064a\u062b\u0629: \u062a\u062d\u0633\u064a\u0646 \u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0628\u062d\u062b (SEO)\u060c \u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0644\u0627\u062a \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u064a\u0629 \u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0629 (\u0641\u064a\u0633\u0628\u0648\u0643 \u0648\u062c\u0648\u062c\u0644)\u060c \u0648\u0643\u062a\u0627\u0628\u0629 \u0627\u0644\u0646\u0635\u0648\u0635 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u064a\u0629 \u0627\u0644\u062c\u0627\u0630\u0628\u0629 \u0644\u0644\u0645\u0628\u064a\u0639\u0627\u062a.",
       moduleTitles: {
-        m1: "أسس التسويق الرقمي",
-        m2: "تحسين محركات البحث (SEO)",
-        m3: "الإعلانات المدفوعة (فيسبوك، جوجل)",
-        m4: "كتابة الإعلانات واستراتيجية المحتوى",
+        m1: "\u0623\u0633\u0633 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0627\u0644\u0631\u0642\u0645\u064a",
+        m2: "\u062a\u062d\u0633\u064a\u0646 \u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0628\u062d\u062b (SEO)",
+        m3: "\u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0629 (\u0641\u064a\u0633\u0628\u0648\u0643\u060c \u062c\u0648\u062c\u0644)",
+        m4: "\u0643\u062a\u0627\u0628\u0629 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0648\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0629 \u0627\u0644\u0645\u062d\u062a\u0648\u0649",
+      },
+    },
+    "ui-ux-design": {
+      title: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u062c\u0647\u0629 \u0648\u062a\u062c\u0631\u0628\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645",
+      description: "\u062a\u0639\u0644\u0645 \u0627\u0644\u0645\u0628\u0627\u062f\u0626 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u062c\u0647\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0648\u062a\u062c\u0631\u0628\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0644\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u062d\u062f\u064a\u062b\u0629.",
+      moduleTitles: {
+        m1: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0648\u0627\u062c\u0647\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645",
+        m2: "\u0628\u062d\u062b \u062a\u062c\u0631\u0628\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0648\u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0627\u0644\u0634\u0628\u0643\u064a\u0629",
+      },
+    },
+    "graphic-design": {
+      title: "\u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0627\u0644\u062c\u0631\u0627\u0641\u064a\u0643\u064a \u0627\u0644\u062d\u062f\u064a\u062b",
+      description: "\u0623\u062a\u0642\u0646 \u0627\u0644\u0641\u0646 \u0627\u0644\u0645\u0631\u0626\u064a \u0648\u0627\u0644\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0637\u0628\u0627\u0639\u0629 \u0648\u0646\u0638\u0631\u064a\u0629 \u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0644\u0625\u0646\u0634\u0627\u0621 \u062a\u0635\u0645\u064a\u0645\u0627\u062a \u0645\u0630\u0647\u0644\u0629.",
+      moduleTitles: {
+        m1: "\u0646\u0638\u0631\u064a\u0629 \u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0648\u0627\u0644\u0637\u0628\u0627\u0639\u0629",
+        m2: "\u0627\u0644\u062a\u0643\u0648\u064a\u0646 \u0627\u0644\u0645\u0631\u0626\u064a",
+      },
+    },
+    "mental-health": {
+      title: "\u0627\u0644\u0635\u062d\u0629 \u0627\u0644\u0646\u0641\u0633\u064a\u0629 \u0648\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0636\u063a\u0648\u0637",
+      description: "\u062a\u0639\u0644\u0645 \u0643\u064a\u0641\u064a\u0629 \u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0646\u0641\u0633\u064a\u060c \u0648\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u062a\u0623\u0645\u0644\u060c \u0648\u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u062a\u0648\u0627\u0632\u0646 \u0635\u062d\u064a.",
+      moduleTitles: {
+        m1: "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0636\u063a\u0648\u0637",
+        m2: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u062a\u0623\u0645\u0644",
+      },
+    },
+    "health-fitness": {
+      title: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u0635\u062d\u0629 \u0648\u0627\u0644\u0644\u064a\u0627\u0642\u0629 \u0627\u0644\u0628\u062f\u0646\u064a\u0647",
+      description: "\u062a\u0639\u0644\u0645 \u0627\u0644\u0645\u0628\u0627\u062f\u0626 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0644\u0644\u064a\u0627\u0642\u0629 \u0627\u0644\u0628\u062f\u0646\u064a\u0629 \u0648\u0628\u0631\u0627\u0645\u062c \u0627\u0644\u062a\u0645\u0631\u064a\u0646 \u0627\u0644\u0641\u0639\u0627\u0644\u0629.",
+      moduleTitles: {
+        m1: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u0644\u064a\u0627\u0642\u0629",
+        m2: "\u0628\u0631\u0627\u0645\u062c \u0627\u0644\u062a\u0645\u0631\u064a\u0646",
+      },
+    },
+    "nutrition-diet": {
+      title: "\u0627\u0644\u062a\u063a\u0630\u064a\u0629 \u0648\u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u063a\u0630\u0627\u0626\u064a \u0627\u0644\u0635\u062d\u064a",
+      description: "\u0627\u0641\u0647\u0645 \u0627\u0644\u0639\u0646\u0627\u0635\u0631 \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629 \u0648\u0643\u064a\u0641\u064a\u0629 \u062a\u0646\u0638\u064a\u0645 \u0646\u0638\u0627\u0645\u0643 \u0627\u0644\u063a\u0630\u0627\u0626\u064a \u0644\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0623\u0642\u0635\u0649 \u0637\u0627\u0642\u0629.",
+      moduleTitles: {
+        m1: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u062a\u063a\u0630\u064a\u0629",
+        m2: "\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u063a\u0630\u0627\u0626\u064a",
+      },
+    },
+    "web-dev": {
+      title: "\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0648\u064a\u0628 \u0627\u0644\u062d\u062f\u064a\u062b",
+      description: "\u0623\u062a\u0642\u0646 \u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0625\u0646\u0634\u0627\u0621 \u0645\u0648\u0627\u0642\u0639 \u0627\u0644\u0648\u064a\u0628 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 HTML \u0648 CSS \u0648 Javascript \u0648\u0627\u0628\u062f\u0623 \u062d\u064a\u0627\u062a\u0643 \u0627\u0644\u0645\u0647\u0646\u064a\u0629 \u0643\u0645\u0637\u0648\u0631 \u0648\u064a\u0628.",
+      moduleTitles: {
+        m1: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a HTML \u0648 CSS",
+        m2: "\u0645\u0642\u062f\u0645\u0629 \u0641\u064a Javascript",
+      },
+    },
+    "data-science": {
+      title: "\u0645\u0642\u062f\u0645\u0629 \u0641\u064a \u0639\u0644\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a",
+      description: "\u062a\u0639\u0644\u0645 \u0643\u064a\u0641\u064a\u0629 \u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0648\u0641\u0647\u0645 \u0627\u0644\u0625\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 Python \u0644\u062d\u0644 \u0627\u0644\u0645\u0634\u0643\u0644\u0627\u062a.",
+      moduleTitles: {
+        m1: "\u0623\u0633\u0627\u0633\u064a\u0627\u062a \u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a",
+        m2: "Python \u0644\u0639\u0644\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a",
+      },
+    },
+    "ai-tools": {
+      title: "\u0623\u062f\u0648\u0627\u062a \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0644\u0644\u0625\u0646\u062a\u0627\u062c\u064a\u0629",
+      description: "\u0627\u0633\u062a\u0641\u062f \u0645\u0646 \u0642\u0648\u0629 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0645\u062b\u0644 ChatGPT \u0648 Midjourney \u0644\u062a\u0633\u0631\u064a\u0639 \u0633\u064a\u0631 \u0639\u0645\u0644\u0643 \u0627\u0644\u064a\u0648\u0645\u064a.",
+      moduleTitles: {
+        m1: "\u0647\u0646\u062f\u0633\u0629 \u0627\u0644\u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629",
+        m2: "\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0644\u0625\u0646\u0634\u0627\u0621 \u0627\u0644\u0645\u062d\u062a\u0648\u0649",
+      },
+    },
+    "laporan-keuangan": {
+      title: "\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0645\u0627\u0644\u064a\u0629",
+      description: "\u0643\u064a\u0641\u064a\u0629 \u0642\u0631\u0627\u0621\u0629 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0645\u064a\u0632\u0627\u0646\u064a\u0629 \u0627\u0644\u0639\u0645\u0648\u0645\u064a\u0629 \u0648\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u062f\u062e\u0644 \u0648\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u062a\u062f\u0641\u0642\u0627\u062a \u0627\u0644\u0646\u0642\u062f\u064a\u0629 \u0644\u062a\u0642\u064a\u064a\u0645 \u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0645\u0627\u0644\u064a \u0627\u0644\u062d\u0642\u064a\u0642\u064a \u0644\u0644\u0634\u0631\u0643\u0627\u062a \u0642\u0628\u0644 \u0627\u062a\u062e\u0627\u0630 \u0623\u064a \u0642\u0631\u0627\u0631 \u0627\u0633\u062a\u062b\u0645\u0627\u0631\u064a.",
+      moduleTitles: {
+        m1: "\u0627\u0644\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u062b\u0644\u0627\u062b \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629",
+        m2: "\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0646\u0633\u0628 \u0627\u0644\u0645\u0627\u0644\u064a\u0629",
+        m3: "\u0643\u0634\u0641 \u0627\u0644\u062a\u0644\u0627\u0639\u0628 \u0627\u0644\u0645\u0627\u0644\u064a",
+      },
+    },
+    "startup-bisnis": {
+      title: "\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0629 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0646\u0627\u0634\u0626\u0629 \u0648\u0627\u0644\u0623\u0639\u0645\u0627\u0644",
+      description: "\u0627\u0628\u0646\u0650 \u0645\u0634\u0631\u0648\u0639\u0643 \u0627\u0644\u0631\u064a\u0627\u062f\u064a \u0645\u0646 \u0645\u062c\u0631\u062f \u0641\u0643\u0631\u0629 \u0625\u0644\u0649 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0641\u0639\u0644\u064a \u0641\u064a \u0627\u0644\u0633\u0648\u0642. \u062a\u063a\u0637\u064a \u0627\u0644\u062f\u0648\u0631\u0629 \u062f\u0631\u0627\u0633\u0629 \u062c\u062f\u0648\u0649 \u0627\u0644\u0623\u0641\u0643\u0627\u0631\u060c \u0646\u0645\u0648\u0630\u062c \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u0645\u0631\u0646\u060c \u062e\u0637\u0637 \u0627\u0644\u062a\u0645\u0648\u064a\u0644 \u0648\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0627\u0644\u0646\u0645\u0648.",
+      moduleTitles: {
+        m1: "\u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u0646 \u0641\u0643\u0631\u0629 \u0627\u0644\u0639\u0645\u0644",
+        m2: "\u0645\u062e\u0637\u0637 \u0646\u0645\u0648\u0630\u062c \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u0645\u0631\u0646",
+        m3: "\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u062a\u0645\u0648\u064a\u0644 \u0627\u0644\u0623\u0648\u0644\u064a",
+        m4: "\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0627\u0644\u062a\u0648\u0633\u0639 \u0648\u0627\u0644\u0646\u0645\u0648",
       },
     },
     "ecommerce-dasar": {
-      title: "احتراف التجارة الإلكترونية والدروب شيبنج",
-      description: "قم بإنشاء متجرك الإلكتروني الخاص، وتعرّف على طرق اختيار المنتجات الأكثر مبيعاً وإدارة الموردين والشحن دون الحاجة للاحتفاظ بمخزون فعلي.",
+      title: "\u0627\u062d\u062a\u0631\u0627\u0641 \u0627\u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0648\u0627\u0644\u062f\u0631\u0648\u0628 \u0634\u064a\u0628\u0646\u062c",
+      description: "\u0642\u0645 \u0628\u0625\u0646\u0634\u0627\u0621 \u0645\u062a\u062c\u0631\u0643 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0627\u0644\u062e\u0627\u0635\u060c \u0648\u062a\u0639\u0631\u0651\u0641 \u0639\u0644\u0649 \u0637\u0631\u0642 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u064b \u0648\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0645\u0648\u0631\u062f\u064a\u0646 \u0648\u0627\u0644\u0634\u062d\u0646 \u062f\u0648\u0646 \u0627\u0644\u062d\u0627\u062c\u0629 \u0644\u0644\u0627\u062d\u062a\u0641\u0627\u0638 \u0628\u0645\u062e\u0632\u0648\u0646 \u0641\u0639\u0644\u064a.",
       moduleTitles: {
-        m1: "نماذج أعمال التجارة الإلكترونية",
-        m2: "البحث عن المنتجات المربحة",
-        m3: "بناء متجر Shopify",
+        m1: "\u0646\u0645\u0627\u0630\u062c \u0623\u0639\u0645\u0627\u0644 \u0627\u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629",
+        m2: "\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0627\u0644\u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0645\u0631\u0628\u062d\u0629",
+        m3: "\u0628\u0646\u0627\u0621 \u0645\u062a\u062c\u0631 Shopify",
       },
     },
     "personal-finance": {
-      title: "المالية الشخصية والتخطيط المالي",
-      description: "سيطر على تدفقاتك المالية الشخصية بالكامل. تعلم أساليب الادخار والإنفاق الذكي باستخدام قاعدة 50/30/20 وبناء صندوق للطوارئ لحماية نفسك.",
+      title: "\u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0648\u0627\u0644\u062a\u062e\u0637\u064a\u0637 \u0627\u0644\u0645\u0627\u0644\u064a",
+      description: "\u0633\u064a\u0637\u0631 \u0639\u0644\u0649 \u062a\u062f\u0641\u0642\u0627\u062a\u0643 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0628\u0627\u0644\u0643\u0627\u0645\u0644. \u062a\u0639\u0644\u0645 \u0623\u0633\u0627\u0644\u064a\u0628 \u0627\u0644\u0627\u062f\u062e\u0627\u0631 \u0648\u0627\u0644\u0625\u0646\u0641\u0627\u0642 \u0627\u0644\u0630\u0643\u064a \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0642\u0627\u0639\u062f\u0629 50/30/20 \u0648\u0628\u0646\u0627\u0621 \u0635\u0646\u062f\u0648\u0642 \u0644\u0644\u0637\u0648\u0627\u0631\u0626 \u0644\u062d\u0645\u0627\u064a\u0629 \u0646\u0641\u0633\u0643.",
       moduleTitles: {
-        m1: "مبادئ إدارة التدفق النقدي",
-        m2: "قاعدة الميزانية 50/30/20",
-        m3: "صندوق الطوارئ والحماية",
-        m4: "تجنب الديون الاستهلاكية السيئة",
+        m1: "\u0645\u0628\u0627\u062f\u0626 \u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u062a\u062f\u0641\u0642 \u0627\u0644\u0646\u0642\u062f\u064a",
+        m2: "\u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0645\u064a\u0632\u0627\u0646\u064a\u0629 50/30/20",
+        m3: "\u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0637\u0648\u0627\u0631\u0626 \u0648\u0627\u0644\u062d\u0645\u0627\u064a\u0629",
+        m4: "\u062a\u062c\u0646\u0628 \u0627\u0644\u062f\u064a\u0648\u0646 \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643\u064a\u0629 \u0627\u0644\u0633\u064a\u0626\u0629",
       },
     },
     "passive-income": {
-      title: "استراتيجيات الدخل السلبي والأرباح",
-      description: "تعرف على كيفية صياغة محفظة استثمارية تدرّ عليك تدفقات نقدية مستمرة وأرباحاً سلبية متنامية من أسهم العوائد وصناديق المؤشرات بشكل مدروس.",
+      title: "\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0627\u0644\u062f\u062e\u0644 \u0627\u0644\u0633\u0644\u0628\u064a \u0648\u0627\u0644\u0623\u0631\u0628\u0627\u062d",
+      description: "\u062a\u0639\u0631\u0641 \u0639\u0644\u0649 \u0643\u064a\u0641\u064a\u0629 \u0635\u064a\u0627\u063a\u0629 \u0645\u062d\u0641\u0638\u0629 \u0627\u0633\u062a\u062b\u0645\u0627\u0631\u064a\u0629 \u062a\u062f\u0631\u0651 \u0639\u0644\u064a\u0643 \u062a\u062f\u0641\u0642\u0627\u062a \u0646\u0642\u062f\u064a\u0629 \u0645\u0633\u062a\u0645\u0631\u0629 \u0648\u0623\u0631\u0628\u0627\u062d\u0627\u064b \u0633\u0644\u0628\u064a\u0629 \u0645\u062a\u0646\u0627\u0645\u064a\u0629 \u0645\u0646 \u0623\u0633\u0647\u0645 \u0627\u0644\u0639\u0648\u0627\u0626\u062f \u0648\u0635\u0646\u0627\u062f\u064a\u0642 \u0627\u0644\u0645\u0624\u0634\u0631\u0627\u062a \u0628\u0634\u0643\u0644 \u0645\u062f\u0631\u0648\u0633.",
       moduleTitles: {
-        m1: "مفهوم الدخل السلبي",
-        m2: "الاستثمار في أسهم توزيعات الأرباح",
-        m3: "التدفق النقدي من الأصول الرقمية",
-        m4: "الضرائب وإدارة المحفظة",
+        m1: "\u0645\u0641\u0647\u0648\u0645 \u0627\u0644\u062f\u062e\u0644 \u0627\u0644\u0633\u0644\u0628\u064a",
+        m2: "\u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0641\u064a \u0623\u0633\u0647\u0645 \u062a\u0648\u0632\u064a\u0639\u0627\u062a \u0627\u0644\u0623\u0631\u0628\u0627\u062d",
+        m3: "\u0627\u0644\u062a\u062f\u0641\u0642 \u0627\u0644\u0646\u0642\u062f\u064a \u0645\u0646 \u0627\u0644\u0623\u0635\u0648\u0644 \u0627\u0644\u0631\u0642\u0645\u064a\u0629",
+        m4: "\u0627\u0644\u0636\u0631\u0627\u0626\u0628 \u0648\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0645\u062d\u0641\u0638\u0629",
       },
     },
     "growth-mindset": {
-      title: "عقلية النمو وعادات النجاح",
-      description: "تبنّ عقلية التطوير المستمر، وحطم الحواجز النفسية والمعتقدات المقيدة لك، وابنِ العادات اليومية الإيجابية المتراكمة (Atomic Habits) لنجاحك المالي والمهني.",
+      title: "\u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u0646\u0645\u0648 \u0648\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u062c\u0627\u062d",
+      description: "\u062a\u0628\u0646\u0651 \u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0645\u0633\u062a\u0645\u0631\u060c \u0648\u062d\u0637\u0645 \u0627\u0644\u062d\u0648\u0627\u062c\u0632 \u0627\u0644\u0646\u0641\u0633\u064a\u0629 \u0648\u0627\u0644\u0645\u0639\u062a\u0642\u062f\u0627\u062a \u0627\u0644\u0645\u0642\u064a\u062f\u0629 \u0644\u0643\u060c \u0648\u0627\u0628\u0646\u0650 \u0627\u0644\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u064a\u0648\u0645\u064a\u0629 \u0627\u0644\u0625\u064a\u062c\u0627\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u0631\u0627\u0643\u0645\u0629 (Atomic Habits) \u0644\u0646\u062c\u0627\u062d\u0643 \u0627\u0644\u0645\u0627\u0644\u064a \u0648\u0627\u0644\u0645\u0647\u0646\u064a.",
       moduleTitles: {
-        m1: "عقلية النمو مقابل العقلية الثابتة",
-        m2: "التغلب على الخوف من الفشل",
-        m3: "بناء العادات الذرية الصغيرة",
-        m4: "الانضباط الذاتي والاستمرارية",
+        m1: "\u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u0646\u0645\u0648 \u0645\u0642\u0627\u0628\u0644 \u0627\u0644\u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u062b\u0627\u0628\u062a\u0629",
+        m2: "\u0627\u0644\u062a\u063a\u0644\u0628 \u0639\u0644\u0649 \u0627\u0644\u062e\u0648\u0641 \u0645\u0646 \u0627\u0644\u0641\u0634\u0644",
+        m3: "\u0628\u0646\u0627\u0621 \u0627\u0644\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0630\u0631\u064a\u0629 \u0627\u0644\u0635\u063a\u064a\u0631\u0629",
+        m4: "\u0627\u0644\u0627\u0646\u0636\u0628\u0627\u0637 \u0627\u0644\u0630\u0627\u062a\u064a \u0648\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631\u064a\u0629",
       },
     },
     "time-management": {
-      title: "إدارة الوقت والإنتاجية",
-      description: "احترف مهارات تنظيم الوقت باستخدام مصفوفة إيزنهاور لتحديد الأولويات وتقنية بومودورو لتفادي التشتت والتخلص النهائي من عادة تأجيل المهام.",
+      title: "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0648\u0642\u062a \u0648\u0627\u0644\u0625\u0646\u062a\u0627\u062c\u064a\u0629",
+      description: "\u0627\u062d\u062a\u0631\u0641 \u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0648\u0642\u062a \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0635\u0641\u0648\u0641\u0629 \u0625\u064a\u0632\u0646\u0647\u0627\u0648\u0631 \u0644\u062a\u062d\u062f\u064a\u062f \u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0627\u062a \u0648\u062a\u0642\u0646\u064a\u0629 \u0628\u0648\u0645\u0648\u062f\u0648\u0631\u0648 \u0644\u062a\u0641\u0627\u062f\u064a \u0627\u0644\u062a\u0634\u062a\u062a \u0648\u0627\u0644\u062a\u062e\u0644\u0635 \u0627\u0644\u0646\u0647\u0627\u0626\u064a \u0645\u0646 \u0639\u0627\u062f\u0629 \u062a\u0623\u062c\u064a\u0644 \u0627\u0644\u0645\u0647\u0627\u0645.",
       moduleTitles: {
-        m1: "المبادئ الأساسية لإدارة الوقت",
-        m2: "مصفوفة أولويات إيزنهاور",
-        m3: "التغلب على التسويف والمماطلة",
+        m1: "\u0627\u0644\u0645\u0628\u0627\u062f\u0626 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0644\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0648\u0642\u062a",
+        m2: "\u0645\u0635\u0641\u0648\u0641\u0629 \u0623\u0648\u0644\u0648\u064a\u0627\u062a \u0625\u064a\u0632\u0646\u0647\u0627\u0648\u0631",
+        m3: "\u0627\u0644\u062a\u063a\u0644\u0628 \u0639\u0644\u0649 \u0627\u0644\u062a\u0633\u0648\u064a\u0641 \u0648\u0627\u0644\u0645\u0645\u0627\u0637\u0644\u0629",
       },
     },
   },
   ko: {
-    "ai-tools": {
-      title: "생산성을 위한 AI 도구",
-      description: "ChatGPT 및 Midjourney와 같은 AI의 힘을 활용하여 일상적인 워크플로우를 가속화하세요.",
-      moduleTitles: { m1: "기초 프롬프트 엔지니어링", m2: "콘텐츠 제작을 위한 AI" },
-    },
-    "data-science": {
-      title: "데이터 사이언스 입문",
-      description: "데이터 분석 방법, 기본 통계 이해 및 Python을 사용하여 데이터 기반 문제를 해결하는 방법을 배웁니다.",
-      moduleTitles: { m1: "데이터 분석 기초", m2: "데이터 사이언스를 위한 Python" },
-    },
-    "web-dev": {
-      title: "모던 웹 개발",
-      description: "HTML, CSS, Javascript를 이용한 웹사이트 제작의 기초를 마스터하고 전문 웹 개발자로서의 커리어를 시작하세요.",
-      moduleTitles: { m1: "HTML 및 CSS 기초", m2: "Javascript 소개" },
-    },
-    "graphic-design": {
-      title: "모던 그래픽 디자인",
-      description: "시각 예술, 구도, 타이포그래피 및 색채 이론을 마스터하여 놀라운 디자인을 만듭니다.",
-      moduleTitles: { m1: "색채 이론 및 타이포그래피", m2: "시각적 구도" },
-    },
-    "ui-ux-design": {
-      title: "UI/UX 디자인 기초",
-      description: "사용자 인터페이스 및 사용자 경험 디자인의 핵심 원칙을 배웁니다.",
-      moduleTitles: { m1: "UI 기초", m2: "UX 리서치 및 와이어프레이밍" },
-    },  
-    "health-fitness": {
-      title: "건강 및 피트니스",
-      description: "피트니스의 핵심 원리와 효과적인 운동 루틴을 배웁니다.",
-      moduleTitles: { m1: "피트니스 기초", m2: "운동 루틴 짜기" },
-    },
-    "nutrition-diet": {
-      title: "영양 및 다이어트",
-      description: "영양소를 이해하고 식단을 구성하는 방법을 배웁니다.",
-      moduleTitles: { m1: "영양 기초", m2: "식단 계획" },
-    },
-    "web-dev": {
-      title: "웹 개발",
-      description: "HTML, CSS 및 최신 JavaScript의 기초를 배웁니다.",
-      moduleTitles: { m1: "HTML 및 CSS 개념", m2: "JavaScript 기초" },
-    },
-    "data-science": {
-      title: "데이터 과학",
-      description: "데이터 과학 및 머신러닝의 세계를 발견하세요.",
-      moduleTitles: { m1: "데이터 과학 소개", m2: "머신러닝 기초" },
-    },
-    "mental-health": {
-      title: "정신 건강",
-      description: "스트레스를 관리하고 삶의 균형을 유지하는 방법을 배웁니다.",
-      moduleTitles: { m1: "스트레스 관리", m2: "명상 기초" },
-    },
-    "ai-tools": {
-      title: "AI 도구",
-      description: "ChatGPT 등을 활용하여 작업 프로세스를 가속화하세요.",
-      moduleTitles: { m1: "프롬프트 엔지니어링", m2: "콘텐츠용 AI" },
-    },
     "saham-dasar": {
-      title: "주식 투자 및 시장 기초",
-      description: "성공적인 주식 투자를 위한 첫걸음. 우량주의 재무 펀더멘털을 분석하고 정밀한 차트 읽기 법을 마스터하여 장기적이고 안정적인 자산 포트폴리오를 완성합니다.",
+      title: "\uc8fc\uc2dd \ud22c\uc790 \ubc0f \uc2dc\uc7a5 \uae30\ucd08",
+      description: "\uc131\uacf5\uc801\uc778 \uc8fc\uc2dd \ud22c\uc790\ub97c \uc704\ud55c \uccab\uac78\uc74c. \uc6b0\ub7c9\uc8fc\uc758 \uc7ac\ubb34 \ud380\ub354\uba58\ud138\uc744 \ubd84\uc11d\ud558\uace0 \uc815\ubc00\ud55c \ucc28\ud2b8 \uc77d\uae30 \ubc95\uc744 \ub9c8\uc2a4\ud130\ud558\uc5ec \uc7a5\uae30\uc801\uc774\uace0 \uc548\uc815\uc801\uc778 \uc790\uc0b0 \ud3ec\ud2b8\ud3f4\ub9ac\uc624\ub97c \uc644\uc131\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "주식이란 무엇인가?",
-        m2: "기본적 분석",
-        m3: "기술적 분석",
-        m4: "포트폴리오 전략",
+        m1: "\uc8fc\uc2dd\uc774\ub780 \ubb34\uc5c7\uc778\uac00?",
+        m2: "\uae30\ubcf8\uc801 \ubd84\uc11d",
+        m3: "\uae30\uc220\uc801 \ubd84\uc11d",
+        m4: "\ud3ec\ud2b8\ud3f4\ub9ac\uc624 \uc804\ub7b5",
       },
     },
     "kripto-dasar": {
-      title: "암호화폐 및 Web3 기초",
-      description: "블록체인 시스템 아키텍처, 비트코인 및 이더리움 메커니즘, 암호화폐 지갑 설정 및 보안, 그리고 탈중앙화 금융(DeFi) 트렌드를 완벽 정복합니다.",
+      title: "\uc554\ud638\ud654\ud3d0 \ubc0f Web3 \uae30\ucd08",
+      description: "\ube14\ub85d\uccb4\uc778 \uc2dc\uc2a4\ud15c \uc544\ud0a4\ud14d\ucc98, \ube44\ud2b8\ucf54\uc778 \ubc0f \uc774\ub354\ub9ac\uc6c0 \uba54\ucee4\ub2c8\uc998, \uc554\ud638\ud654\ud3d0 \uc9c0\uac11 \uc124\uc815 \ubc0f \ubcf4\uc548, \uadf8\ub9ac\uace0 \ud0c8\uc911\uc559\ud654 \uae08\uc735(DeFi) \ud2b8\ub80c\ub4dc\ub97c \uc644\ubcbd \uc815\ubcf5\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "블록체인 기술 소개",
-        m2: "비트코인과 이더리움의 작동 원리",
-        m3: "크립토 지갑 설정 및 보안",
-        m4: "Web3의 미래와 기회",
-      },
-    },
-    "laporan-keuangan": {
-      title: "재무제표 및 결산서 분석",
-      description: "기업 및 스타트업의 재무 건전성을 자산과 손익 관점에서 완벽히 해석하기 위한 3대 재무제표(B/S, P/L, Cashflow) 핵심 지표 분석 실전 코스.",
-      moduleTitles: {
-        m1: "3대 핵심 재무제표 읽기",
-        m2: "주요 재무 비율 분석법",
-        m3: "분식회계 및 재무 리스크 감지",
-      },
-    },
-    "startup-bisnis": {
-      title: "스타트업 창업 및 비즈니스 전략",
-      description: "비즈니스 아이디어를 기획하고 이를 정밀하게 스케일업하는 창업의 전 과정을 학습합니다. 린 캔버스 모형 구축부터 첫 자금 조달 및 마켓 확장 전략까지 전수합니다.",
-      moduleTitles: {
-        m1: "비즈니스 아이디어 검증",
-        m2: "린 비즈니스 모델 캔버스",
-        m3: "초기 투자 유치 전략",
-        m4: "규모 확장 및 성장 전략",
+        m1: "\ube14\ub85d\uccb4\uc778 \uae30\uc220 \uc18c\uac1c",
+        m2: "\ube44\ud2b8\ucf54\uc778\uacfc \uc774\ub354\ub9ac\uc6c0\uc758 \uc791\ub3d9 \uc6d0\ub9ac",
+        m3: "\ud06c\ub9bd\ud1a0 \uc9c0\uac11 \uc124\uc815 \ubc0f \ubcf4\uc548",
+        m4: "Web3\uc758 \ubbf8\ub798\uc640 \uae30\ud68c",
       },
     },
     "digital-marketing": {
-      title: "현대 디지털 마케팅 실무",
-      description: "소셜 미디어 분석, 정밀 검색엔진 최적화(SEO) 마스터, 유료 광고 집행(Facebook/Google Ads), 그리고 고객을 사로잡는 전환 카피라이팅 기법을 학습합니다.",
+      title: "\ud604\ub300 \ub514\uc9c0\ud138 \ub9c8\ucf00\ud305 \uc2e4\ubb34",
+      description: "\uc18c\uc15c \ubbf8\ub514\uc5b4 \ubd84\uc11d, \uc815\ubc00 \uac80\uc0c9\uc5d4\uc9c4 \ucd5c\uc801\ud654(SEO) \ub9c8\uc2a4\ud130, \uc720\ub8cc \uad11\uace0 \uc9d1\ud589(Facebook/Google Ads), \uadf8\ub9ac\uace0 \uace0\uac1d\uc744 \uc0ac\ub85c\uc7a1\ub294 \uc804\ud658 \uce74\ud53c\ub77c\uc774\ud305 \uae30\ubc95\uc744 \ud559\uc2b5\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "디지털 마케팅의 프레임워크",
-        m2: "검색엔진 최적화 (SEO) 실전",
-        m3: "유료 광고 집행 (FB & Google Ads)",
-        m4: "카피라이팅 및 브랜드 콘텐츠 전략",
+        m1: "\ub514\uc9c0\ud138 \ub9c8\ucf00\ud305\uc758 \ud504\ub808\uc784\uc6cc\ud06c",
+        m2: "\uac80\uc0c9\uc5d4\uc9c4 \ucd5c\uc801\ud654 (SEO) \uc2e4\uc804",
+        m3: "\uc720\ub8cc \uad11\uace0 \uc9d1\ud589 (FB & Google Ads)",
+        m4: "\uce74\ud53c\ub77c\uc774\ud305 \ubc0f \ube0c\ub79c\ub4dc \ucf58\ud150\uce20 \uc804\ub7b5",
+      },
+    },
+    "ui-ux-design": {
+      title: "UI/UX \ub514\uc790\uc778 \uae30\ucd08",
+      description: "\uc0ac\uc6a9\uc790 \uc778\ud130\ud398\uc774\uc2a4 \ubc0f \uc0ac\uc6a9\uc790 \uacbd\ud5d8 \ub514\uc790\uc778\uc758 \ud575\uc2ec \uc6d0\uce59\uc744 \ubc30\uc6c1\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "UI \uae30\ucd08",
+        m2: "UX \ub9ac\uc11c\uce58 \ubc0f \uc640\uc774\uc5b4\ud504\ub808\uc774\ubc0d",
+      },
+    },
+    "graphic-design": {
+      title: "\ubaa8\ub358 \uadf8\ub798\ud53d \ub514\uc790\uc778",
+      description: "\uc2dc\uac01 \uc608\uc220, \uad6c\ub3c4, \ud0c0\uc774\ud3ec\uadf8\ub798\ud53c \ubc0f \uc0c9\ucc44 \uc774\ub860\uc744 \ub9c8\uc2a4\ud130\ud558\uc5ec \ub180\ub77c\uc6b4 \ub514\uc790\uc778\uc744 \ub9cc\ub4ed\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\uc0c9\ucc44 \uc774\ub860 \ubc0f \ud0c0\uc774\ud3ec\uadf8\ub798\ud53c",
+        m2: "\uc2dc\uac01\uc801 \uad6c\ub3c4",
+      },
+    },
+    "mental-health": {
+      title: "\uc815\uc2e0 \uac74\uac15 \ubc0f \uc2a4\ud2b8\ub808\uc2a4 \uad00\ub9ac",
+      description: "\uc2a4\ud2b8\ub808\uc2a4\ub97c \uad00\ub9ac\ud558\uace0, \uba85\uc0c1\uc744 \uc2e4\ucc9c\ud558\uba70, \uac74\uac15\ud55c \uc6cc\ub77c\ubc38\uc744 \uc720\uc9c0\ud558\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\uc2a4\ud2b8\ub808\uc2a4 \uad00\ub9ac",
+        m2: "\uba85\uc0c1 \uae30\ucd08",
+      },
+    },
+    "health-fitness": {
+      title: "\uac74\uac15 \ubc0f \ud53c\ud2b8\ub2c8\uc2a4 \uae30\ucd08",
+      description: "\ud53c\ud2b8\ub2c8\uc2a4\uc758 \ud575\uc2ec \uc6d0\uce59\uacfc \ud6a8\uacfc\uc801\uc778 \uc6b4\ub3d9 \ub8e8\ud2f4\uc744 \ubc30\uc6c1\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\ud53c\ud2b8\ub2c8\uc2a4 \uae30\ucd08",
+        m2: "\uc6b4\ub3d9 \ub8e8\ud2f4",
+      },
+    },
+    "nutrition-diet": {
+      title: "\uc601\uc591 \ubc0f \uac74\uac15\ud55c \uc2dd\ub2e8",
+      description: "\uc601\uc591\uc18c\ub97c \uc774\ud574\ud558\uace0 \ucd5c\ub300\ud55c\uc758 \uc5d0\ub108\uc9c0\ub97c \uc5bb\uae30 \uc704\ud574 \uc2dd\ub2e8\uc744 \uad6c\uc131\ud558\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\uc601\uc591 \uae30\ucd08",
+        m2: "\uc2dd\ub2e8 \uc804\ub7b5",
+      },
+    },
+    "web-dev": {
+      title: "\ubaa8\ub358 \uc6f9 \uac1c\ubc1c",
+      description: "HTML, CSS, Javascript\ub97c \uc774\uc6a9\ud55c \uc6f9\uc0ac\uc774\ud2b8 \uc81c\uc791\uc758 \uae30\ucd08\ub97c \ub9c8\uc2a4\ud130\ud558\uace0 \uc804\ubb38 \uc6f9 \uac1c\ubc1c\uc790\ub85c\uc11c\uc758 \ucee4\ub9ac\uc5b4\ub97c \uc2dc\uc791\ud558\uc138\uc694.",
+      moduleTitles: {
+        m1: "HTML \ubc0f CSS \uae30\ucd08",
+        m2: "Javascript \uc18c\uac1c",
+      },
+    },
+    "data-science": {
+      title: "\ub370\uc774\ud130 \uc0ac\uc774\uc5b8\uc2a4 \uc785\ubb38",
+      description: "\ub370\uc774\ud130 \ubd84\uc11d \ubc29\ubc95, \uae30\ubcf8 \ud1b5\uacc4 \uc774\ud574 \ubc0f Python\uc744 \uc0ac\uc6a9\ud558\uc5ec \ub370\uc774\ud130 \uae30\ubc18 \ubb38\uc81c\ub97c \ud574\uacb0\ud558\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\ub370\uc774\ud130 \ubd84\uc11d \uae30\ucd08",
+        m2: "\ub370\uc774\ud130 \uc0ac\uc774\uc5b8\uc2a4\ub97c \uc704\ud55c Python",
+      },
+    },
+    "ai-tools": {
+      title: "\uc0dd\uc0b0\uc131\uc744 \uc704\ud55c AI \ub3c4\uad6c",
+      description: "ChatGPT \ubc0f Midjourney\uc640 \uac19\uc740 AI\uc758 \ud798\uc744 \ud65c\uc6a9\ud558\uc5ec \uc77c\uc0c1\uc801\uc778 \uc6cc\ud06c\ud50c\ub85c\uc6b0\ub97c \uac00\uc18d\ud654\ud558\uc138\uc694.",
+      moduleTitles: {
+        m1: "\uae30\ucd08 \ud504\ub86c\ud504\ud2b8 \uc5d4\uc9c0\ub2c8\uc5b4\ub9c1",
+        m2: "\ucf58\ud150\uce20 \uc81c\uc791\uc744 \uc704\ud55c AI",
+      },
+    },
+    "laporan-keuangan": {
+      title: "\uc7ac\ubb34\uc81c\ud45c \ubc0f \uacb0\uc0b0\uc11c \ubd84\uc11d",
+      description: "\uae30\uc5c5 \ubc0f \uc2a4\ud0c0\ud2b8\uc5c5\uc758 \uc7ac\ubb34 \uac74\uc804\uc131\uc744 \uc790\uc0b0\uacfc \uc190\uc775 \uad00\uc810\uc5d0\uc11c \uc644\ubcbd\ud788 \ud574\uc11d\ud558\uae30 \uc704\ud55c 3\ub300 \uc7ac\ubb34\uc81c\ud45c(B/S, P/L, Cashflow) \ud575\uc2ec \uc9c0\ud45c \ubd84\uc11d \uc2e4\uc804 \ucf54\uc2a4.",
+      moduleTitles: {
+        m1: "3\ub300 \ud575\uc2ec \uc7ac\ubb34\uc81c\ud45c \uc77d\uae30",
+        m2: "\uc8fc\uc694 \uc7ac\ubb34 \ube44\uc728 \ubd84\uc11d\ubc95",
+        m3: "\ubd84\uc2dd\ud68c\uacc4 \ubc0f \uc7ac\ubb34 \ub9ac\uc2a4\ud06c \uac10\uc9c0",
+      },
+    },
+    "startup-bisnis": {
+      title: "\uc2a4\ud0c0\ud2b8\uc5c5 \ucc3d\uc5c5 \ubc0f \ube44\uc988\ub2c8\uc2a4 \uc804\ub7b5",
+      description: "\ube44\uc988\ub2c8\uc2a4 \uc544\uc774\ub514\uc5b4\ub97c \uae30\ud68d\ud558\uace0 \uc774\ub97c \uc815\ubc00\ud558\uac8c \uc2a4\ucf00\uc77c\uc5c5\ud558\ub294 \ucc3d\uc5c5\uc758 \uc804 \uacfc\uc815\uc744 \ud559\uc2b5\ud569\ub2c8\ub2e4. \ub9b0 \uce94\ubc84\uc2a4 \ubaa8\ud615 \uad6c\ucd95\ubd80\ud130 \uccab \uc790\uae08 \uc870\ub2ec \ubc0f \ub9c8\ucf13 \ud655\uc7a5 \uc804\ub7b5\uae4c\uc9c0 \uc804\uc218\ud569\ub2c8\ub2e4.",
+      moduleTitles: {
+        m1: "\ube44\uc988\ub2c8\uc2a4 \uc544\uc774\ub514\uc5b4 \uac80\uc99d",
+        m2: "\ub9b0 \ube44\uc988\ub2c8\uc2a4 \ubaa8\ub378 \uce94\ubc84\uc2a4",
+        m3: "\ucd08\uae30 \ud22c\uc790 \uc720\uce58 \uc804\ub7b5",
+        m4: "\uaddc\ubaa8 \ud655\uc7a5 \ubc0f \uc131\uc7a5 \uc804\ub7b5",
       },
     },
     "ecommerce-dasar": {
-      title: "이커머스 및 드롭쉬핑 실무",
-      description: "자신만의 독자적인 쇼핑몰 구축부터 글로벌 1등 유망 아이템 발굴 및 재고 보유 없이 매출을 유기적으로 올리는 스마트 드롭쉬핑 풀팩 비즈니스 과정.",
+      title: "\uc774\ucee4\uba38\uc2a4 \ubc0f \ub4dc\ub86d\uc26c\ud551 \uc2e4\ubb34",
+      description: "\uc790\uc2e0\ub9cc\uc758 \ub3c5\uc790\uc801\uc778 \uc1fc\ud551\ubab0 \uad6c\ucd95\ubd80\ud130 \uae00\ub85c\ubc8c 1\ub4f1 \uc720\ub9dd \uc544\uc774\ud15c \ubc1c\uad74 \ubc0f \uc7ac\uace0 \ubcf4\uc720 \uc5c6\uc774 \ub9e4\ucd9c\uc744 \uc720\uae30\uc801\uc73c\ub85c \uc62c\ub9ac\ub294 \uc2a4\ub9c8\ud2b8 \ub4dc\ub86d\uc26c\ud551 \ud480\ud329 \ube44\uc988\ub2c8\uc2a4 \uacfc\uc815.",
       moduleTitles: {
-        m1: "이커머스 비즈니스 모델 유형",
-        m2: "시장성 있는 핵심 소싱 상품 발굴",
-        m3: "Shopify를 활용한 쇼핑몰 구축",
+        m1: "\uc774\ucee4\uba38\uc2a4 \ube44\uc988\ub2c8\uc2a4 \ubaa8\ub378 \uc720\ud615",
+        m2: "\uc2dc\uc7a5\uc131 \uc788\ub294 \ud575\uc2ec \uc18c\uc2f1 \uc0c1\ud488 \ubc1c\uad74",
+        m3: "Shopify\ub97c \ud65c\uc6a9\ud55c \uc1fc\ud551\ubab0 \uad6c\ucd95",
       },
     },
     "personal-finance": {
-      title: "개인 재무 관리 및 자산 기초",
-      description: "개인 가계 현금 흐름의 가시성 확보, 합리적인 자금 배분(50/30/20 규칙), 비소비성 강제 저축안 설계, 자산을 안전하게 보호해 줄 비상 예비금 설계안을 완성합니다.",
+      title: "\uac1c\uc778 \uc7ac\ubb34 \uad00\ub9ac \ubc0f \uc790\uc0b0 \uae30\ucd08",
+      description: "\uac1c\uc778 \uac00\uacc4 \ud604\uae08 \ud750\ub984\uc758 \uac00\uc2dc\uc131 \ud655\ubcf4, \ud569\ub9ac\uc801\uc778 \uc790\uae08 \ubc30\ubd84(50/30/20 \uaddc\uce59), \ube44\uc18c\ube44\uc131 \uac15\uc81c \uc800\ucd95\uc548 \uc124\uacc4, \uc790\uc0b0\uc744 \uc548\uc804\ud558\uac8c \ubcf4\ud638\ud574 \uc904 \ube44\uc0c1 \uc608\ube44\uae08 \uc124\uacc4\uc548\uc744 \uc644\uc131\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "현금 흐름 관리의 핵심 원칙",
-        m2: "50/30/20 자금 분배 규칙",
-        m3: "비상금 마련 및 리스크 방어",
-        m4: "나쁜 소비성 부채 피하기",
+        m1: "\ud604\uae08 \ud750\ub984 \uad00\ub9ac\uc758 \ud575\uc2ec \uc6d0\uce59",
+        m2: "50/30/20 \uc790\uae08 \ubd84\ubc30 \uaddc\uce59",
+        m3: "\ube44\uc0c1\uae08 \ub9c8\ub828 \ubc0f \ub9ac\uc2a4\ud06c \ubc29\uc5b4",
+        m4: "\ub098\uc05c \uc18c\ube44\uc131 \ubd80\ucc44 \ud53c\ud558\uae30",
       },
     },
     "passive-income": {
-      title: "패시브 인컴 및 배당주 투자 전략",
-      description: "안전 지향적 고배당주 포트폴리오를 설계하고 인덱스 펀드 및 디지털 크립토 자산과의 시너지 배치를 수행하여 영구적인 배당 현금 흐름을 창출합니다.",
+      title: "\ud328\uc2dc\ube0c \uc778\ucef4 \ubc0f \ubc30\ub2f9\uc8fc \ud22c\uc790 \uc804\ub7b5",
+      description: "\uc548\uc804 \uc9c0\ud5a5\uc801 \uace0\ubc30\ub2f9\uc8fc \ud3ec\ud2b8\ud3f4\ub9ac\uc624\ub97c \uc124\uacc4\ud558\uace0 \uc778\ub371\uc2a4 \ud380\ub4dc \ubc0f \ub514\uc9c0\ud138 \ud06c\ub9bd\ud1a0 \uc790\uc0b0\uacfc\uc758 \uc2dc\ub108\uc9c0 \ubc30\uce58\ub97c \uc218\ud589\ud558\uc5ec \uc601\uad6c\uc801\uc778 \ubc30\ub2f9 \ud604\uae08 \ud750\ub984\uc744 \ucc3d\ucd9c\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "패시브 인컴의 참된 정의와 구조",
-        m2: "우량 고배당주 포트폴리오 실전",
-        m3: "디지털 자산을 통한 현금 흐름 다변화",
-        m4: "절세 혜택 및 자산 포트폴리오 방어",
+        m1: "\ud328\uc2dc\ube0c \uc778\ucef4\uc758 \ucc38\ub41c \uc815\uc758\uc640 \uad6c\uc870",
+        m2: "\uc6b0\ub7c9 \uace0\ubc30\ub2f9\uc8fc \ud3ec\ud2b8\ud3f4\ub9ac\uc624 \uc2e4\uc804",
+        m3: "\ub514\uc9c0\ud138 \uc790\uc0b0\uc744 \ud1b5\ud55c \ud604\uae08 \ud750\ub984 \ub2e4\ubcc0\ud654",
+        m4: "\uc808\uc138 \ud61c\ud0dd \ubc0f \uc790\uc0b0 \ud3ec\ud2b8\ud3f4\ub9ac\uc624 \ubc29\uc5b4",
       },
     },
     "growth-mindset": {
-      title: "성장 마인드셋 및 성공 습관",
-      description: "삶의 전 영역에서 도약을 이뤄내기 위해 고정된 마인드를 파괴하고 아토믹 해빗(Atomic Habits) 행동 체계를 이식하여 매일의 삶을 180도 업그레이드합니다.",
+      title: "\uc131\uc7a5 \ub9c8\uc778\ub4dc\uc14b \ubc0f \uc131\uacf5 \uc2b5\uad00",
+      description: "\uc0b6\uc758 \uc804 \uc601\uc5ed\uc5d0\uc11c \ub3c4\uc57d\uc744 \uc774\ub904\ub0b4\uae30 \uc704\ud574 \uace0\uc815\ub41c \ub9c8\uc778\ub4dc\ub97c \ud30c\uad34\ud558\uace0 \uc544\ud1a0\ubbf9 \ud574\ube57(Atomic Habits) \ud589\ub3d9 \uccb4\uacc4\ub97c \uc774\uc2dd\ud558\uc5ec \ub9e4\uc77c\uc758 \uc0b6\uc744 180\ub3c4 \uc5c5\uadf8\ub808\uc774\ub4dc\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "성장형 마인드셋 vs 고정형 마인드셋",
-        m2: "실패에 대한 근원적 두려움 극복",
-        m3: "원자 단위의 미세 습관 설계 공식",
-        m4: "자기 규율과 지속적인 행동력 구축",
+        m1: "\uc131\uc7a5\ud615 \ub9c8\uc778\ub4dc\uc14b vs \uace0\uc815\ud615 \ub9c8\uc778\ub4dc\uc14b",
+        m2: "\uc2e4\ud328\uc5d0 \ub300\ud55c \uadfc\uc6d0\uc801 \ub450\ub824\uc6c0 \uadf9\ubcf5",
+        m3: "\uc6d0\uc790 \ub2e8\uc704\uc758 \ubbf8\uc138 \uc2b5\uad00 \uc124\uacc4 \uacf5\uc2dd",
+        m4: "\uc790\uae30 \uaddc\uc728\uacfc \uc9c0\uc18d\uc801\uc778 \ud589\ub3d9\ub825 \uad6c\ucd95",
       },
     },
     "time-management": {
-      title: "시간 관리 및 생산성 극대화",
-      description: "뽀모도로 포커싱 기술, 아이젠하워 사분면 우선순위 기반 조직화, 그리고 미루기 습관의 정밀한 행동심리적 해독법을 마스터하여 하루의 성취를 최대화합니다.",
+      title: "\uc2dc\uac04 \uad00\ub9ac \ubc0f \uc0dd\uc0b0\uc131 \uadf9\ub300\ud654",
+      description: "\ubf40\ubaa8\ub3c4\ub85c \ud3ec\ucee4\uc2f1 \uae30\uc220, \uc544\uc774\uc820\ud558\uc6cc \uc0ac\ubd84\uba74 \uc6b0\uc120\uc21c\uc704 \uae30\ubc18 \uc870\uc9c1\ud654, \uadf8\ub9ac\uace0 \ubbf8\ub8e8\uae30 \uc2b5\uad00\uc758 \uc815\ubc00\ud55c \ud589\ub3d9\uc2ec\ub9ac\uc801 \ud574\ub3c5\ubc95\uc744 \ub9c8\uc2a4\ud130\ud558\uc5ec \ud558\ub8e8\uc758 \uc131\ucde8\ub97c \ucd5c\ub300\ud654\ud569\ub2c8\ub2e4.",
       moduleTitles: {
-        m1: "시간 관리의 마인드와 기초 원칙",
-        m2: "아이젠하워 사분면 우선순위 기법",
-        m3: "과학적인 미루기 습관 극복 가이드",
+        m1: "\uc2dc\uac04 \uad00\ub9ac\uc758 \ub9c8\uc778\ub4dc\uc640 \uae30\ucd08 \uc6d0\uce59",
+        m2: "\uc544\uc774\uc820\ud558\uc6cc \uc0ac\ubd84\uba74 \uc6b0\uc120\uc21c\uc704 \uae30\ubc95",
+        m3: "\uacfc\ud559\uc801\uc778 \ubbf8\ub8e8\uae30 \uc2b5\uad00 \uadf9\ubcf5 \uac00\uc774\ub4dc",
       },
     },
   },
   pt: {
-    "ai-tools": {
-      title: "Ferramentas de IA para Produtividade",
-      description: "Aproveite o poder da IA como o ChatGPT e Midjourney para acelerar o seu fluxo de trabalho diário.",
-      moduleTitles: { m1: "Engenharia de Prompts Básica", m2: "IA para Criação de Conteúdo" },
-    },
-    "data-science": {
-      title: "Introdução à Ciência de Dados",
-      description: "Aprenda a analisar dados, compreender estatísticas básicas e usar Python para resolver problemas.",
-      moduleTitles: { m1: "Fundamentos de Análise de Dados", m2: "Python para Ciência de Dados" },
-    },
-    "web-dev": {
-      title: "Desenvolvimento Web Moderno",
-      description: "Domine os fundamentos da criação de websites com HTML, CSS, Javascript e inicie a sua carreira profissional.",
-      moduleTitles: { m1: "Bases de HTML e CSS", m2: "Introdução ao Javascript" },
-    },
-    "graphic-design": {
-      title: "Design Gráfico Moderno",
-      description: "Domine a arte visual, composição, tipografia e teoria da cor para criar designs incríveis.",
-      moduleTitles: { m1: "Teoria da Cor e Tipografia", m2: "Composição Visual" },
-    },
-    "ui-ux-design": {
-      title: "Fundamentos de Design UI/UX",
-      description: "Aprenda os princípios fundamentais de design de interfaces e experiência do utilizador.",
-      moduleTitles: { m1: "Fundamentos de UI", m2: "Pesquisa UX e Wireframing" },
-    },  
-    "health-fitness": {
-      title: "Saúde e Fitness",
-      description: "Aprenda os princípios básicos de fitness e rotinas de exercícios.",
-      moduleTitles: { m1: "Fundamentos do Fitness", m2: "Rotina de Exercícios" },
-    },
-    "nutrition-diet": {
-      title: "Nutrição e Dieta",
-      description: "Entenda os nutrientes e como estruturar a sua dieta.",
-      moduleTitles: { m1: "Fundamentos de Nutrição", m2: "Planeamento de Dietas" },
-    },
-    "web-dev": {
-      title: "Desenvolvimento Web",
-      description: "Aprenda HTML, CSS e JavaScript moderno.",
-      moduleTitles: { m1: "Conceitos de HTML e CSS", m2: "Fundamentos de JavaScript" },
-    },
-    "data-science": {
-      title: "Ciência de Dados",
-      description: "Descubra o mundo dos dados e do aprendizado de máquina.",
-      moduleTitles: { m1: "Introdução aos Dados", m2: "Aprendizado de Máquina" },
-    },
-    "mental-health": {
-      title: "Saúde Mental",
-      description: "Aprenda a gerenciar o estresse e manter o equilíbrio.",
-      moduleTitles: { m1: "Gerenciamento de Estresse", m2: "Noções Básicas de Meditação" },
-    },
-    "ai-tools": {
-      title: "Ferramentas de IA",
-      description: "Aproveite a IA para acelerar o seu fluxo de trabalho.",
-      moduleTitles: { m1: "Engenharia de Prompts", m2: "IA para Criação de Conteúdo" },
-    },
     "saham-dasar": {
-      title: "Bolsa de Valores & Ações Básicas",
-      description: "Comece a investir em ações corretamente. Aprenda a escolher ações com fundamentos sólidos, compreender rácios financeiros, ler gráficos de preços e construir uma carteira de investimentos robusta.",
+      title: "Bolsa de Valores & A\u00e7\u00f5es B\u00e1sicas",
+      description: "Comece a investir em a\u00e7\u00f5es corretamente. Aprenda a escolher a\u00e7\u00f5es com fundamentos s\u00f3lidos, compreender r\u00e1cios financeiros, ler gr\u00e1ficos de pre\u00e7os e construir uma carteira de investimentos robusta.",
       moduleTitles: {
-        m1: "O que são Ações?",
-        m2: "Análise Fundamentalista",
-        m3: "Análise Técnica",
-        m4: "Estratégias de Carteira",
+        m1: "O que s\u00e3o A\u00e7\u00f5es?",
+        m2: "An\u00e1lise Fundamentalista",
+        m3: "An\u00e1lise T\u00e9cnica",
+        m4: "Estrat\u00e9gias de Carteira",
       },
     },
     "kripto-dasar": {
       title: "Cripto & Fundamentos de Web3",
-      description: "Compreenda detalhadamente o mundo do blockchain, criptomoedas, contratos inteligentes, operações de carteiras digitais e o potencial futuro das finanças descentralizadas (DeFi).",
+      description: "Compreenda detalhadamente o mundo do blockchain, criptomoedas, contratos inteligentes, opera\u00e7\u00f5es de carteiras digitais e o potencial futuro das finan\u00e7as descentralizadas (DeFi).",
       moduleTitles: {
-        m1: "Introdução ao Blockchain",
+        m1: "Introdu\u00e7\u00e3o ao Blockchain",
         m2: "Como Funcionam o Bitcoin & Ethereum",
-        m3: "Carteiras Cripto & Segurança",
+        m3: "Carteiras Cripto & Seguran\u00e7a",
         m4: "O Futuro da Web3",
-      },
-    },
-    "laporan-keuangan": {
-      title: "Análise de Demonstrações Financeiras",
-      description: "Como ler balanços, demonstrações de resultados e fluxos de caixa para avaliar a saúde financeira de empresas ou investimentos antes de tomar decisões ativos.",
-      moduleTitles: {
-        m1: "Três Demonstrações Financeiras Principais",
-        m2: "Análise de Rácios Financeiros",
-        m3: "Deteção de Alertas Financeiros",
-      },
-    },
-    "startup-bisnis": {
-      title: "Estratégia de Startup & Negócios",
-      description: "Crie o seu negócio desde a ideia até à execução. Aprenda pesquisa de mercado, modelos de negócio, esquemas de financiamento inicial e estratégias modernas de escalabilidade.",
-      moduleTitles: {
-        m1: "Validação de Ideias de Negócio",
-        m2: "Canvas de Modelo de Negócio Lean",
-        m3: "Obtenção de Financiamento Inicial",
-        m4: "Estratégias de Escalabilidade",
       },
     },
     "digital-marketing": {
       title: "Marketing Digital Moderno",
-      description: "Domine o marketing digital utilizando redes sociais, otimização de motores de pesquisa (SEO), publicidade paga e copywriting de alta conversão para impulsionar as vendas do seu negócio.",
+      description: "Domine o marketing digital utilizando redes sociais, otimiza\u00e7\u00e3o de motores de pesquisa (SEO), publicidade paga e copywriting de alta convers\u00e3o para impulsionar as vendas do seu neg\u00f3cio.",
       moduleTitles: {
         m1: "Fundamentos do Marketing Digital",
-        m2: "Otimização de Motores de Pesquisa (SEO)",
-        m3: "Anúncios Pagos (FB, Google Ads)",
-        m4: "Copywriting & Estratégia de Conteúdo",
+        m2: "Otimiza\u00e7\u00e3o de Motores de Pesquisa (SEO)",
+        m3: "An\u00fancios Pagos (FB, Google Ads)",
+        m4: "Copywriting & Estrat\u00e9gia de Conte\u00fado",
+      },
+    },
+    "ui-ux-design": {
+      title: "Fundamentos de Design UI/UX",
+      description: "Aprenda os princ\u00edpios fundamentais de design de interfaces e experi\u00eancia do utilizador.",
+      moduleTitles: {
+        m1: "Fundamentos de UI",
+        m2: "Pesquisa UX e Wireframing",
+      },
+    },
+    "graphic-design": {
+      title: "Design Gr\u00e1fico Moderno",
+      description: "Domine a arte visual, composi\u00e7\u00e3o, tipografia e teoria da cor para criar designs incr\u00edveis.",
+      moduleTitles: {
+        m1: "Teoria da Cor e Tipografia",
+        m2: "Composi\u00e7\u00e3o Visual",
+      },
+    },
+    "mental-health": {
+      title: "Sa\u00fade Mental e Gest\u00e3o de Estresse",
+      description: "Aprenda a gerir o stress, praticar medita\u00e7\u00e3o e manter um equil\u00edbrio saud\u00e1vel.",
+      moduleTitles: {
+        m1: "Gest\u00e3o de Estresse",
+        m2: "No\u00e7\u00f5es B\u00e1sicas de Medita\u00e7\u00e3o",
+      },
+    },
+    "health-fitness": {
+      title: "No\u00e7\u00f5es B\u00e1sicas de Sa\u00fade e Fitness",
+      description: "Aprenda os princ\u00edpios b\u00e1sicos de fitness e rotinas de exerc\u00edcios eficazes.",
+      moduleTitles: {
+        m1: "Fundamentos de Fitness",
+        m2: "Rotinas de Exerc\u00edcio",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutri\u00e7\u00e3o e Dieta Saud\u00e1vel",
+      description: "Entenda os nutrientes e como estruturar sua dieta para obter a m\u00e1xima energia.",
+      moduleTitles: {
+        m1: "Fundamentos de Nutri\u00e7\u00e3o",
+        m2: "Estrat\u00e9gias de Dieta",
+      },
+    },
+    "web-dev": {
+      title: "Desenvolvimento Web Moderno",
+      description: "Domine os fundamentos da cria\u00e7\u00e3o de websites com HTML, CSS, Javascript e inicie a sua carreira profissional.",
+      moduleTitles: {
+        m1: "Bases de HTML e CSS",
+        m2: "Introdu\u00e7\u00e3o ao Javascript",
+      },
+    },
+    "data-science": {
+      title: "Introdu\u00e7\u00e3o \u00e0 Ci\u00eancia de Dados",
+      description: "Aprenda a analisar dados, compreender estat\u00edsticas b\u00e1sicas e usar Python para resolver problemas.",
+      moduleTitles: {
+        m1: "Fundamentos de An\u00e1lise de Dados",
+        m2: "Python para Ci\u00eancia de Dados",
+      },
+    },
+    "ai-tools": {
+      title: "Ferramentas de IA para Produtividade",
+      description: "Aproveite o poder da IA como o ChatGPT e Midjourney para acelerar o seu fluxo de trabalho di\u00e1rio.",
+      moduleTitles: {
+        m1: "Engenharia de Prompts B\u00e1sica",
+        m2: "IA para Cria\u00e7\u00e3o de Conte\u00fado",
+      },
+    },
+    "laporan-keuangan": {
+      title: "An\u00e1lise de Demonstra\u00e7\u00f5es Financeiras",
+      description: "Como ler balan\u00e7os, demonstra\u00e7\u00f5es de resultados e fluxos de caixa para avaliar a sa\u00fade financeira de empresas ou investimentos antes de tomar decis\u00f5es ativos.",
+      moduleTitles: {
+        m1: "Tr\u00eas Demonstra\u00e7\u00f5es Financeiras Principais",
+        m2: "An\u00e1lise de R\u00e1cios Financeiros",
+        m3: "Dete\u00e7\u00e3o de Alertas Financeiros",
+      },
+    },
+    "startup-bisnis": {
+      title: "Estrat\u00e9gia de Startup & Neg\u00f3cios",
+      description: "Crie o seu neg\u00f3cio desde a ideia at\u00e9 \u00e0 execu\u00e7\u00e3o. Aprenda pesquisa de mercado, modelos de neg\u00f3cio, esquemas de financiamento inicial e estrat\u00e9gias modernas de escalabilidade.",
+      moduleTitles: {
+        m1: "Valida\u00e7\u00e3o de Ideias de Neg\u00f3cio",
+        m2: "Canvas de Modelo de Neg\u00f3cio Lean",
+        m3: "Obten\u00e7\u00e3o de Financiamento Inicial",
+        m4: "Estrat\u00e9gias de Escalabilidade",
       },
     },
     "ecommerce-dasar": {
-      title: "Domínio de E-Commerce & Dropshipping",
-      description: "Crie a sua própria loja online, encontre produtos vencedores, domine a gestão da cadeia de abastecimento e opere um negócio de comércio eletrónico rentável sem necessidade de stock.",
+      title: "Dom\u00ednio de E-Commerce & Dropshipping",
+      description: "Crie a sua pr\u00f3pria loja online, encontre produtos vencedores, domine a gest\u00e3o da cadeia de abastecimento e opere um neg\u00f3cio de com\u00e9rcio eletr\u00f3nico rent\u00e1vel sem necessidade de stock.",
       moduleTitles: {
-        m1: "Modelos de Negócio de E-Commerce",
+        m1: "Modelos de Neg\u00f3cio de E-Commerce",
         m2: "Pesquisa de Produtos Mais Vendidos",
-        m3: "Construção de Loja Online Shopify",
+        m3: "Constru\u00e7\u00e3o de Loja Online Shopify",
       },
     },
     "personal-finance": {
-      title: "Gestão de Finanças Pessoais",
-      description: "Domine a gestão do seu fluxo de caixa pessoal, métodos eficazes de poupança, alocação sistemática do orçamento mensal e passos cruciais para a preparação de um fundo de emergência.",
+      title: "Gest\u00e3o de Finan\u00e7as Pessoais",
+      description: "Domine a gest\u00e3o do seu fluxo de caixa pessoal, m\u00e9todos eficazes de poupan\u00e7a, aloca\u00e7\u00e3o sistem\u00e1tica do or\u00e7amento mensal e passos cruciais para a prepara\u00e7\u00e3o de um fundo de emerg\u00eancia.",
       moduleTitles: {
-        m1: "Princípios de Gestão de Fluxo de Caixa",
-        m2: "Método de Orçamento 50/30/20",
-        m3: "Fundo de Emergência & Proteção",
-        m4: "Evitar Dívidas de Consumo",
+        m1: "Princ\u00edpios de Gest\u00e3o de Fluxo de Caixa",
+        m2: "M\u00e9todo de Or\u00e7amento 50/30/20",
+        m3: "Fundo de Emerg\u00eancia & Prote\u00e7\u00e3o",
+        m4: "Evitar D\u00edvidas de Consumo",
       },
     },
     "passive-income": {
-      title: "Estratégias de Rendimento Passivo & Dividendos",
-      description: "Como construir uma carteira de investimentos que gere fluxos de caixa passivos consistentes a partir de dividendos de ações, fundos de índice ou outros ativos digitais de forma segura.",
+      title: "Estrat\u00e9gias de Rendimento Passivo & Dividendos",
+      description: "Como construir uma carteira de investimentos que gere fluxos de caixa passivos consistentes a partir de dividendos de a\u00e7\u00f5es, fundos de \u00edndice ou outros ativos digitais de forma segura.",
       moduleTitles: {
         m1: "Conceito de Rendimento Passivo",
-        m2: "Investimento em Ações de Dividendos",
+        m2: "Investimento em A\u00e7\u00f5es de Dividendos",
         m3: "Rendimento Passivo com Ativos Digitais",
-        m4: "Impostos & Gestão de Carteira",
+        m4: "Impostos & Gest\u00e3o de Carteira",
       },
     },
     "growth-mindset": {
-      title: "Mentalidade de Crescimento & Hábitos de Sucesso",
-      description: "Desenvolva uma mentalidade de aprendizagem contínua, elimine crenças limitadoras e crie micro-hábitos diários (hábitos atómicos) para alcançar o seu potencial máximo.",
+      title: "Mentalidade de Crescimento & H\u00e1bitos de Sucesso",
+      description: "Desenvolva uma mentalidade de aprendizagem cont\u00ednua, elimine cren\u00e7as limitadoras e crie micro-h\u00e1bitos di\u00e1rios (h\u00e1bitos at\u00f3micos) para alcan\u00e7ar o seu potencial m\u00e1ximo.",
       moduleTitles: {
-        m1: "Princípio da Mentalidade de Crescimento vs Fixa",
+        m1: "Princ\u00edpio da Mentalidade de Crescimento vs Fixa",
         m2: "Superar o Medo do Fracasso",
-        m3: "Construir Micro-Hábitos",
-        m4: "Autodisciplina & Consistência",
+        m3: "Construir Micro-H\u00e1bitos",
+        m4: "Autodisciplina & Consist\u00eancia",
       },
     },
     "time-management": {
-      title: "Gestão de Tempo & Produtividade",
-      description: "Domine a técnica Pomodoro, a matriz de prioridades de Eisenhower e aprenda a combater a procrastinação para trabalhar de forma mais inteligente e eficiente todos os dias.",
+      title: "Gest\u00e3o de Tempo & Produtividade",
+      description: "Domine a t\u00e9cnica Pomodoro, a matriz de prioridades de Eisenhower e aprenda a combater a procrastina\u00e7\u00e3o para trabalhar de forma mais inteligente e eficiente todos os dias.",
       moduleTitles: {
-        m1: "Princípios da Gestão de Tempo",
+        m1: "Princ\u00edpios da Gest\u00e3o de Tempo",
         m2: "Matriz de Prioridades de Eisenhower",
-        m3: "Superar a Procrastinação",
+        m3: "Superar a Procrastina\u00e7\u00e3o",
       },
     },
   },
