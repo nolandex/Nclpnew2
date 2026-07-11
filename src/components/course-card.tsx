@@ -53,7 +53,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
         bg-card rounded-2xl shadow-lg 
         relative group overflow-hidden
         ${isHorizontal ? "w-52 flex-shrink-0" : "w-full"}
-        ${isLocked ? "cursor-not-allowed opacity-90" : "cursor-pointer"}
+        cursor-pointer
       `}
     >
       {source === "my-courses" && (
@@ -74,9 +74,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
               "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&q=80"
             }
             alt={course.title}
-            className={`w-full h-full object-cover 
-              ${isLocked ? 'grayscale-[80%] blur-[1px]' : ''}
-            `}
+            className={`w-full h-full object-cover`}
           />
           
           {/* Deep professional gradient */}
@@ -93,9 +91,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
 
           {/* Title Overlay with Badge */}
           <div className="absolute bottom-0 left-0 right-0 p-4 z-10 flex flex-col items-start">
-             <span className={`text-[8px] font-bold px-1 py-[2px] mb-1.5 leading-none tracking-wider
-                ${isLocked ? 'bg-neutral-600 text-neutral-200' : 'bg-primary text-white'}
-             `}>
+             <span className={`text-[8px] font-bold px-1 py-[2px] mb-1.5 leading-none tracking-wider bg-primary text-white`}>
                 {content?.naiklvl || "NEXCLASS"}
              </span>
             <h3 className="text-white font-extrabold text-lg leading-tight line-clamp-2 drop-shadow-md tracking-tight">

@@ -6,6 +6,53 @@ export interface LocalizedCourseContent {
 
 export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseContent>> = {
   id: {
+    "ai-tools": {
+      title: "AI Tools untuk Produktivitas",
+      description: "Manfaatkan kekuatan AI seperti ChatGPT dan Midjourney untuk mempercepat alur kerja harian.",
+      moduleTitles: { m1: "Prompt Engineering Dasar", m2: "AI untuk Konten" },
+    },
+    "data-science": {
+      title: "Pengantar Data Science",
+      description: "Pelajari cara menganalisis data, memahami statistik dasar, dan menggunakan Python untuk memecahkan masalah berbasis data.",
+      moduleTitles: { m1: "Dasar Analisis Data", m2: "Python untuk Data Science" },
+    },
+    "web-dev": {
+      title: "Web Development Modern",
+      description: "Kuasai dasar pembuatan website dengan HTML, CSS, Javascript, dan mulai perjalanan karir sebagai web developer profesional.",
+      moduleTitles: { m1: "Dasar HTML & CSS", m2: "Pengenalan Javascript" },
+    },
+    "graphic-design": {
+      title: "Desain Grafis Modern",
+      description: "Kuasai seni visual, komposisi, tipografi, dan warna untuk menciptakan desain yang memukau.",
+      moduleTitles: { m1: "Teori Warna & Tipografi", m2: "Komposisi Visual" },
+    },  
+    "ui-ux-design": {
+      title: "Dasar UI/UX Design",
+      description: "Pelajari prinsip dasar desain antarmuka dan pengalaman pengguna yang menarik dan fungsional.",
+      moduleTitles: { m1: "Prinsip Dasar UI", m2: "Riset UX & Wireframing" },
+    },
+    "graphic-design": {
+      title: "Desain Grafis Modern",
+      description: "Kuasai seni visual, komposisi, tipografi, dan warna untuk menciptakan desain yang memukau.",
+      moduleTitles: { m1: "Teori Warna & Tipografi", m2: "Komposisi Visual" },
+    },
+    "mental-health": {
+      title: "Kesehatan Mental & Mengelola Stres",
+      description: "Pelajari cara mengelola stres, meditasi, dan menjaga keseimbangan kehidupan kerja untuk kebahagiaan.",
+      moduleTitles: {
+        m1: "Manajemen Stres",
+        m2: "Dasar Meditasi",
+      },
+    },
+    "ai-tools": {
+      title: "AI Tools untuk Produktivitas",
+      description: "Manfaatkan kekuatan AI seperti ChatGPT dan Midjourney untuk mempercepat alur kerja harian.",
+      moduleTitles: {
+        m1: "Prompt Engineering Dasar",
+        m2: "AI untuk Konten",
+      },
+    },
+
     "saham-dasar": {
       title: "Saham & Pasar Modal Dasar",
       description: "Mulai investasi saham dengan benar. Pelajari cara memilih saham berfundamental kuat, memahami rasio keuangan, membaca grafik harga, dan menyusun portofolio investasi yang kokoh.",
@@ -103,8 +150,120 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
         m3: "Mengalahkan Prokrastinasi",
       },
     },
+    "health-fitness": {
+      title: "Kesehatan & Kebugaran Dasar",
+      description: "Pelajari prinsip dasar kebugaran, program latihan yang efektif, dan cara menjaga kesehatan tubuh jangka panjang.",
+      moduleTitles: {
+        m1: "Prinsip Dasar Kebugaran",
+        m2: "Menyusun Program Latihan",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrisi & Pola Makan Sehat",
+      description: "Pahami cara kerja makronutrisi dan mikronutrisi, serta bagaimana mengatur pola makan untuk energi maksimal dan berat badan ideal.",
+      moduleTitles: {
+        m1: "Dasar Nutrisi & Kalori",
+        m2: "Diet Sehat yang Berkelanjutan",
+      },
+    },
+    "web-dev": {
+      title: "Web Development Modern",
+      description: "Kuasai dasar pembuatan website dengan HTML, CSS, Javascript, dan mulai perjalanan karir sebagai web developer profesional.",
+      moduleTitles: {
+        m1: "Dasar HTML & CSS",
+        m2: "Pengenalan Javascript",
+      },
+    },
+    "data-science": {
+      title: "Pengantar Data Science",
+      description: "Pelajari cara menganalisis data, memahami statistik dasar, dan menggunakan Python untuk memecahkan masalah berbasis data.",
+      moduleTitles: {
+        m1: "Dasar Analisis Data",
+        m2: "Python untuk Data Science",
+      },
+    },
   },
   en: {
+    "ai-tools": {
+      title: "AI Tools for Productivity",
+      description: "Leverage the power of AI like ChatGPT and Midjourney to accelerate your daily workflow.",
+      moduleTitles: { m1: "Basic Prompt Engineering", m2: "AI for Content Creation" },
+    },
+    "data-science": {
+      title: "Introduction to Data Science",
+      description: "Learn how to analyze data, understand basic statistics, and use Python to solve data-driven problems.",
+      moduleTitles: { m1: "Data Analysis Basics", m2: "Python for Data Science" },
+    },
+    "web-dev": {
+      title: "Modern Web Development",
+      description: "Master the basics of website creation with HTML, CSS, Javascript, and start your career as a professional web developer.",
+      moduleTitles: { m1: "HTML & CSS Basics", m2: "Introduction to Javascript" },
+    },
+    "graphic-design": {
+      title: "Modern Graphic Design",
+      description: "Master visual art, composition, typography, and color theory to create stunning designs.",
+      moduleTitles: { m1: "Color Theory & Typography", m2: "Visual Composition" },
+    },  
+    "ui-ux-design": {
+      title: "UI/UX Design Basics",
+      description: "Learn the core principles of user interface and user experience design for modern applications.",
+      moduleTitles: { m1: "UI Fundamentals", m2: "UX Research & Wireframing" },
+    },
+    "graphic-design": {
+      title: "Modern Graphic Design",
+      description: "Master visual art, composition, typography, and color theory to create stunning designs.",
+      moduleTitles: { m1: "Color Theory & Typography", m2: "Visual Composition" },
+    },
+    "mental-health": {
+      title: "Mental Health & Stress Management",
+      description: "Learn how to manage stress, practice meditation, and maintain a healthy work-life balance for lasting happiness.",
+      moduleTitles: {
+        m1: "Stress Management",
+        m2: "Meditation Basics",
+      },
+    },
+    "ai-tools": {
+      title: "AI Tools for Productivity",
+      description: "Leverage the power of AI like ChatGPT and Midjourney to accelerate your daily workflow.",
+      moduleTitles: {
+        m1: "Basic Prompt Engineering",
+        m2: "AI for Content Creation",
+      },
+    },
+
+    "health-fitness": {
+      title: "Fitness & Health Basics",
+      description: "Learn the core principles of physical fitness, effective workout routines, and maintaining long-term physical health.",
+      moduleTitles: {
+        m1: "Fitness Fundamentals",
+        m2: "Building a Workout Routine",
+      },
+    },
+    "nutrition-diet": {
+      title: "Nutrition & Healthy Diet",
+      description: "Understand macronutrients, micronutrients, and how to structure your daily diet for maximum energy and weight management.",
+      moduleTitles: {
+        m1: "Nutrition Fundamentals",
+        m2: "Diet Planning Strategies",
+      },
+    },
+    "web-dev": {
+      title: "Web Development Basics",
+      description: "Learn the fundamentals of web development including HTML, CSS, and modern JavaScript to build interactive websites.",
+      moduleTitles: {
+        m1: "HTML & CSS Core Concepts",
+        m2: "JavaScript Fundamentals",
+      },
+    },
+    "data-science": {
+      title: "Data Science & AI Intro",
+      description: "Discover the world of data science, machine learning algorithms, and how AI is transforming modern businesses.",
+      moduleTitles: {
+        m1: "Introduction to Data Science",
+        m2: "Machine Learning Basics",
+      },
+    },
+
     "saham-dasar": {
       title: "Stock Market & Shares Basics",
       description: "Start investing in stocks correctly. Learn how to choose stocks with strong fundamentals, understand financial ratios, read price charts, and build a sturdy investment portfolio.",
@@ -204,6 +363,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   es: {
+    "ai-tools": {
+      title: "Herramientas de IA para la Productividad",
+      description: "Aproveche el poder de la IA como ChatGPT y Midjourney para acelerar su flujo de trabajo diario.",
+      moduleTitles: { m1: "Ingeniería de Prompts Básica", m2: "IA para la Creación de Contenido" },
+    },
+    "data-science": {
+      title: "Introducción a la Ciencia de Datos",
+      description: "Aprenda a analizar datos, comprender estadísticas básicas y usar Python para resolver problemas.",
+      moduleTitles: { m1: "Conceptos Básicos de Análisis de Datos", m2: "Python para Ciencia de Datos" },
+    },
+    "web-dev": {
+      title: "Desarrollo Web Moderno",
+      description: "Domine los conceptos básicos de la creación de sitios web con HTML, CSS, Javascript y comience su carrera profesional.",
+      moduleTitles: { m1: "Conceptos Básicos de HTML y CSS", m2: "Introducción a Javascript" },
+    },
+    "graphic-design": {
+      title: "Diseño Gráfico Moderno",
+      description: "Domine el arte visual, composición, tipografía y color para crear diseños increíbles.",
+      moduleTitles: { m1: "Teoría del Color y Tipografía", m2: "Composición Visual" },
+    },
+    "ui-ux-design": {
+      title: "Fundamentos de Diseño UI/UX",
+      description: "Aprenda los principios básicos del diseño de interfaces y experiencias de usuario.",
+      moduleTitles: { m1: "Fundamentos de UI", m2: "Investigación UX y Wireframing" },
+    },  
+    "health-fitness": {
+      title: "Salud y Fitness",
+      description: "Aprenda los principios básicos del fitness y rutinas de ejercicio.",
+      moduleTitles: { m1: "Fundamentos de Fitness", m2: "Rutina de Ejercicios" },
+    },
+    "nutrition-diet": {
+      title: "Nutrición y Dieta",
+      description: "Entienda los macronutrientes y cómo estructurar su dieta.",
+      moduleTitles: { m1: "Fundamentos de Nutrición", m2: "Planificación de Dietas" },
+    },
+    "web-dev": {
+      title: "Desarrollo Web",
+      description: "Aprenda HTML, CSS y JavaScript moderno.",
+      moduleTitles: { m1: "Conceptos de HTML y CSS", m2: "Fundamentos de JavaScript" },
+    },
+    "data-science": {
+      title: "Ciencia de Datos",
+      description: "Descubra el mundo de los datos y el aprendizaje automático.",
+      moduleTitles: { m1: "Introducción a los Datos", m2: "Aprendizaje Automático" },
+    },
+    "mental-health": {
+      title: "Salud Mental",
+      description: "Aprenda a manejar el estrés y mantener el equilibrio.",
+      moduleTitles: { m1: "Manejo del Estrés", m2: "Conceptos de Meditación" },
+    },
+    "ai-tools": {
+      title: "Herramientas de IA",
+      description: "Aproveche ChatGPT para acelerar su trabajo.",
+      moduleTitles: { m1: "Ingeniería de Prompts", m2: "IA para Contenido" },
+    },
     "saham-dasar": {
       title: "Bolsa de Valores y Acciones",
       description: "Comience a invertir en acciones correctamente. Aprenda a elegir acciones con fundamentos sólidos, comprender ratios financieros, leer gráficos de precios y estructurar una cartera de inversión sólida.",
@@ -303,6 +517,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   fr: {
+    "ai-tools": {
+      title: "Outils d'IA pour la Productivité",
+      description: "Utilisez la puissance de l'IA comme ChatGPT et Midjourney pour accélérer votre travail quotidien.",
+      moduleTitles: { m1: "Ingénierie de Prompts de Base", m2: "L'IA pour la Création de Contenu" },
+    },
+    "data-science": {
+      title: "Introduction à la Data Science",
+      description: "Apprenez à analyser des données, à comprendre les statistiques de base et à utiliser Python.",
+      moduleTitles: { m1: "Bases de l'Analyse de Données", m2: "Python pour la Data Science" },
+    },
+    "web-dev": {
+      title: "Développement Web Moderne",
+      description: "Maîtrisez les bases de la création de sites web avec HTML, CSS, Javascript et commencez votre carrière professionnelle.",
+      moduleTitles: { m1: "Bases du HTML & CSS", m2: "Introduction au Javascript" },
+    },
+    "graphic-design": {
+      title: "Design Graphique Moderne",
+      description: "Maîtrisez l'art visuel, la composition, la typographie et la couleur pour créer de superbes designs.",
+      moduleTitles: { m1: "Théorie des Couleurs & Typographie", m2: "Composition Visuelle" },
+    },
+    "ui-ux-design": {
+      title: "Bases du Design UI/UX",
+      description: "Apprenez les principes de base du design d'interface et d'expérience utilisateur.",
+      moduleTitles: { m1: "Fondamentaux de l'UI", m2: "Recherche UX & Wireframing" },
+    },  
+    "health-fitness": {
+      title: "Santé et Fitness",
+      description: "Apprenez les principes de base du fitness et des routines.",
+      moduleTitles: { m1: "Fondamentaux du Fitness", m2: "Routine d'Exercices" },
+    },
+    "nutrition-diet": {
+      title: "Nutrition et Régime",
+      description: "Comprenez les nutriments et structurez votre alimentation.",
+      moduleTitles: { m1: "Bases de la Nutrition", m2: "Planification Alimentaire" },
+    },
+    "web-dev": {
+      title: "Développement Web",
+      description: "Apprenez HTML, CSS et JavaScript moderne.",
+      moduleTitles: { m1: "Concepts HTML et CSS", m2: "Bases de JavaScript" },
+    },
+    "data-science": {
+      title: "Science des Données",
+      description: "Découvrez les données et l'apprentissage automatique.",
+      moduleTitles: { m1: "Introduction aux Données", m2: "Apprentissage Automatique" },
+    },
+    "mental-health": {
+      title: "Santé Mentale",
+      description: "Apprenez à gérer le stress et l'équilibre de vie.",
+      moduleTitles: { m1: "Gestion du Stress", m2: "Bases de Méditation" },
+    },
+    "ai-tools": {
+      title: "Outils d'IA",
+      description: "Utilisez ChatGPT pour accélérer votre travail.",
+      moduleTitles: { m1: "Ingénierie de Prompts", m2: "IA pour le Contenu" },
+    },
     "saham-dasar": {
       title: "Bourse et Actions de Base",
       description: "Commencez à investir en bourse correctement. Apprenez à choisir des actions aux fondamentaux solides, analyser les ratios, lire les graphiques et structurer un portefeuille résistant.",
@@ -402,6 +671,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   de: {
+    "ai-tools": {
+      title: "KI-Tools für Produktivität",
+      description: "Nutzen Sie die Leistung von KI wie ChatGPT und Midjourney, um Ihren täglichen Arbeitsablauf zu beschleunigen.",
+      moduleTitles: { m1: "Grundlagen des Prompt Engineering", m2: "KI für die Erstellung von Inhalten" },
+    },
+    "data-science": {
+      title: "Einführung in Data Science",
+      description: "Lernen Sie, wie man Daten analysiert, verstehen Sie grundlegende Statistiken und nutzen Sie Python.",
+      moduleTitles: { m1: "Datenanalyse-Grundlagen", m2: "Python für Data Science" },
+    },
+    "web-dev": {
+      title: "Moderne Webentwicklung",
+      description: "Meistern Sie die Grundlagen der Website-Erstellung mit HTML, CSS, Javascript und starten Sie Ihre berufliche Karriere.",
+      moduleTitles: { m1: "HTML & CSS Grundlagen", m2: "Einführung in Javascript" },
+    },
+    "graphic-design": {
+      title: "Modernes Grafikdesign",
+      description: "Meistern Sie visuelle Kunst, Komposition, Typografie und Farbe für beeindruckende Designs.",
+      moduleTitles: { m1: "Farbenlehre & Typografie", m2: "Visuelle Komposition" },
+    },
+    "ui-ux-design": {
+      title: "UI/UX Design Grundlagen",
+      description: "Lernen Sie die Grundprinzipien von User Interface und User Experience Design.",
+      moduleTitles: { m1: "UI-Grundlagen", m2: "UX-Forschung & Wireframing" },
+    },  
+    "health-fitness": {
+      title: "Gesundheit & Fitness",
+      description: "Lernen Sie die Grundprinzipien von Fitness und Training.",
+      moduleTitles: { m1: "Fitness-Grundlagen", m2: "Trainingsroutine" },
+    },
+    "nutrition-diet": {
+      title: "Ernährung & Diät",
+      description: "Verstehen Sie Nährstoffe und strukturieren Sie Ihre Diät.",
+      moduleTitles: { m1: "Ernährungsgrundlagen", m2: "Diätplanung" },
+    },
+    "web-dev": {
+      title: "Webentwicklung",
+      description: "Lernen Sie HTML, CSS und modernes JavaScript.",
+      moduleTitles: { m1: "HTML & CSS Konzepte", m2: "JavaScript Grundlagen" },
+    },
+    "data-science": {
+      title: "Datenwissenschaft",
+      description: "Entdecken Sie Daten und maschinelles Lernen.",
+      moduleTitles: { m1: "Einführung in Daten", m2: "Maschinelles Lernen" },
+    },
+    "mental-health": {
+      title: "Psychische Gesundheit",
+      description: "Lernen Sie Stressbewältigung und Balance.",
+      moduleTitles: { m1: "Stressmanagement", m2: "Meditationsgrundlagen" },
+    },
+    "ai-tools": {
+      title: "KI-Werkzeuge",
+      description: "Nutzen Sie ChatGPT für schnellere Arbeitsabläufe.",
+      moduleTitles: { m1: "Prompt Engineering", m2: "KI für Inhalte" },
+    },
     "saham-dasar": {
       title: "Aktien & Börsen-Grundlagen",
       description: "Beginnen Sie richtig mit dem Investieren. Lernen Sie, wie Sie solide Aktien auswählen, Finanzkennzahlen verstehen, Kurscharts lesen und ein robustes Anlageportfolio aufbauen.",
@@ -501,6 +825,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   ja: {
+    "ai-tools": {
+      title: "生産性のためのAIツール",
+      description: "ChatGPTやMidjourneyなどのAIの力を活用して、毎日のワークフローを加速させます。",
+      moduleTitles: { m1: "基本的なプロンプトエンジニアリング", m2: "コンテンツ作成のためのAI" },
+    },
+    "data-science": {
+      title: "データサイエンス入門",
+      description: "データを分析する方法、基本的な統計を理解し、Pythonを使用して問題を解決する方法を学びます。",
+      moduleTitles: { m1: "データ分析の基礎", m2: "データサイエンスのためのPython" },
+    },
+    "web-dev": {
+      title: "モダンなWeb開発",
+      description: "HTML、CSS、Javascriptを使用したWebサイト作成の基本を習得し、プロのWeb開発者としてのキャリアをスタートさせましょう。",
+      moduleTitles: { m1: "HTMLとCSSの基礎", m2: "Javascriptの紹介" },
+    },
+    "graphic-design": {
+      title: "モダンなグラフィックデザイン",
+      description: "視覚芸術、構図、タイポグラフィ、色彩理論を習得し、魅力的なデザインを作成します。",
+      moduleTitles: { m1: "色彩理論とタイポグラフィ", m2: "視覚的構図" },
+    },
+    "ui-ux-design": {
+      title: "UI/UXデザインの基礎",
+      description: "ユーザーインターフェースとユーザーエクスペリエンスデザインの基本原則を学びます。",
+      moduleTitles: { m1: "UIの基礎", m2: "UXリサーチとワイヤーフレーム" },
+    },  
+    "health-fitness": {
+      title: "健康とフィットネス",
+      description: "フィットネスの基本原則と効果的なルーティンを学びます。",
+      moduleTitles: { m1: "フィットネスの基礎", m2: "ワークアウトルーティン" },
+    },
+    "nutrition-diet": {
+      title: "栄養とダイエット",
+      description: "栄養素を理解し、食事を構成する方法を学びます。",
+      moduleTitles: { m1: "栄養の基礎", m2: "ダイエット計画" },
+    },
+    "web-dev": {
+      title: "ウェブ開発",
+      description: "HTML、CSS、JavaScriptの基本を学びます。",
+      moduleTitles: { m1: "HTMLとCSSの概念", m2: "JavaScriptの基礎" },
+    },
+    "data-science": {
+      title: "データサイエンス",
+      description: "データと機械学習の世界を発見します。",
+      moduleTitles: { m1: "データ入門", m2: "機械学習の基礎" },
+    },
+    "mental-health": {
+      title: "メンタルヘルス",
+      description: "ストレスを管理し、バランスを保つ方法を学びます。",
+      moduleTitles: { m1: "ストレス管理", m2: "瞑想の基礎" },
+    },
+    "ai-tools": {
+      title: "AIツール",
+      description: "ChatGPTなどを活用してワークフローを加速します。",
+      moduleTitles: { m1: "プロンプトエンジニアリング", m2: "コンテンツ向けAI" },
+    },
     "saham-dasar": {
       title: "株式投資・市場入門",
       description: "正しい株式投資を始めるための入門講義。財務指標の評価、ファンダメンタルズ分析、チャートの基本、ポートフォリオ運用戦略を網羅的に解説します。",
@@ -600,6 +979,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   zh: {
+    "ai-tools": {
+      title: "提高生产力的 AI 工具",
+      description: "利用 ChatGPT 和 Midjourney 等 AI 的力量来加速您的日常工作流程。",
+      moduleTitles: { m1: "基础提示工程", m2: "用于内容创作的 AI" },
+    },
+    "data-science": {
+      title: "数据科学导论",
+      description: "学习如何分析数据、理解基础统计学并使用 Python 解决数据驱动的问题。",
+      moduleTitles: { m1: "数据分析基础", m2: "用于数据科学的 Python" },
+    },
+    "web-dev": {
+      title: "现代 Web 开发",
+      description: "掌握使用 HTML、CSS、Javascript 创建网站的基础知识，开启您的职业生涯。",
+      moduleTitles: { m1: "HTML 和 CSS 基础", m2: "Javascript 简介" },
+    },
+    "graphic-design": {
+      title: "现代平面设计",
+      description: "掌握视觉艺术、排版和色彩理论，创造令人惊叹的设计。",
+      moduleTitles: { m1: "色彩理论与排版", m2: "视觉构图" },
+    },
+    "ui-ux-design": {
+      title: "UI/UX 设计基础",
+      description: "学习用户界面和用户体验设计的核心原则。",
+      moduleTitles: { m1: "UI 基础", m2: "UX 研究与线框图" },
+    },  
+    "health-fitness": {
+      title: "健康与健身",
+      description: "学习健身的基本原则和有效的锻炼程序。",
+      moduleTitles: { m1: "健身基础", m2: "锻炼计划" },
+    },
+    "nutrition-diet": {
+      title: "营养与饮食",
+      description: "了解营养素并构建您的日常饮食。",
+      moduleTitles: { m1: "营养基础", m2: "饮食计划" },
+    },
+    "web-dev": {
+      title: "网页开发",
+      description: "学习HTML、CSS和现代JavaScript。",
+      moduleTitles: { m1: "HTML与CSS概念", m2: "JavaScript基础" },
+    },
+    "data-science": {
+      title: "数据科学",
+      description: "探索数据和机器学习的世界。",
+      moduleTitles: { m1: "数据科学简介", m2: "机器学习基础" },
+    },
+    "mental-health": {
+      title: "心理健康",
+      description: "学习管理压力并保持生活平衡。",
+      moduleTitles: { m1: "压力管理", m2: "冥想基础" },
+    },
+    "ai-tools": {
+      title: "AI工具",
+      description: "利用ChatGPT等AI加速您的工作流程。",
+      moduleTitles: { m1: "提示词工程", m2: "内容创作AI" },
+    },
     "saham-dasar": {
       title: "股票与证券市场基础",
       description: "零基础开始学习股票投资。讲授如何分析企业基本面、理解核心财务指标、解读价格K线图以及构建抗风险的投资组合。",
@@ -699,6 +1133,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   ru: {
+    "ai-tools": {
+      title: "Инструменты ИИ для продуктивности",
+      description: "Используйте возможности ИИ, таких как ChatGPT и Midjourney, для ускорения рабочего процесса.",
+      moduleTitles: { m1: "Основы промпт-инжиниринга", m2: "ИИ для создания контента" },
+    },
+    "data-science": {
+      title: "Введение в Data Science",
+      description: "Изучите методы анализа данных, основы статистики и использование Python для решения задач.",
+      moduleTitles: { m1: "Основы анализа данных", m2: "Python для Data Science" },
+    },
+    "web-dev": {
+      title: "Современная Веб-разработка",
+      description: "Освойте основы создания веб-сайтов с использованием HTML, CSS, Javascript и начните карьеру разработчика.",
+      moduleTitles: { m1: "Основы HTML и CSS", m2: "Введение в Javascript" },
+    },
+    "graphic-design": {
+      title: "Современный Графический Дизайн",
+      description: "Освойте визуальное искусство, композицию, типографику и теорию цвета.",
+      moduleTitles: { m1: "Теория цвета и типографика", m2: "Визуальная композиция" },
+    },
+    "ui-ux-design": {
+      title: "Основы UI/UX Дизайна",
+      description: "Изучите основные принципы проектирования пользовательских интерфейсов и опыта.",
+      moduleTitles: { m1: "Основы UI", m2: "UX-исследования и вайрфрейминг" },
+    },  
+    "health-fitness": {
+      title: "Здоровье и Фитнес",
+      description: "Изучите основы фитнеса и тренировок.",
+      moduleTitles: { m1: "Основы фитнеса", m2: "Программа тренировок" },
+    },
+    "nutrition-diet": {
+      title: "Питание и Диета",
+      description: "Поймите макронутриенты и составьте свою диету.",
+      moduleTitles: { m1: "Основы питания", m2: "Планирование диеты" },
+    },
+    "web-dev": {
+      title: "Веб-разработка",
+      description: "Изучите HTML, CSS и JavaScript.",
+      moduleTitles: { m1: "Концепции HTML и CSS", m2: "Основы JavaScript" },
+    },
+    "data-science": {
+      title: "Наука о данных",
+      description: "Откройте для себя мир данных и машинного обучения.",
+      moduleTitles: { m1: "Введение в данные", m2: "Машинное обучение" },
+    },
+    "mental-health": {
+      title: "Психическое здоровье",
+      description: "Научитесь справляться со стрессом и сохранять баланс.",
+      moduleTitles: { m1: "Управление стрессом", m2: "Основы медитации" },
+    },
+    "ai-tools": {
+      title: "Инструменты ИИ",
+      description: "Используйте ChatGPT для ускорения работы.",
+      moduleTitles: { m1: "Промпт-инжиниринг", m2: "ИИ для контента" },
+    },
     "saham-dasar": {
       title: "Основы фондового рынка",
       description: "Начните правильно и безопасно инвестировать в акции. Узнайте, как выбирать надежные компании на основе фундаментального анализа, читать графики и строить портфель.",
@@ -798,6 +1287,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   ar: {
+    "ai-tools": {
+      title: "أدوات الذكاء الاصطناعي للإنتاجية",
+      description: "استفد من قوة الذكاء الاصطناعي مثل ChatGPT و Midjourney لتسريع سير عملك اليومي.",
+      moduleTitles: { m1: "هندسة الأوامر الأساسية", m2: "الذكاء الاصطناعي لإنشاء المحتوى" },
+    },
+    "data-science": {
+      title: "مقدمة في علم البيانات",
+      description: "تعلم كيفية تحليل البيانات وفهم الإحصائيات الأساسية واستخدام Python لحل المشكلات.",
+      moduleTitles: { m1: "أساسيات تحليل البيانات", m2: "Python لعلم البيانات" },
+    },
+    "web-dev": {
+      title: "تطوير الويب الحديث",
+      description: "أتقن أساسيات إنشاء مواقع الويب باستخدام HTML و CSS و Javascript وابدأ حياتك المهنية كمطور ويب.",
+      moduleTitles: { m1: "أساسيات HTML و CSS", m2: "مقدمة في Javascript" },
+    },
+    "graphic-design": {
+      title: "التصميم الجرافيكي الحديث",
+      description: "أتقن الفن المرئي والتكوين والطباعة ونظرية الألوان لإنشاء تصميمات مذهلة.",
+      moduleTitles: { m1: "نظرية الألوان والطباعة", m2: "التكوين المرئي" },
+    },
+    "ui-ux-design": {
+      title: "أساسيات تصميم واجهة وتجربة المستخدم",
+      description: "تعلم المبادئ الأساسية لتصميم واجهة المستخدم وتجربة المستخدم للتطبيقات الحديثة.",
+      moduleTitles: { m1: "أساسيات واجهة المستخدم", m2: "بحث تجربة المستخدم والإطارات الشبكية" },
+    },  
+    "health-fitness": {
+      title: "الصحة واللياقة البدنية",
+      description: "تعلم أساسيات اللياقة البدنية وروتين التمارين.",
+      moduleTitles: { m1: "أساسيات اللياقة", m2: "روتين التمارين" },
+    },
+    "nutrition-diet": {
+      title: "التغذية والنظام الغذائي",
+      description: "افهم العناصر الغذائية وكيفية بناء نظامك الغذائي.",
+      moduleTitles: { m1: "أساسيات التغذية", m2: "تخطيط النظام الغذائي" },
+    },
+    "web-dev": {
+      title: "تطوير الويب",
+      description: "تعلم أساسيات HTML و CSS و JavaScript.",
+      moduleTitles: { m1: "مفاهيم HTML و CSS", m2: "أساسيات JavaScript" },
+    },
+    "data-science": {
+      title: "علم البيانات",
+      description: "اكتشف عالم البيانات والتعلم الآلي.",
+      moduleTitles: { m1: "مقدمة في البيانات", m2: "أساسيات التعلم الآلي" },
+    },
+    "mental-health": {
+      title: "الصحة النفسية",
+      description: "تعلم كيفية إدارة الضغط النفسي والحفاظ على التوازن.",
+      moduleTitles: { m1: "إدارة الضغط", m2: "أساسيات التأمل" },
+    },
+    "ai-tools": {
+      title: "أدوات الذكاء الاصطناعي",
+      description: "استفد من الذكاء الاصطناعي لتسريع عملك.",
+      moduleTitles: { m1: "هندسة الأوامر", m2: "الذكاء الاصطناعي للمحتوى" },
+    },
     "saham-dasar": {
       title: "أساسيات سوق الأسهم",
       description: "ابدأ الاستثمار في الأسهم بطريقة صحيحة وآمنة. تعلم كيفية اختيار الأسهم بناءً على التحليل الأساسي وتحليل الرسوم البيانية وصياغة محفظة استثمارية متوازنة.",
@@ -897,6 +1441,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   ko: {
+    "ai-tools": {
+      title: "생산성을 위한 AI 도구",
+      description: "ChatGPT 및 Midjourney와 같은 AI의 힘을 활용하여 일상적인 워크플로우를 가속화하세요.",
+      moduleTitles: { m1: "기초 프롬프트 엔지니어링", m2: "콘텐츠 제작을 위한 AI" },
+    },
+    "data-science": {
+      title: "데이터 사이언스 입문",
+      description: "데이터 분석 방법, 기본 통계 이해 및 Python을 사용하여 데이터 기반 문제를 해결하는 방법을 배웁니다.",
+      moduleTitles: { m1: "데이터 분석 기초", m2: "데이터 사이언스를 위한 Python" },
+    },
+    "web-dev": {
+      title: "모던 웹 개발",
+      description: "HTML, CSS, Javascript를 이용한 웹사이트 제작의 기초를 마스터하고 전문 웹 개발자로서의 커리어를 시작하세요.",
+      moduleTitles: { m1: "HTML 및 CSS 기초", m2: "Javascript 소개" },
+    },
+    "graphic-design": {
+      title: "모던 그래픽 디자인",
+      description: "시각 예술, 구도, 타이포그래피 및 색채 이론을 마스터하여 놀라운 디자인을 만듭니다.",
+      moduleTitles: { m1: "색채 이론 및 타이포그래피", m2: "시각적 구도" },
+    },
+    "ui-ux-design": {
+      title: "UI/UX 디자인 기초",
+      description: "사용자 인터페이스 및 사용자 경험 디자인의 핵심 원칙을 배웁니다.",
+      moduleTitles: { m1: "UI 기초", m2: "UX 리서치 및 와이어프레이밍" },
+    },  
+    "health-fitness": {
+      title: "건강 및 피트니스",
+      description: "피트니스의 핵심 원리와 효과적인 운동 루틴을 배웁니다.",
+      moduleTitles: { m1: "피트니스 기초", m2: "운동 루틴 짜기" },
+    },
+    "nutrition-diet": {
+      title: "영양 및 다이어트",
+      description: "영양소를 이해하고 식단을 구성하는 방법을 배웁니다.",
+      moduleTitles: { m1: "영양 기초", m2: "식단 계획" },
+    },
+    "web-dev": {
+      title: "웹 개발",
+      description: "HTML, CSS 및 최신 JavaScript의 기초를 배웁니다.",
+      moduleTitles: { m1: "HTML 및 CSS 개념", m2: "JavaScript 기초" },
+    },
+    "data-science": {
+      title: "데이터 과학",
+      description: "데이터 과학 및 머신러닝의 세계를 발견하세요.",
+      moduleTitles: { m1: "데이터 과학 소개", m2: "머신러닝 기초" },
+    },
+    "mental-health": {
+      title: "정신 건강",
+      description: "스트레스를 관리하고 삶의 균형을 유지하는 방법을 배웁니다.",
+      moduleTitles: { m1: "스트레스 관리", m2: "명상 기초" },
+    },
+    "ai-tools": {
+      title: "AI 도구",
+      description: "ChatGPT 등을 활용하여 작업 프로세스를 가속화하세요.",
+      moduleTitles: { m1: "프롬프트 엔지니어링", m2: "콘텐츠용 AI" },
+    },
     "saham-dasar": {
       title: "주식 투자 및 시장 기초",
       description: "성공적인 주식 투자를 위한 첫걸음. 우량주의 재무 펀더멘털을 분석하고 정밀한 차트 읽기 법을 마스터하여 장기적이고 안정적인 자산 포트폴리오를 완성합니다.",
@@ -996,6 +1595,61 @@ export const COURSE_CONTENT: Record<string, Record<string, LocalizedCourseConten
     },
   },
   pt: {
+    "ai-tools": {
+      title: "Ferramentas de IA para Produtividade",
+      description: "Aproveite o poder da IA como o ChatGPT e Midjourney para acelerar o seu fluxo de trabalho diário.",
+      moduleTitles: { m1: "Engenharia de Prompts Básica", m2: "IA para Criação de Conteúdo" },
+    },
+    "data-science": {
+      title: "Introdução à Ciência de Dados",
+      description: "Aprenda a analisar dados, compreender estatísticas básicas e usar Python para resolver problemas.",
+      moduleTitles: { m1: "Fundamentos de Análise de Dados", m2: "Python para Ciência de Dados" },
+    },
+    "web-dev": {
+      title: "Desenvolvimento Web Moderno",
+      description: "Domine os fundamentos da criação de websites com HTML, CSS, Javascript e inicie a sua carreira profissional.",
+      moduleTitles: { m1: "Bases de HTML e CSS", m2: "Introdução ao Javascript" },
+    },
+    "graphic-design": {
+      title: "Design Gráfico Moderno",
+      description: "Domine a arte visual, composição, tipografia e teoria da cor para criar designs incríveis.",
+      moduleTitles: { m1: "Teoria da Cor e Tipografia", m2: "Composição Visual" },
+    },
+    "ui-ux-design": {
+      title: "Fundamentos de Design UI/UX",
+      description: "Aprenda os princípios fundamentais de design de interfaces e experiência do utilizador.",
+      moduleTitles: { m1: "Fundamentos de UI", m2: "Pesquisa UX e Wireframing" },
+    },  
+    "health-fitness": {
+      title: "Saúde e Fitness",
+      description: "Aprenda os princípios básicos de fitness e rotinas de exercícios.",
+      moduleTitles: { m1: "Fundamentos do Fitness", m2: "Rotina de Exercícios" },
+    },
+    "nutrition-diet": {
+      title: "Nutrição e Dieta",
+      description: "Entenda os nutrientes e como estruturar a sua dieta.",
+      moduleTitles: { m1: "Fundamentos de Nutrição", m2: "Planeamento de Dietas" },
+    },
+    "web-dev": {
+      title: "Desenvolvimento Web",
+      description: "Aprenda HTML, CSS e JavaScript moderno.",
+      moduleTitles: { m1: "Conceitos de HTML e CSS", m2: "Fundamentos de JavaScript" },
+    },
+    "data-science": {
+      title: "Ciência de Dados",
+      description: "Descubra o mundo dos dados e do aprendizado de máquina.",
+      moduleTitles: { m1: "Introdução aos Dados", m2: "Aprendizado de Máquina" },
+    },
+    "mental-health": {
+      title: "Saúde Mental",
+      description: "Aprenda a gerenciar o estresse e manter o equilíbrio.",
+      moduleTitles: { m1: "Gerenciamento de Estresse", m2: "Noções Básicas de Meditação" },
+    },
+    "ai-tools": {
+      title: "Ferramentas de IA",
+      description: "Aproveite a IA para acelerar o seu fluxo de trabalho.",
+      moduleTitles: { m1: "Engenharia de Prompts", m2: "IA para Criação de Conteúdo" },
+    },
     "saham-dasar": {
       title: "Bolsa de Valores & Ações Básicas",
       description: "Comece a investir em ações corretamente. Aprenda a escolher ações com fundamentos sólidos, compreender rácios financeiros, ler gráficos de preços e construir uma carteira de investimentos robusta.",
@@ -1100,6 +1754,15 @@ export function getLocalizedCourseContent(
   langCode: string,
   courseId: string
 ): LocalizedCourseContent | null {
-  const byLang = COURSE_CONTENT[langCode] || COURSE_CONTENT["id"];
-  return byLang[courseId] || null;
+  const byLang = COURSE_CONTENT[langCode];
+  const byEn = COURSE_CONTENT["en"];
+  const byId = COURSE_CONTENT["id"];
+  
+  if (byLang && byLang[courseId]) {
+    return byLang[courseId];
+  }
+  if (byEn && byEn[courseId]) {
+    return byEn[courseId];
+  }
+  return byId[courseId] || null;
 }

@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { LanguageProvider } from "./context/LanguageContext";
 import { ColorProvider } from "./contexts/ColorContext";
+import { ClassProvider } from "./contexts/ClassContext";
 import Home from "./pages/Home";
 import Admin from "./pages/Admin";
 import Index from "./pages/Index";
@@ -31,17 +32,19 @@ export default function App() {
     <BrowserRouter>
       <LanguageProvider>
         <ColorProvider>
-          <TokenRedirector />
-          <Routes>
-            <Route path="/" element={<GatedLanding><Home /></GatedLanding>} />
-            <Route path="/admin" element={<Admin />} />
-            <Route path="/courses" element={<GatedLanding><Index /></GatedLanding>} />
-            <Route path="/course/:id" element={<GatedLanding><CourseDetail /></GatedLanding>} />
-            <Route path="/my-courses" element={<GatedLanding><MyCourses /></GatedLanding>} />
-            <Route path="/profile" element={<GatedLanding><Profile /></GatedLanding>} />
-            {/* Catch-all dynamic slug route for custom invite links */}
-            <Route path="/:slug" element={<GatedLanding><Index /></GatedLanding>} />
-          </Routes>
+          <ClassProvider>
+            <TokenRedirector />
+            <Routes>
+              <Route path="/" element={<GatedLanding><Home /></GatedLanding>} />
+              <Route path="/admin" element={<Admin />} />
+              <Route path="/courses" element={<GatedLanding><Index /></GatedLanding>} />
+              <Route path="/course/:id" element={<GatedLanding><CourseDetail /></GatedLanding>} />
+              <Route path="/my-courses" element={<GatedLanding><MyCourses /></GatedLanding>} />
+              <Route path="/profile" element={<GatedLanding><Profile /></GatedLanding>} />
+              {/* Catch-all dynamic slug route for custom invite links */}
+              <Route path="/:slug" element={<GatedLanding><Index /></GatedLanding>} />
+            </Routes>
+          </ClassProvider>
         </ColorProvider>
       </LanguageProvider>
     </BrowserRouter>

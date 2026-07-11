@@ -27,6 +27,12 @@ const CATEGORIES: Category[] = [
   { id: "business", name: "Business & Entrepreneurship" },
   { id: "money", name: "Money & Wealth" },
   { id: "mindset", name: "Mindset & Habits" },
+  { id: "health", name: "Health & Fitness" },
+  { id: "mental_health", name: "Mental Health & Wellbeing" },
+  { id: "nutrition", name: "Nutrition & Diet" },
+  { id: "tech", name: "Technology & Coding" },
+  { id: "data", name: "Data Science & AI" },
+  { id: "design", name: "Design & UI/UX" },
 ];
 
 interface BaseCourse {
@@ -37,6 +43,27 @@ interface BaseCourse {
 }
 
 const COURSE_BASES: BaseCourse[] = [
+  {
+    id: "mental-health",
+    image_url:
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+    category_id: "mental_health",
+    modules: [
+      { id: "m1", youtube_link: "SqcY0GlETPk" },
+      { id: "m2", youtube_link: "RGKi6LSPDLU" },
+    ],
+  },
+  {
+    id: "ai-tools",
+    image_url:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+    category_id: "data",
+    modules: [
+      { id: "m1", youtube_link: "W6NZfCO5SIk" },
+      { id: "m2", youtube_link: "h33Srr5J9nY" },
+    ],
+  },
+
   {
     id: "saham-dasar",
     image_url:
@@ -154,6 +181,66 @@ const COURSE_BASES: BaseCourse[] = [
       { id: "m3", youtube_link: "iBkXf6u8htI" },
     ],
   },
+  {
+    id: "health-fitness",
+    image_url:
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
+    category_id: "health",
+    modules: [
+      { id: "m1", youtube_link: "SqcY0GlETPk" },
+      { id: "m2", youtube_link: "RGKi6LSPDLU" },
+    ],
+  },
+  {
+    id: "nutrition-diet",
+    image_url:
+      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+    category_id: "nutrition",
+    modules: [
+      { id: "m1", youtube_link: "qz0aGYrrlhU" },
+      { id: "m2", youtube_link: "salY_Sm6mv4" },
+    ],
+  },
+  {
+    id: "web-dev",
+    image_url:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    category_id: "tech",
+    modules: [
+      { id: "m1", youtube_link: "W6NZfCO5SIk" },
+      { id: "m2", youtube_link: "h33Srr5J9nY" },
+    ],
+  },
+  {
+    id: "data-science",
+    image_url:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    category_id: "data",
+    modules: [
+      { id: "m1", youtube_link: "V_Kr9OSfDeU" },
+      { id: "m2", youtube_link: "cRHQNNkYi1A" },
+    ],
+  },
+  {
+    id: "ui-ux-design",
+    image_url:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+    category_id: "design",
+    modules: [
+      { id: "m1", youtube_link: "c9Wg6Cb_YlU" },
+      { id: "m2", youtube_link: "3n35E4QYx9I" },
+    ],
+  },
+  {
+    id: "graphic-design",
+    image_url:
+      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80",
+    category_id: "design",
+    modules: [
+      { id: "m1", youtube_link: "sByzHoiYFX0" },
+      { id: "m2", youtube_link: "dFSiaHQYc-I" },
+    ],
+  },
 ];
 
 export function extractYouTubeId(urlOrId: string): string {
@@ -172,7 +259,7 @@ export function extractYouTubeId(urlOrId: string): string {
 function localizeCourse(base: BaseCourse, langCode: string): Course {
   const content =
     getLocalizedCourseContent(langCode, base.id) ||
-    getLocalizedCourseContent("id", base.id)!;
+    getLocalizedCourseContent("en", base.id)!;
 
   return {
     id: base.id,
@@ -190,19 +277,51 @@ function localizeCourse(base: BaseCourse, langCode: string): Course {
 
 export async function getCourses(
   langCode: string,
-  categoryId?: string
+  categoryId?: string,
+  classId?: string
 ): Promise<Course[]> {
   let courses = COURSE_BASES.map((base) => localizeCourse(base, langCode));
   if (categoryId) {
     courses = courses.filter((c) => c.category_id === categoryId);
+  } else if (classId) {
+    const appClass = APP_CLASSES.find(c => c.id === classId);
+    if (appClass) {
+      courses = courses.filter(c => appClass.categoryIds.includes(c.category_id));
+    }
   }
   return courses;
 }
 
-export async function getCategories(langCode: string): Promise<Category[]> {
+export interface AppClass {
+  id: string;
+  name: string;
+  categoryIds: string[];
+}
+
+export const APP_CLASSES: AppClass[] = [
+  { id: "finance_class", name: "Financial & Business Academy", categoryIds: ["finance", "business", "money", "mindset"] },
+  { id: "health_class", name: "Health & Wellness Academy", categoryIds: ["health", "mental_health", "nutrition"] },
+  { id: "tech_class", name: "Career & Tech Academy", categoryIds: ["tech", "data", "design"] }
+];
+
+export async function getClasses(langCode: string): Promise<AppClass[]> {
+  // Can be localized later, keeping it simple for now
+  return APP_CLASSES;
+}
+
+export async function getCategories(langCode: string, classId?: string): Promise<Category[]> {
   const lang = COURSE_LANGUAGES.find((l) => l.code === langCode) || COURSE_LANGUAGES[0];
   const labels = lang.content.ui.categories;
-  return CATEGORIES.map((c) => ({
+  let activeCategories = CATEGORIES;
+  
+  if (classId) {
+    const appClass = APP_CLASSES.find(c => c.id === classId);
+    if (appClass) {
+      activeCategories = CATEGORIES.filter(c => appClass.categoryIds.includes(c.id));
+    }
+  }
+
+  return activeCategories.map((c) => ({
     id: c.id,
     name: labels[c.id as keyof typeof labels] || c.name,
   }));
