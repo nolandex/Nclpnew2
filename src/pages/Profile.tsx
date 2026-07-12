@@ -7,7 +7,7 @@ const Profile = () => {
   const { selectedLang } = useColor();
   const ui = selectedLang.content.ui.profile;
 
-  const isPremium = localStorage.getItem("isPremium") !== "false";
+  const isPremium = localStorage.getItem("isPremium") === "true";
 
   return (
     <div className="min-h-screen bg-background text-foreground pb-20">

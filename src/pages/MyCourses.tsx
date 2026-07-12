@@ -14,7 +14,7 @@ const MyCourses = () => {
   const ui = selectedLang.content.ui.myCourses;
 
   useEffect(() => {
-    const isPremium = localStorage.getItem("isPremium") !== "false";
+    const isPremium = localStorage.getItem("isPremium") === "true";
     if (!isPremium) {
       navigate("/courses", { replace: true });
       return;

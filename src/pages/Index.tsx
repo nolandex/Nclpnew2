@@ -15,7 +15,7 @@ import { getCategories, Category } from "../lib/data";
 const Index = () => {
   const navigate = useNavigate();
   const { slug } = useParams<{ slug: string }>();
-  const [isPremium, setIsPremium] = useState(true);
+  const [isPremium, setIsPremium] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   
   // Verification states
@@ -61,8 +61,8 @@ const Index = () => {
 
   const checkAuthAndStatus = async () => {
     setIsLoading(true);
-    // Default to true for preview purposes unless explicitly set to false
-    const premiumStatus = localStorage.getItem("isPremium") !== "false";
+    // Locked by default unless explicitly set to 'true' by invitation token
+    const premiumStatus = localStorage.getItem("isPremium") === "true";
     setIsPremium(premiumStatus);
     setIsLoading(false);
   };

@@ -25,7 +25,7 @@ const CourseDetail = () => {
   const ytScriptLoadedRef = useRef(false);
 
   useEffect(() => {
-    const isPremium = localStorage.getItem("isPremium") !== "false";
+    const isPremium = localStorage.getItem("isPremium") === "true";
     if (!isPremium) {
        navigate("/courses", { replace: true });
        return;
