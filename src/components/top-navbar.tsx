@@ -49,8 +49,8 @@ export function TopNavbar({ showBack = false, backTo = "/", backLabel, onBack }:
             </button>
           )}
           <Link to="/" className="flex items-center shrink-0">
-            <span className="font-extrabold text-xl tracking-tight">
-              NEX<span className="text-[hsl(var(--brand-accent))]">CLASS</span>
+            <span className="font-extrabold text-xl tracking-tight text-white">
+              NEXCLASS
             </span>
           </Link>
         </div>

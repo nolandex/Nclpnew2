@@ -98,8 +98,8 @@ export default function Home() {
         <div className="container mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center shrink-0">
-            <span className="font-extrabold text-xl tracking-tight">
-              NEX<span style={{ color: "hsl(var(--brand-accent))" }}>CLASS</span>
+            <span className="font-extrabold text-xl tracking-tight text-white">
+              NEXCLASS
             </span>
           </a>
 
@@ -324,7 +324,7 @@ export default function Home() {
                 EA
               </div>
               <span className="font-bold text-white tracking-tight">
-                NEX<span style={{ color: "hsl(var(--brand-accent))" }}>CLASS</span>
+                NEXCLASS
               </span>
             </div>
             <span className="hidden sm:inline text-foreground/15">|</span>
